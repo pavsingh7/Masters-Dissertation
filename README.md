@@ -22,6 +22,7 @@ Further details  on the topic and outline can be found [here](https://www.notion
 
 # Resources and References
 
-A collection of good resources are found here 
 
 # Research Papers
+
+A collection of good research papers featuring state of the art apporaches  in multi-modal model, hybrid systems and deep learning applications in recommender systems - found [here](https://github.com/pavsingh7/Masters-Dissertation/tree/main/Papers%20and%20Resources).
