@@ -22,7 +22,7 @@ Further details on the topic and outline can be found [here](https://www.notion.
 
 # Data
 
-The dataset is based on the Amazon Reviews Dataset publicly available. We use a subset of the original dataset, found [here](https://cseweb.ucsd.edu/~jmcauley/datasets.html#amazon_reviews).
+The dataset is based on the Amazon Reviews Dataset which is publicly available. We use a subset of the original dataset, found [here](https://cseweb.ucsd.edu/~jmcauley/datasets.html#amazon_reviews).
 
 
 # Research Papers
