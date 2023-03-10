@@ -28,3 +28,8 @@ The dataset is based on the Amazon Reviews Dataset which is publicly available. 
 # Research Papers
 
 A collection of good research papers featuring state of the art approaches in multi-modal model, hybrid systems and deep learning applications in recommender systems - found [here](https://github.com/pavsingh7/Masters-Dissertation/tree/main/Papers%20and%20Resources).
+
+
+# Writing
+
+The dissertation is written in LaTeX and can be found [here](
