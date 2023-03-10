@@ -32,4 +32,14 @@ A collection of good research papers featuring state of the art approaches in mu
 
 # Writing
 
-The dissertation is written in LaTeX and can be found [here](
+The dissertation is written in LaTeX. A list of the chapters  are found below:
+
+1. [Acknowledgments](https://github.com/pavsingh7/Masters-Dissertation/blob/3ec5f99965e5ec84672028dcd8b6544e4435d25a/Writing/Chapter1.tex)
+2. [Abstract](https://github.com/pavsingh7/Masters-Dissertation/blob/3ec5f99965e5ec84672028dcd8b6544e4435d25a/Writing/Chapter1.tex)
+3. [Introduction](https://github.com/pavsingh7/Masters-Dissertation/blob/3ec5f99965e5ec84672028dcd8b6544e4435d25a/Writing/Chapter1.tex)
+4. [Literature Review](https://github.com/pavsingh7/Masters-Dissertation/blob/3ec5f99965e5ec84672028dcd8b6544e4435d25a/Writing/Chapter1.tex)
+5. [Data](https://github.com/pavsingh7/Masters-Dissertation/blob/3ec5f99965e5ec84672028dcd8b6544e4435d25a/Writing/Chapter1.tex)
+6. [Methodology](https://github.com/pavsingh7/Masters-Dissertation/blob/3ec5f99965e5ec84672028dcd8b6544e4435d25a/Writing/Chapter1.tex)
+7. [Application](https://github.com/pavsingh7/Masters-Dissertation/blob/3ec5f99965e5ec84672028dcd8b6544e4435d25a/Writing/Chapter1.tex)
+8. [Discussion and Conclusion](https://github.com/pavsingh7/Masters-Dissertation/blob/3ec5f99965e5ec84672028dcd8b6544e4435d25a/Writing/Chapter1.tex)
+9. [References](https://github.com/pavsingh7/Masters-Dissertation/blob/3ec5f99965e5ec84672028dcd8b6544e4435d25a/Writing/Chapter1.tex)
