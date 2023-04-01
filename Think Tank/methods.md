@@ -7,7 +7,11 @@ In this section we discuss the methods that shall be used in our project. There 
 3. A Hybrid model that combines the above two models
 
 ***
-## Neural Collaborative Filtering
+## Neural Collaborative Filtering 
+
+- uses neural network to learn the latent factors of users and items
+- abbreviated as NCF
+- uses a deep learning approach to collaborative filtering
 
 Neural Collaborative Filtering (NCF) is a deep learning approach to collaborative filtering. The algorithm for NCF is as follows:
 
@@ -22,6 +26,9 @@ The model is trained using a binary cross-entropy loss function. The model is tr
 ***
 ##  Content Based Filtering
 
+- uses the features of the items to make recommendations
+- abbreviated as CBF
+
 Content based filtering is a method of making recommendations based on the similarity between items based on their features. The algorithm for content based filtering is as follows:
 
 1. 
@@ -32,6 +39,9 @@ Content based filtering is a method of making recommendations based on the simil
 
 ***
 ## Hybrid Model
+
+- combines the above two models
+- abbreviated as HMF
 
 The hybrid model combines the above two models. The algorithm for the hybrid model is as follows:
 
