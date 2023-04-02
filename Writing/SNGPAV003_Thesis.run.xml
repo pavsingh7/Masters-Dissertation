@@ -41,7 +41,7 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="0">
+  <internal package="biblatex" priority="9" active="1">
     <generic>latex</generic>
     <provides type="dynamic">
       <file>SNGPAV003_Thesis.bcf</file>
@@ -60,7 +60,7 @@
       <file>english.lbx</file>
     </requires>
   </internal>
-  <external package="biblatex" priority="5" active="0">
+  <external package="biblatex" priority="5" active="1">
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
@@ -79,7 +79,7 @@
       <file>SNGPAV003_Thesis.bcf</file>
     </requires>
     <requires type="editable">
-      <file>/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Write-Up/Draft/Thesis.bib</file>
+      <file>/Users/pavansingh/Library/CloudStorage/GoogleDrive-sngpav003@myuct.ac.za/My Drive/Masters 2022/Dissertation/Masters-Dissertation/Writing/Thesis.bib</file>
     </requires>
   </external>
 </requests>

@@ -34,17 +34,13 @@ parskip, % Uncomment to add space between paragraphs
 headsepline, % Uncomment to get a line under the header
 %chapterinoneline, % Uncomment to place the chapter title next to the number on one line
 % consistentlayout, % Uncomment to change the layout of the declaration, abstract and acknowledgements pages to match the default layout
-openany,
 ]{MastersDoctoralThesis} % The class file specifying the document structure
 
 \usepackage[utf8]{inputenc} % Required for inputting international characters
 \usepackage[T1]{fontenc} % Output font encoding for international characters
 
 \usepackage{mathpazo} % Use the Palatino font by default
-\usepackage{tabularx}
-\usepackage[demo]{graphicx}
-\usepackage{subcaption}
-\usepackage{changepage}
+
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{multirow}
@@ -53,14 +49,8 @@ openany,
 \usepackage{algpseudocode}
 \usepackage{float}
 \usepackage{bbm}
-\usepackage{multirow}
-
-\usepackage{biblatex}
-\addbibresource{/Users/pavansingh/Library/CloudStorage/GoogleDrive-sngpav003@myuct.ac.za/My Drive/Masters 2022/Dissertation/Masters-Dissertation/Writing/Thesis.bib}
 
 \renewcommand{\familydefault}{\rmdefault}
-
-%\renewcommand{\familydefault}{\sfdefault}
 
 \usepackage{natbib}
 
@@ -154,13 +144,13 @@ breaklinks=true]{hyperref}
 % Modelling high-frequency correlation dynamics: Is the Epps effect a bias?
 \thesistitle{A Hybrid Multi-Modal Recommender System using Neural Collaborative Filtering and Content Based Filtering} % Your thesis title, this is used in the title and abstract, print it elsewhere with \ttitle
 \supervisor{Assoc Professor Ian \textsc{Durbach} \\
-		Dr. Allan E \textsc{Clark}} % Your supervisor's name, this is used in the title page, print it elsewhere with \supname
+		Dr. Allan \textsc{Clark}} % Your supervisor's name, this is used in the title page, print it elsewhere with \supname
 \examiner{} % Your examiner's name, this is not currently used anywhere in the template, print it elsewhere with \examname
 \course{Master of Science Advanced Analytics} % Your degree name, this is used in the title page and abstract, print it elsewhere with \degreename
 \author{Pavan \textsc{Singh}} % Your name, this is used in the title page and abstract, print it elsewhere with \authorname
 \addresses{} % Your address, this is not currently used anywhere in the template, print it elsewhere with \addressname
 
-\subject{Statistical Science Masters} % Your subject area, this is not currently used anywhere in the template, print it elsewhere with \subjectname
+\subject{Advanced Analytics Masters} % Your subject area, this is not currently used anywhere in the template, print it elsewhere with \subjectname
 \keywords{} % Keywords for your thesis, this is not currently used anywhere in the template, print it elsewhere with \keywordnames
 \university{\href{http://www.uct.ac.za/}{University of Cape Town}} % Your university's name and URL, this is used in the title page and abstract, print it elsewhere with \univname
 \department{\href{http://www.stats.uct.ac.za/}{Department of Statistical Sciences}} % Your department's name and URL, this is used in the title page and abstract, print it elsewhere with \deptname
@@ -225,6 +215,7 @@ breaklinks=true]{hyperref}
 %----------------------------------------------------------------------------------------
 %	ACKNOWLEDGEMENTS
 %----------------------------------------------------------------------------------------
+
 \begin{acknowledgements}
 \addchaptertocentry{\acknowledgementname} 
 \vspace{1.5cm}
@@ -234,11 +225,6 @@ I would like to thank many people who made this journey happy, inspiring and rew
 \vspace{0.3cm}
 
 I’m also very grateful for the great faculty and staff at Department of Statistics. Finally, I’m thankful to my sibling and parents for their unconditional love and support. Because of them, no matter where I am and what I am doing, I always feel encouraged and loved.
-
-
-\vspace{0.3cm}
-
-I would additionally like to acknowledge the assistance and support from my friends and fellow statistics masters students, who have provided persistent support and advice during this year.
 
 \end{acknowledgements}
 
@@ -251,11 +237,11 @@ I would additionally like to acknowledge the assistance and support from my frie
 \addchaptertocentry{\authorshipname} 
 \vspace{1.5cm}
 
-\noindent I, \authorname, declare that this thesis titled, \enquote{\ttitle} and the work presented in it are my own. I confirm that:
+\noindent I, \authorname, declare that this dissertation titled, \enquote{\ttitle} and the work presented in it are my own. I confirm that:
 
 \begin{itemize} 
 \item This work was done wholly while in candidature for a research degree at this University.
-\item The contents of this thesis has not been previously submitted for a degree or any other qualification at this University or any other institution.
+\item The contents of this dissertation has not been previously submitted for a degree or any other qualification at this University or any other institution.
 \item Where I have consulted the published work of others, this is always clearly attributed.
 \item Where I have quoted from the work of others, the source is always given. With the exception of such quotations, this thesis is entirely my own work.
 \item I have acknowledged all main sources of help.
@@ -269,6 +255,8 @@ I would additionally like to acknowledge the assistance and support from my frie
 \rule[0.5em]{25em}{0.5pt} % This prints a line to write the date
 \end{declaration}
 
+\cleardoublepage
+
 %----------------------------------------------------------------------------------------
 %	ABSTRACT PAGE
 %----------------------------------------------------------------------------------------
@@ -276,11 +264,7 @@ I would additionally like to acknowledge the assistance and support from my frie
 \begin{abstract}
 \addchaptertocentry{\abstractname} % Add the abstract to the table of contents
 
-....
-
-This paper aims to develop a hybrid recommender system model which incorporates data from multi-modalities, textual data  and explicit ratings data. The hybrid model is composed of a neural collaborative filtering component and content based filtering component. The goal is to examine the impact of incorporating textual features and sentiment in potentially enhancing recommendation accuracy. We further explore the development of our proposed hybrid model by comparing its performance against the individual filtering models and several other popular filtering algorithms for recommendation systems. The recommendation is based off Amazon product data, which includes hundreds of thousands of product reviews each with a large corpus of metadata. 
-
-Empirical results indicate that the hybrid NCF and CBF model performed with the highest accuracy (achieving 59\%). The deep learning recommendation models consistently outperformed their classical counterparts. The algorithm, models and techniques developed and used in this paper are not problem-specifics and can be applied to different recognition and prediction problems.
+We tackle the question of whether trade and quote data from high-frequency finance are representative of discrete connected events, or whether these measurements can still be faithfully represented as random samples of some underlying Brownian diffusion in the context of modelling correlation dynamics. In particular, if the implicit notion of instantaneous correlation dynamics that are independent of the time-scale a reasonable assumption. To this end, we apply kernel averaging non-uniform fast Fourier transforms in the context of the Malliavin-Mancino integrated and instantaneous volatility estimators to speed up the estimators. We demonstrate the implicit time-scale investigated by the estimator by comparing it to the theoretical Epps effect arising from asynchrony. We compare the Malliavin-Mancino and Cuchiero-Teichmann Fourier instantaneous estimators and demonstrate the relationship between the instantaneous Epps effect and the cutting frequencies in the Fourier estimators. We find that using the previous tick interpolation in the Cuchiero-Teichmann estimator results in unstable estimates when dealing with asynchrony, while the ability to bypass the time domain with the Malliavin-Mancino estimator allows it to produce stable estimates and is therefore better suited for ultra high-frequency finance. We derive the Epps effect arising from asynchrony and provide a refined approach to correct the effect. We compare methods to correct for the Epps effect arising from asynchrony when the underlying process is a Brownian diffusion, and when the underlying process is from discrete connected events (proxied using a D-type Hawkes process). We design three experiments using the Epps effect to discriminate the underlying processes. These experiments demonstrate that using a Hawkes representation recovers the empiricism reported in the literature under simulation conditions that cannot be achieved when using a Brownian representation. The experiments are applied to trade and quote data from the Johannesburg Stock Exchange and the evidence suggests that the empirical measurements are from a system of discrete connected events where correlations are an emergent property of the time-scale rather than an instantaneous quantity that exists at all time-scales.
 
 \end{abstract}
 %----------------------------------------------------------------------------------------
@@ -289,6 +273,57 @@ Empirical results indicate that the hybrid NCF and CBF model performed with the 
 
 \tableofcontents % Prints the main table of contents
 
+% \listoffigures % Prints the list of figures
+
+%\listoftables % Prints the list of tables
+
+% \listofalgorithms % Prints the list of algorithms
+
+%----------------------------------------------------------------------------------------
+%	ABBREVIATIONS
+%----------------------------------------------------------------------------------------
+
+%\begin{abbreviations}{ll} % Include a list of abbreviations (a table of two columns)
+%
+%\textbf{LAH} & \textbf{L}ist \textbf{A}bbreviations \textbf{H}ere\\
+%\textbf{WSF} & \textbf{W}hat (it) \textbf{S}tands \textbf{F}or\\
+%
+%\end{abbreviations}
+
+%----------------------------------------------------------------------------------------
+%	PHYSICAL CONSTANTS/OTHER DEFINITIONS
+%----------------------------------------------------------------------------------------
+
+%\begin{constants}{lr@{${}={}$}l} % The list of physical constants is a three column table
+%
+%% The \SI{}{} command is provided by the siunitx package, see its documentation for instructions on how to use it
+%
+%Speed of Light & $c_{0}$ & \SI{2.99792458e8}{\meter\per\second} (exact)\\
+%%Constant Name & $Symbol$ & $Constant Value$ with units\\
+%
+%\end{constants}
+
+%----------------------------------------------------------------------------------------
+%	SYMBOLS
+%----------------------------------------------------------------------------------------
+
+%\begin{symbols}{lll} % Include a list of Symbols (a three column table)
+%
+%$a$ & distance & \si{\meter} \\
+%$P$ & power & \si{\watt} (\si{\joule\per\second}) \\
+%%Symbol & Name & Unit \\
+%
+%\addlinespace % Gap to separate the Roman symbols from the Greek
+%
+%$\omega$ & angular frequency & \si{\radian} \\
+%
+%\end{symbols}
+
+%----------------------------------------------------------------------------------------
+%	DEDICATION
+%----------------------------------------------------------------------------------------
+
+%\dedicatory{For/Dedicated to/To my\ldots} 
 
 %----------------------------------------------------------------------------------------
 %	THESIS CONTENT - CHAPTERS
@@ -299,15 +334,10 @@ Empirical results indicate that the hybrid NCF and CBF model performed with the 
 \pagestyle{thesis} 
 
 \include{Chapters/Chapter1}
- \include{Chapters/Chapter2} 
- \include{Chapters/Chapter3}
- \include{Chapters/Chapter4} 
- \include{Chapters/Chapter5} 
-  \include{Chapters/Chapter6} 
-  \include{Chapters/Chapter7} 
-
-
-
+% \include{Chapters/Chapter2} 
+% \include{Chapters/Chapter3}
+% \include{Chapters/Chapter4} 
+% \include{Chapters/Chapter5} 
 
 %----------------------------------------------------------------------------------------
 %	THESIS CONTENT - APPENDICES
@@ -316,12 +346,6 @@ Empirical results indicate that the hybrid NCF and CBF model performed with the 
 \appendix 
 
 \include{Appendices/AppendixA}
-\include{Appendices/AppendixB}
-\include{Appendices/AppendixC}
-\include{Appendices/AppendixD}
-\include{Appendices/AppendixE}
-
-
 % \include{Appendices/AppendixB}
 % \include{Appendices/AppendixC}
 % \include{Appendices/AppendixD}
@@ -330,12 +354,8 @@ Empirical results indicate that the hybrid NCF and CBF model performed with the 
 %	BIBLIOGRAPHY
 %----------------------------------------------------------------------------------------
 
-%\bibliographystyle{elsarticle-harv}
-\bibliographystyle{plain}
-%\bibliography{/Users/pavansingh/Library/CloudStorage/GoogleDrive-sngpav003@myuct.ac.za/My Drive/Masters 2022/Dissertation/Masters-Dissertation/Writing/Thesis.bib}
-%\nocite{*}
-\bibliography{}
-
+\bibliographystyle{elsarticle-harv}
+\bibliography{main.bib}
 
 %----------------------------------------------------------------------------------------
 

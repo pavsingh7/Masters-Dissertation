@@ -1,5 +1,4 @@
-\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\babel@toc {english}{}
+\babel@toc {english}{}\relax 
 \contentsline {chapter}{Acknowledgements}{ii}{section*.1}%
 \contentsline {chapter}{Declaration of Authorship}{iii}{section*.2}%
 \contentsline {chapter}{Abstract}{iv}{section*.3}%
@@ -23,55 +22,55 @@
 \contentsline {chapter}{\numberline {3}Exploratory Data Analysis}{10}{chapter.26}%
 \contentsline {section}{\numberline {3.1}Time Series Analysis}{10}{section.27}%
 \contentsline {section}{\numberline {3.2}Stationarity}{11}{section.31}%
-\contentsline {section}{\numberline {3.3}Data and Variables}{12}{section.33}%
-\contentsline {section}{\numberline {3.4}Summary Statistics}{14}{section.37}%
-\contentsline {section}{\numberline {3.5}Autocorrelation}{16}{section.42}%
-\contentsline {chapter}{\numberline {4}Methodology}{18}{chapter.44}%
-\contentsline {section}{\numberline {4.1}Neural Networks}{18}{section.46}%
-\contentsline {section}{\numberline {4.2}Feed-Forward Neural Network}{20}{section.51}%
-\contentsline {section}{\numberline {4.3}Long Short-Term Memory Neural Network}{21}{section.54}%
-\contentsline {subsection}{\numberline {4.3.1}Overview of Recurrent Neural Networks}{21}{subsection.55}%
-\contentsline {subsection}{\numberline {4.3.2}Long Short-Term Memory Neural Networks}{22}{subsection.64}%
-\contentsline {section}{\numberline {4.4}Ensemble Decision Trees}{24}{section.71}%
-\contentsline {section}{\numberline {4.5}Random Forest}{25}{section.72}%
-\contentsline {section}{\numberline {4.6}Adaptive Boosting}{25}{section.74}%
-\contentsline {subsection}{\numberline {4.6.1}Boosting}{25}{subsection.75}%
-\contentsline {subsection}{\numberline {4.6.2}AdaBoost Algorithm}{26}{subsection.77}%
-\contentsline {section}{\numberline {4.7}ARIMA Model}{26}{section.83}%
-\contentsline {section}{\numberline {4.8}Backpropagation}{27}{section.84}%
-\contentsline {section}{\numberline {4.9}Learning Algorithms and Training}{27}{section.87}%
-\contentsline {subsection}{\numberline {4.9.1}Optimisers}{27}{subsection.88}%
-\contentsline {subsection}{\numberline {4.9.2}Training}{29}{subsection.95}%
-\contentsline {section}{\numberline {4.10}Activation Function}{29}{section.96}%
-\contentsline {section}{\numberline {4.11}Data}{29}{section.97}%
-\contentsline {section}{\numberline {4.12}Performance Criteria}{30}{section.100}%
-\contentsline {subsection}{\numberline {4.12.1}Accuracy}{30}{subsection.102}%
-\contentsline {subsection}{\numberline {4.12.2}F1 Score}{31}{subsection.104}%
-\contentsline {subsection}{\numberline {4.12.3}AUC ROC}{31}{subsection.106}%
-\contentsline {chapter}{\numberline {5}Model Specification and Analysis}{33}{chapter.107}%
-\contentsline {section}{\numberline {5.1}Model Architectures}{33}{section.109}%
-\contentsline {subsection}{\numberline {5.1.1}Long Short-Term Memory Neural Network}{34}{subsection.110}%
-\contentsline {subsection}{\numberline {5.1.2}Feed-Forward Neural Network}{35}{subsection.116}%
-\contentsline {subsection}{\numberline {5.1.3}Random Forest}{36}{subsection.119}%
-\contentsline {subsection}{\numberline {5.1.4}AdaBoost Model}{36}{subsection.122}%
-\contentsline {subsection}{\numberline {5.1.5}Auto Regressive Integrated Moving Average}{38}{subsection.125}%
-\contentsline {section}{\numberline {5.2}Validation Analysis}{39}{section.130}%
-\contentsline {section}{\numberline {5.3}Variable Feature Importance}{40}{section.132}%
-\contentsline {chapter}{\numberline {6}Results}{41}{chapter.134}%
-\contentsline {section}{\numberline {6.1}Results}{41}{section.135}%
-\contentsline {chapter}{\numberline {7}Discussion}{45}{chapter.142}%
-\contentsline {section}{\numberline {7.1}Link To Literature}{45}{section.143}%
-\contentsline {section}{\numberline {7.2}Limitations and Further Work}{45}{section.144}%
-\contentsline {section}{\numberline {7.3}Conclusion}{47}{section.145}%
-\contentsline {chapter}{\numberline {A}}{48}{appendix.146}%
-\contentsline {section}{\numberline {A.1}Random Walk Hypothesis}{48}{section.147}%
-\contentsline {chapter}{\numberline {B}}{49}{appendix.148}%
-\contentsline {section}{\numberline {B.1}Closing Prices for Stocks}{49}{section.149}%
-\contentsline {section}{\numberline {B.2}Log Returns of Stocks}{50}{section.151}%
-\contentsline {section}{\numberline {B.3}QQ-Plots for Log Returns of Stocks}{51}{section.153}%
-\contentsline {section}{\numberline {B.4}ACF and PACF of Stocks}{52}{section.155}%
+\contentsline {section}{\numberline {3.3}Data and Variables}{11}{section.33}%
+\contentsline {section}{\numberline {3.4}Summary Statistics}{12}{section.37}%
+\contentsline {section}{\numberline {3.5}Autocorrelation}{14}{section.42}%
+\contentsline {chapter}{\numberline {4}Methodology}{15}{chapter.44}%
+\contentsline {section}{\numberline {4.1}Neural Networks}{15}{section.46}%
+\contentsline {section}{\numberline {4.2}Feed-Forward Neural Network}{16}{section.51}%
+\contentsline {section}{\numberline {4.3}Long Short-Term Memory Neural Network}{17}{section.54}%
+\contentsline {subsection}{\numberline {4.3.1}Overview of Recurrent Neural Networks}{17}{subsection.55}%
+\contentsline {subsection}{\numberline {4.3.2}Long Short-Term Memory Neural Networks}{19}{subsection.64}%
+\contentsline {section}{\numberline {4.4}Ensemble Decision Trees}{20}{section.71}%
+\contentsline {section}{\numberline {4.5}Random Forest}{21}{section.72}%
+\contentsline {section}{\numberline {4.6}Adaptive Boosting}{21}{section.74}%
+\contentsline {subsection}{\numberline {4.6.1}Boosting}{21}{subsection.75}%
+\contentsline {subsection}{\numberline {4.6.2}AdaBoost Algorithm}{22}{subsection.77}%
+\contentsline {section}{\numberline {4.7}ARIMA Model}{22}{section.83}%
+\contentsline {section}{\numberline {4.8}Backpropagation}{23}{section.84}%
+\contentsline {section}{\numberline {4.9}Learning Algorithms and Training}{23}{section.87}%
+\contentsline {subsection}{\numberline {4.9.1}Optimisers}{23}{subsection.88}%
+\contentsline {subsection}{\numberline {4.9.2}Training}{24}{subsection.95}%
+\contentsline {section}{\numberline {4.10}Activation Function}{24}{section.96}%
+\contentsline {section}{\numberline {4.11}Data}{25}{section.97}%
+\contentsline {section}{\numberline {4.12}Performance Criteria}{26}{section.100}%
+\contentsline {subsection}{\numberline {4.12.1}Accuracy}{26}{subsection.102}%
+\contentsline {subsection}{\numberline {4.12.2}F1 Score}{26}{subsection.104}%
+\contentsline {subsection}{\numberline {4.12.3}AUC ROC}{26}{subsection.106}%
+\contentsline {chapter}{\numberline {5}Model Specification and Analysis}{28}{chapter.107}%
+\contentsline {section}{\numberline {5.1}Model Architectures}{28}{section.109}%
+\contentsline {subsection}{\numberline {5.1.1}Long Short-Term Memory Neural Network}{28}{subsection.110}%
+\contentsline {subsection}{\numberline {5.1.2}Feed-Forward Neural Network}{29}{subsection.116}%
+\contentsline {subsection}{\numberline {5.1.3}Random Forest}{30}{subsection.119}%
+\contentsline {subsection}{\numberline {5.1.4}AdaBoost Model}{31}{subsection.122}%
+\contentsline {subsection}{\numberline {5.1.5}Auto Regressive Integrated Moving Average}{33}{subsection.125}%
+\contentsline {section}{\numberline {5.2}Validation Analysis}{34}{section.130}%
+\contentsline {section}{\numberline {5.3}Variable Feature Importance}{34}{section.132}%
+\contentsline {chapter}{\numberline {6}Results}{36}{chapter.134}%
+\contentsline {section}{\numberline {6.1}Results}{36}{section.135}%
+\contentsline {chapter}{\numberline {7}Discussion}{41}{chapter.142}%
+\contentsline {section}{\numberline {7.1}Link To Literature}{41}{section.143}%
+\contentsline {section}{\numberline {7.2}Limitations and Further Work}{41}{section.144}%
+\contentsline {section}{\numberline {7.3}Conclusion}{43}{section.145}%
+\contentsline {chapter}{\numberline {A}}{44}{appendix.146}%
+\contentsline {section}{\numberline {A.1}Random Walk Hypothesis}{44}{section.147}%
+\contentsline {chapter}{\numberline {B}}{45}{appendix.148}%
+\contentsline {section}{\numberline {B.1}Closing Prices for Stocks}{45}{section.149}%
+\contentsline {section}{\numberline {B.2}Log Returns of Stocks}{46}{section.151}%
+\contentsline {section}{\numberline {B.3}QQ-Plots for Log Returns of Stocks}{47}{section.153}%
+\contentsline {section}{\numberline {B.4}ACF and PACF of Stocks}{48}{section.155}%
 \contentsline {section}{\numberline {B.5}Random Forest Algorithm}{54}{section.158}%
 \contentsline {section}{\numberline {B.6}Technical Indicators Used in Analysis}{54}{section.166}%
 \contentsline {chapter}{\numberline {C}Boosting Grid Search Learning Rates}{56}{appendix.167}%
-\contentsline {chapter}{\numberline {D}Validation and Loss Curves for LSTM}{57}{appendix.169}%
-\contentsline {chapter}{\numberline {E}Confusion Matrices}{58}{appendix.171}%
+\contentsline {chapter}{\numberline {D}Validation and Loss Curves for LSTM}{58}{appendix.169}%
+\contentsline {chapter}{\numberline {E}Confusion Matrices}{60}{appendix.171}%
