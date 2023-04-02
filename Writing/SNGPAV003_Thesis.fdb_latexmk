@@ -4,7 +4,7 @@
   (generated)
   "SNGPAV003_Thesis.bbl"
   "SNGPAV003_Thesis.blg"
-["pdflatex"] 1680429639 "/Users/pavansingh/Library/CloudStorage/GoogleDrive-sngpav003@myuct.ac.za/My Drive/Masters 2022/Dissertation/Masters-Dissertation/Writing/SNGPAV003_Thesis.tex" "SNGPAV003_Thesis.pdf" "SNGPAV003_Thesis" 1680429639
+["pdflatex"] 1680443590 "/Users/pavansingh/Library/CloudStorage/GoogleDrive-sngpav003@myuct.ac.za/My Drive/Masters 2022/Dissertation/Masters-Dissertation/Writing/SNGPAV003_Thesis.tex" "SNGPAV003_Thesis.pdf" "SNGPAV003_Thesis" 1680443590
   "//Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/Methods/sfasdf.pdf" 0 -1 0 ""
   "//Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/RF AND BOOST/RETURNS/Returns_AdaBoost_Ford.pdf" 0 -1 0 ""
   "//Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/RF AND BOOST/RETURNS/Returns_RandomForest_Ford.pdf" 0 -1 0 ""
@@ -77,7 +77,7 @@
   "/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Write-Up/Draft/Figures/adaboost.png" 0 -1 0 ""
   "/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Write-Up/Draft/Figures/rf.png" 0 -1 0 ""
   "/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Write-Up/Draft/Figures/sgd.png" 0 -1 0 ""
-  "/Users/pavansingh/Library/CloudStorage/GoogleDrive-sngpav003@myuct.ac.za/My Drive/Masters 2022/Dissertation/Masters-Dissertation/Writing/SNGPAV003_Thesis.tex" 1680429630 16644 915dde043905e35771b76740cf29094c ""
+  "/Users/pavansingh/Library/CloudStorage/GoogleDrive-sngpav003@myuct.ac.za/My Drive/Masters 2022/Dissertation/Masters-Dissertation/Writing/SNGPAV003_Thesis.tex" 1680443581 16644 915dde043905e35771b76740cf29094c ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -383,11 +383,11 @@
   "Figures/UCTLogoLong.jpg" 1680426116 46171 20f46b15247321c22c13d8fe8eaa61c5 ""
   "Figures/statslogo.png" 1680426133 73627 9e69445ce2de8856d88efa8c7232b198 ""
   "MastersDoctoralThesis.cls" 1680426089 20419 47dc849f419b783e1021ae27402cb991 ""
-  "SNGPAV003_Thesis.aux" 1680429639 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "SNGPAV003_Thesis.aux" 1680443590 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
   "SNGPAV003_Thesis.bbl" 0 -1 0 "biber SNGPAV003_Thesis"
   "SNGPAV003_Thesis.out" 0 -1 0 "pdflatex"
   "SNGPAV003_Thesis.run.xml" 0 -1 0 "pdflatex"
-  "SNGPAV003_Thesis.tex" 1680429630 16644 915dde043905e35771b76740cf29094c ""
+  "SNGPAV003_Thesis.tex" 1680443581 16644 915dde043905e35771b76740cf29094c ""
   (generated)
   "Appendices/AppendixA.aux"
   "Appendices/AppendixB.aux"
