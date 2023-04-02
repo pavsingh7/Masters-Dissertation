@@ -1,0 +1,500 @@
+%% This BibTeX bibliography file was created using BibDesk.
+%% https://bibdesk.sourceforge.io/
+
+%% Created for Pavan Singh at 2021-11-15 11:20:27 +0200 
+
+
+%% Saved with string encoding Unicode (UTF-8) 
+
+
+@comment{jabref-meta: databaseType:bibtex;}
+
+
+
+@article{Russell2002,
+	author = {Russell, Stuart and Norvig, Peter},
+	title = {Artificial intelligence: a modern approach},
+	year = {2002}}
+
+@book{Brillinger2001,
+	author = {Brillinger, David R},
+	publisher = {SIAM},
+	title = {Time series: data analysis and theory},
+	year = {2001}}
+
+@incollection{malkiel1989efficient,
+	author = {Malkiel, Burton G},
+	booktitle = {Finance},
+	pages = {127--134},
+	publisher = {Springer},
+	title = {Efficient market hypothesis},
+	year = {1989}}
+
+@article{hornik1989multilayer,
+	author = {Hornik, Kurt and Stinchcombe, Maxwell and White, Halbert},
+	journal = {Neural networks},
+	number = {5},
+	pages = {359--366},
+	publisher = {Elsevier},
+	title = {Multilayer feedforward networks are universal approximators},
+	volume = {2},
+	year = {1989}}
+
+@article{binner2005comparison,
+	author = {Binner*, Jane M and Bissoondeeal, Rakesh K and Elger, Thomas and Gazely, Alicia M and Mullineux, Andrew W},
+	journal = {Applied economics},
+	number = {6},
+	pages = {665--680},
+	publisher = {Taylor \& Francis},
+	title = {A comparison of linear forecasting models and neural networks: an application to Euro inflation and Euro Divisia},
+	volume = {37},
+	year = {2005}}
+
+@article{heaton2017deep,
+	author = {Heaton, James B and Polson, Nick G and Witte, Jan Hendrik},
+	journal = {Applied Stochastic Models in Business and Industry},
+	number = {1},
+	pages = {3--12},
+	publisher = {Wiley Online Library},
+	title = {Deep learning for finance: deep portfolios},
+	volume = {33},
+	year = {2017}}
+
+@article{che2018recurrent,
+	author = {Che, Zhengping and Purushotham, Sanjay and Cho, Kyunghyun and Sontag, David and Liu, Yan},
+	journal = {Scientific reports},
+	number = {1},
+	pages = {1--12},
+	publisher = {Nature Publishing Group},
+	title = {Recurrent neural networks for multivariate time series with missing values},
+	volume = {8},
+	year = {2018}}
+
+@article{agrawal2013state,
+	author = {Agrawal, JG and Chourasia, V and Mittra, A},
+	journal = {International Journal of Advanced Research in Electrical, Electronics and Instrumentation Engineering},
+	number = {4},
+	pages = {1360--1366},
+	publisher = {Citeseer},
+	title = {State-of-the-art in stock prediction techniques},
+	volume = {2},
+	year = {2013}}
+
+@book{kirkpatrick2010technical,
+	author = {Kirkpatrick II, Charles D and Dahlquist, Julie A},
+	publisher = {FT press},
+	title = {Technical analysis: the complete resource for financial market technicians},
+	year = {2010}}
+
+@article{haggan1981modelling,
+	author = {Haggan, Val{\'e}rie and Ozaki, Tohru},
+	journal = {Biometrika},
+	number = {1},
+	pages = {189--196},
+	publisher = {Oxford University Press},
+	title = {Modelling nonlinear random vibrations using an amplitude-dependent autoregressive time series model},
+	volume = {68},
+	year = {1981}}
+
+@book{tong1990non,
+	author = {Tong, Howell},
+	publisher = {Oxford University Press},
+	title = {Non-linear time series: a dynamical system approach},
+	year = {1990}}
+
+@article{hornik1989multilayer,
+	author = {Hornik, Kurt and Stinchcombe, Maxwell and White, Halbert},
+	journal = {Neural networks},
+	number = {5},
+	pages = {359--366},
+	publisher = {Elsevier},
+	title = {Multilayer feedforward networks are universal approximators},
+	volume = {2},
+	year = {1989}}
+
+@article{hill1996neural,
+	author = {Hill, Tim and O'Connor, Marcus and Remus, William},
+	journal = {Management science},
+	number = {7},
+	pages = {1082--1092},
+	publisher = {INFORMS},
+	title = {Neural network models for time series forecasts},
+	volume = {42},
+	year = {1996}}
+
+@article{sak2014long,
+	author = {Sak, Hasim and Senior, Andrew W and Beaufays, Fran{\c{c}}oise},
+	title = {Long short-term memory recurrent neural network architectures for large scale acoustic modeling},
+	year = {2014}}
+
+@article{rumelhart1986learning,
+	author = {Rumelhart, David E and Hinton, Geoffrey E and Williams, Ronald J},
+	journal = {nature},
+	number = {6088},
+	pages = {533--536},
+	publisher = {Nature Publishing Group},
+	title = {Learning representations by back-propagating errors},
+	volume = {323},
+	year = {1986}}
+
+@article{bengio1994learning,
+	author = {Bengio, Yoshua and Simard, Patrice and Frasconi, Paolo},
+	journal = {IEEE transactions on neural networks},
+	number = {2},
+	pages = {157--166},
+	publisher = {IEEE},
+	title = {Learning long-term dependencies with gradient descent is difficult},
+	volume = {5},
+	year = {1994}}
+
+@book{malkiel1973random,
+	author = {Malkiel, Burton Gordon},
+	publisher = {Norton},
+	title = {A random walk down wall street [by] burton G. Malkiel},
+	year = {1973}}
+
+@book{lo2011non,
+	author = {Lo, Andrew W and MacKinlay, A Craig},
+	publisher = {Princeton University Press},
+	title = {A non-random walk down Wall Street},
+	year = {2011}}
+
+@book{glantz2013multi,
+	author = {Glantz, Morton and Kissell, Robert L},
+	publisher = {Academic Press},
+	title = {Multi-asset risk modeling: techniques for a global economy in an electronic and algorithmic trading era},
+	year = {2013}}
+
+@inproceedings{white1988economic,
+	author = {White, Halbert},
+	booktitle = {ICNN},
+	pages = {451--458},
+	title = {Economic prediction using neural networks: The case of IBM daily stock returns},
+	volume = {2},
+	year = {1988}}
+
+@article{lago2018forecasting,
+	author = {Lago, Jesus and De Ridder, Fjo and De Schutter, Bart},
+	journal = {Applied Energy},
+	pages = {386--405},
+	publisher = {Elsevier},
+	title = {Forecasting spot electricity prices: Deep learning approaches and empirical comparison of traditional algorithms},
+	volume = {221},
+	year = {2018}}
+
+@inproceedings{dorffner1996neural,
+	author = {Dorffner, Georg},
+	booktitle = {Neural network world},
+	organization = {Citeseer},
+	title = {Neural networks for time series processing},
+	year = {1996}}
+
+@article{church1996forecasting,
+	author = {Church, Keith B and Curram, Stephen P},
+	journal = {International journal of forecasting},
+	number = {2},
+	pages = {255--267},
+	publisher = {Elsevier},
+	title = {Forecasting consumers' expenditure: A comparison between econometric and neural network models},
+	volume = {12},
+	year = {1996}}
+
+@article{gorr1994comparative,
+	author = {Gorr, Wilpen L and Nagin, Daniel and Szczypula, Janusz},
+	journal = {International Journal of Forecasting},
+	number = {1},
+	pages = {17--34},
+	publisher = {Elsevier},
+	title = {Comparative study of artificial neural network and statistical models for predicting student grade point averages},
+	volume = {10},
+	year = {1994}}
+
+@article{elman1990finding,
+	author = {Elman, Jeffrey L},
+	journal = {Cognitive science},
+	number = {2},
+	pages = {179--211},
+	publisher = {Wiley Online Library},
+	title = {Finding structure in time},
+	volume = {14},
+	year = {1990}}
+
+@misc{chollet2015keras,
+	author = {Chollet, Fran{\c{c}}ois and others},
+	title = {keras},
+	year = {2015}}
+
+@article{abadi2016tensorflow,
+	author = {Abadi, Mart{\'\i}n and Agarwal, Ashish and Barham, Paul and Brevdo, Eugene and Chen, Zhifeng and Citro, Craig and Corrado, Greg S and Davis, Andy and Dean, Jeffrey and Devin, Matthieu and others},
+	journal = {arXiv preprint arXiv:1603.04467},
+	title = {Tensorflow: Large-scale machine learning on heterogeneous distributed systems},
+	year = {2016}}
+
+@article{ahmed2010empirical,
+	author = {Ahmed, Nesreen K and Atiya, Amir F and Gayar, Neamat El and El-Shishiny, Hisham},
+	journal = {Econometric Reviews},
+	number = {5-6},
+	pages = {594--621},
+	publisher = {Taylor \& Francis},
+	title = {An empirical comparison of machine learning models for time series forecasting},
+	volume = {29},
+	year = {2010}}
+
+@article{zhang1998forecasting,
+	author = {Zhang, Guoqiang and Patuwo, B Eddy and Hu, Michael Y},
+	journal = {International journal of forecasting},
+	number = {1},
+	pages = {35--62},
+	publisher = {Elsevier},
+	title = {Forecasting with artificial neural networks:: The state of the art},
+	volume = {14},
+	year = {1998}}
+
+@article{werbos1990backpropagation,
+	author = {Werbos, Paul J},
+	journal = {Proceedings of the IEEE},
+	number = {10},
+	pages = {1550--1560},
+	publisher = {IEEE},
+	title = {Backpropagation through time: what it does and how to do it},
+	volume = {78},
+	year = {1990}}
+
+@article{diebold1995paring,
+	author = {Diebold, Francis X and Mariano, Roberto S},
+	journal = {Journal of Business and Economic Statistics},
+	number = {3},
+	pages = {253--263},
+	title = {Com paring predictive accu racy},
+	volume = {13},
+	year = {1995}}
+
+@article{kuo2018high,
+	author = {Kuo, Ping-Huan and Huang, Chiou-Jye},
+	journal = {Energies},
+	number = {1},
+	pages = {213},
+	publisher = {Multidisciplinary Digital Publishing Institute},
+	title = {A high precision artificial neural networks model for short-term energy load forecasting},
+	volume = {11},
+	year = {2018}}
+
+@article{wasserman1988they,
+	author = {Wasserman, PD and Schwartz, T and others},
+	journal = {IEEE Expert},
+	number = {1},
+	pages = {10--15},
+	title = {What are they and why is everybody so interested in them now?},
+	volume = {3},
+	year = {1988}}
+
+@inproceedings{glorot2011deep,
+	author = {Glorot, Xavier and Bordes, Antoine and Bengio, Yoshua},
+	booktitle = {Proceedings of the fourteenth international conference on artificial intelligence and statistics},
+	organization = {JMLR Workshop and Conference Proceedings},
+	pages = {315--323},
+	title = {Deep sparse rectifier neural networks},
+	year = {2011}}
+
+@inproceedings{nelson2017stock,
+	author = {Nelson, David MQ and Pereira, Adriano CM and de Oliveira, Renato A},
+	booktitle = {2017 International joint conference on neural networks (IJCNN)},
+	organization = {IEEE},
+	pages = {1419--1426},
+	title = {Stock market's price movement prediction with LSTM neural networks},
+	year = {2017}}
+
+@article{di2016artificial,
+	author = {Di Persio, Luca and Honchar, Oleksandr},
+	journal = {International journal of circuits, systems and signal processing},
+	number = {2016},
+	pages = {403--413},
+	title = {Artificial neural networks architectures for stock price prediction: Comparisons and applications},
+	volume = {10},
+	year = {2016}}
+
+@inproceedings{chen2015lstm,
+	author = {Chen, Kai and Zhou, Yi and Dai, Fangyan},
+	booktitle = {2015 IEEE international conference on big data (big data)},
+	organization = {IEEE},
+	pages = {2823--2824},
+	title = {A LSTM-based method for stock returns prediction: A case study of China stock market},
+	year = {2015}}
+
+@inproceedings{liwicki2009automatic,
+	author = {Liwicki, Stephan and Everingham, Mark},
+	booktitle = {2009 IEEE computer society conference on computer vision and pattern recognition workshops},
+	organization = {IEEE},
+	pages = {50--57},
+	title = {Automatic recognition of fingerspelled words in british sign language},
+	year = {2009}}
+
+@article{graves2012sequence,
+	author = {Graves, Alex},
+	journal = {arXiv preprint arXiv:1211.3711},
+	title = {Sequence transduction with recurrent neural networks},
+	year = {2012}}
+
+@article{hochreiter1997long,
+	author = {Hochreiter, Sepp and Schmidhuber, J{\"u}rgen},
+	journal = {Neural computation},
+	number = {8},
+	pages = {1735--1780},
+	publisher = {MIT Press},
+	title = {Long short-term memory},
+	volume = {9},
+	year = {1997}}
+
+@article{jia2016investigation,
+	author = {Jia, Hengjian},
+	journal = {arXiv preprint arXiv:1603.07893},
+	title = {Investigation into the effectiveness of long short term memory networks for stock price prediction},
+	year = {2016}}
+
+@article{oancea2014time,
+	author = {Oancea, Bogdan and Ciucu, {\c{S}}tefan Cristian},
+	journal = {arXiv preprint arXiv:1401.1333},
+	title = {Time series forecasting using neural networks},
+	year = {2014}}
+
+@article{greff2016lstm,
+	author = {Greff, Klaus and Srivastava, Rupesh K and Koutn{\'\i}k, Jan and Steunebrink, Bas R and Schmidhuber, J{\"u}rgen},
+	journal = {IEEE transactions on neural networks and learning systems},
+	number = {10},
+	pages = {2222--2232},
+	publisher = {IEEE},
+	title = {LSTM: A search space odyssey},
+	volume = {28},
+	year = {2016}}
+
+@article{chakraborty1992forecasting,
+	author = {Chakraborty, Kanad and Mehrotra, Kishan and Mohan, Chilukuri K and Ranka, Sanjay},
+	journal = {Neural networks},
+	number = {6},
+	pages = {961--970},
+	publisher = {Elsevier},
+	title = {Forecasting the behavior of multivariate time series using neural networks},
+	volume = {5},
+	year = {1992}}
+
+@inproceedings{kimoto1990stock,
+	author = {Kimoto, Takashi and Asakawa, Kazuo and Yoda, Morio and Takeoka, Masakazu},
+	booktitle = {1990 IJCNN international joint conference on neural networks},
+	organization = {IEEE},
+	pages = {1--6},
+	title = {Stock market prediction system with modular neural networks},
+	year = {1990}}
+
+@article{zhang2003time,
+	author = {Zhang, G Peter},
+	journal = {Neurocomputing},
+	pages = {159--175},
+	publisher = {Elsevier},
+	title = {Time series forecasting using a hybrid ARIMA and neural network model},
+	volume = {50},
+	year = {2003}}
+
+@article{zupan2003basics,
+	author = {Zupan, Jure},
+	journal = {Nature-inspired Methods in Chemometrics: Genetic Algorithms and Artificial Neural Networks (Leardi, R., ed.)},
+	pages = {199--229},
+	title = {Basics of artificial neural network},
+	year = {2003}}
+
+@inproceedings{naeini2010stock,
+	author = {Naeini, Mahdi Pakdaman and Taremian, Hamidreza and Hashemi, Homa Baradaran},
+	booktitle = {2010 international conference on computer information systems and industrial management applications (CISIM)},
+	organization = {IEEE},
+	pages = {132--136},
+	title = {Stock market value prediction using neural networks},
+	year = {2010}}
+
+@techreport{gradojevic2000application,
+	author = {Gradojevic, Nikola and Yang, Jing},
+	institution = {Bank of Canada},
+	title = {The application of artificial neural networks to exchange rate forecasting: The role of market microstructure variables},
+	year = {2000}}
+
+@article{makridakis1982accuracy,
+	author = {Makridakis, Spyros and Andersen, Allan and Carbone, Robert and Fildes, Robert and Hibon, Michele and Lewandowski, Rudolf and Newton, Joseph and Parzen, Emanuel and Winkler, Robert},
+	journal = {Journal of forecasting},
+	number = {2},
+	pages = {111--153},
+	publisher = {Wiley Online Library},
+	title = {The accuracy of extrapolation (time series) methods: Results of a forecasting competition},
+	volume = {1},
+	year = {1982}}
+
+@article{kohara1997stock,
+	author = {Kohara, Kazuhiro and Ishikawa, Tsutomu and Fukuhara, Yoshimi and Nakamura, Yukihiro},
+	journal = {Intelligent Systems in Accounting, Finance \& Management},
+	number = {1},
+	pages = {11--22},
+	publisher = {Wiley Online Library},
+	title = {Stock price prediction using prior knowledge and neural networks},
+	volume = {6},
+	year = {1997}}
+
+@article{ampomah2020evaluation,
+	author = {Ampomah, Ernest Kwame and Qin, Zhiguang and Nyame, Gabriel},
+	journal = {Information},
+	number = {6},
+	pages = {332},
+	publisher = {Multidisciplinary Digital Publishing Institute},
+	title = {Evaluation of tree-based ensemble machine learning models in predicting stock price direction of movement},
+	volume = {11},
+	year = {2020}}
+
+@article{nti2020comprehensive,
+	author = {Nti, Isaac Kofi and Adekoya, Adebayo Felix and Weyori, Benjamin Asubam},
+	journal = {Journal of Big Data},
+	number = {1},
+	pages = {1--40},
+	publisher = {SpringerOpen},
+	title = {A comprehensive evaluation of ensemble learning for stock-market prediction},
+	volume = {7},
+	year = {2020}}
+
+@article{shively2003nonlinear,
+	author = {Shively, Philip A},
+	journal = {The Quarterly Review of Economics and Finance},
+	number = {3},
+	pages = {505--517},
+	publisher = {Elsevier},
+	title = {The nonlinear dynamics of stock prices},
+	volume = {43},
+	year = {2003}}
+
+@article{malkiel2003efficient,
+	author = {Malkiel, Burton G},
+	journal = {Journal of economic perspectives},
+	number = {1},
+	pages = {59--82},
+	title = {The efficient market hypothesis and its critics},
+	volume = {17},
+	year = {2003}}
+
+@article{biondo2013random,
+	author = {Biondo, Alessio Emanuele and Pluchino, Alessandro and Rapisarda, Andrea and Helbing, Dirk},
+	journal = {PloS one},
+	number = {7},
+	pages = {e68344},
+	publisher = {Public Library of Science San Francisco, USA},
+	title = {Are random trading strategies more successful than technical ones?},
+	volume = {8},
+	year = {2013}}
+
+@inproceedings{kimoto1990stock,
+	author = {Kimoto, Takashi and Asakawa, Kazuo and Yoda, Morio and Takeoka, Masakazu},
+	booktitle = {1990 IJCNN international joint conference on neural networks},
+	organization = {IEEE},
+	pages = {1--6},
+	title = {Stock market prediction system with modular neural networks},
+	year = {1990}}
+
+@inproceedings{nguyen2015topic,
+	author = {Nguyen, Thien Hai and Shirai, Kiyoaki},
+	booktitle = {Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)},
+	pages = {1354--1364},
+	title = {Topic modeling based sentiment analysis on social media for stock market prediction},
+	year = {2015}}

@@ -1,25 +1,25 @@
 % Appendix A
 
-\chapter{Frequently Asked Questions} % Main appendix title
+\chapter{} % Main appendix title
 
-\label{AppendixA} % For referencing this appendix elsewhere, use \ref{AppendixA}
+\section{Random Walk Hypothesis}
 
-\section{How do I change the colors of links?}
+The random walk hypothesis states that the single-period log returns, $r_{t}=$ $\log \left(1+R_{t}\right)$, are independent. 
 
-The color of links can be changed to your liking using:
+Because
+$$
+\begin{aligned}
+1+R_{t}(k) &=\left(1+R_{t}\right) \cdots\left(1+R_{t-k+1}\right) \\
+&=\exp \left(r_{t}\right) \cdots \exp \left(r_{t-k+1}\right) \\
+&=\exp \left(r_{t}+\cdots+r_{t-k+1}\right)
+\end{aligned}
+$$
+we have
+$$
+\log \left\{1+R_{t}(k)\right\}=r_{t}+\cdots+r_{t-k+1}
+$$
 
-{\small\verb!\hypersetup{urlcolor=red}!}, or
+It is sometimes assumed further that the log returns are $N\left(\mu, \sigma^{2}\right)$ for some constant mean and variance. Since sums of normal random variables are themselves normal, normality of single-period log returns implies normality of multiple-period log returns. Under these assumptions, $\log \left\{1+R_{t}(k)\right\}$ is $N\left(k \mu, k \sigma^{2}\right)$. 
 
-{\small\verb!\hypersetup{citecolor=green}!}, or
 
-{\small\verb!\hypersetup{allcolor=blue}!}.
 
-\noindent If you want to completely hide the links, you can use:
-
-{\small\verb!\hypersetup{allcolors=.}!}, or even better: 
-
-{\small\verb!\hypersetup{hidelinks}!}.
-
-\noindent If you want to have obvious links in the PDF but not the printed text, use:
-
-{\small\verb!\hypersetup{colorlinks=false}!}.

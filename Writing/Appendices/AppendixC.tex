@@ -1,0 +1,88 @@
+% Appendix A
+
+
+
+\label{} % For referencing this appendix elsewhere, use \ref{AppendixA}
+
+\section{Random Forest Algorithm}
+
+Random Forest for Regression or Classification (Brillinger, 2001).
+
+\begin{enumerate}
+\item For $b=1$ to $B$
+	\item Draw a bootstrap sample $\mathbf{Z}^{*}$ of size $N$ from the training data.
+	\item Grow a random-forest tree $T_{b}$ to the bootstrapped data, by re- cursively repeating the following steps for each terminal node of the tree, until the minimum node size $n_{\min }$ is reached.
+		\item Select $m$ variables at random from the $p$ variables.
+		\item Pick the best variable/split-point among the $m$.
+		\item Split the node into two daughter nodes.
+
+\item Output the ensemble of trees $\left\{T_{b}\right\}_{1}^{B}$.
+\end{enumerate}
+
+To make a prediction at a new point $x$ :
+\begin{itemize}
+\item Regression: $\hat{f}_{\mathrm{rf}}^{B}(x)=\frac{1}{B} \sum_{b=1}^{B} T_{b}(x)$.\\
+\item Classification: Let $\hat{C}_{b}(x)$ be the class prediction of the $b$ th random tree. Then $\hat{C}_{\mathrm{rf}}^{B}(x)=$ majority vote $\left\{\hat{C}_{b}(x)\right\}_{1}^{B}$.
+\end{itemize}
+
+\section{Technical Indicators Used in Analysis}
+
+The following technical indicators were used in. our study. The definitions were scraped from Lo and Hasanhodzic (2010).
+
+\textbf{Standard Deviation} (SD): measures market volatility and is used in statistics to describe the variability or dispersion of a set of data around the average.
+
+
+
+\textbf{Relative Strength Index} (RSI): is a momentum indicator used in technical analysis that measures the magnitude of recent price changes to evaluate overbought or oversold conditions in the price of a stock or other asset.
+
+
+\textbf{Average Directional Index }(ADX): is a technical analysis indicator used by some traders to determine the strength of a trend.
+
+
+\textbf{Moving Average}(MA): is a stock indicator that is commonly used in technical analysis. The reason for calculating the moving average of a stock is to help smooth out the price data over a specified period of time by creating a constantly updated average price.
+
+
+
+\textbf{Exponential Moving Average }(EMA): is a technical chart indicator that tracks the price of an investment (like a stock or commodity) over time.
+
+\textbf{Momentum} (MTM): is a technical indicator which shows the trend direction and measures the pace of the price fluctuation by comparing current and past values.
+
+\textbf{Average True Range} (ATR): is a market volatility indicator used in technical analysis. It is typically derived from the 14-day simple moving average of a series of true range indicators.
+
+
+\textbf{Bollinger Bands} (BB): are envelopes plotted at a standard deviation level above and below a simple moving average of the price.
+
+
+\textbf{Stochastic Oscillator} (SO): is a momentum indicator comparing a particular closing price of a security to a range of its prices over a certain period of time.
+
+
+\textbf{Triple Exponential Average} (TRIX): is an oscillator used to identify oversold and overbought markets, and it can also be used as a momentum indicator.
+
+
+\textbf{Moving Average Convergence Divergence} (MACD): It is designed to reveal changes in the strength, direction, momentum, and duration of a trend in a stock's price. 
+
+
+
+\textbf{Mass Index }(MI): used in technical analysis to predict trend reversals.
+
+
+\textbf{Vortex Indicator }(VI): is used to spot trend reversals and confirm current trends.
+
+
+\textbf{True Strength Index} (TSI): is a technical momentum oscillator used to identify trends and reversals.
+
+\textbf{Chaikan Oscillator} (CO): is the difference between the 3-day and 10-day EMAs of the Accumulation Distribution Line.
+
+
+\textbf{Force Index }(FI): measures the amount of power used to move the price of an asset.
+
+\textbf{Ease of Movement} (EOM): is a technical study that attempts to quantify a mix of momentum and volume information into one value.
+
+
+\textbf{Commodity Channel Index }(CCI): is a technical indicator that measures the difference between the current price and the historical average price.
+
+\textbf{Keltner Channel }(KC): technical indicator that day traders can use to help assess the current trend and provide trading signals.
+
+\textbf{Ultimate Oscillator} (UO): is a range-bound indicator with a value that fluctuates between 0 and 100.  Used to identify oversold or over bought assets.
+
+
