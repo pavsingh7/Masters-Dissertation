@@ -1118,4 +1118,2074 @@ File: tikzlibraryshapes.symbols.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 File: pgflibraryshapes.symbols.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.arrows.code.tex
 File: tikzlibraryshapes.arrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
- (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.arrows.code
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.callouts.code.tex (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.callouts.code.tex)) (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodepartlowerbox=\box82
+\pgfnodeparttwobox=\box83
+\pgfnodepartthreebox=\box84
+\pgfnodepartfourbox=\box85
+\pgfnodeparttwentybox=\box86
+\pgfnodepartnineteenbox=\box87
+\pgfnodeparteighteenbox=\box88
+\pgfnodepartseventeenbox=\box89
+\pgfnodepartsixteenbox=\box90
+\pgfnodepartfifteenbox=\box91
+\pgfnodepartfourteenbox=\box92
+\pgfnodepartthirteenbox=\box93
+\pgfnodeparttwelvebox=\box94
+\pgfnodepartelevenbox=\box95
+\pgfnodeparttenbox=\box96
+\pgfnodepartninebox=\box97
+\pgfnodeparteightbox=\box98
+\pgfnodepartsevenbox=\box99
+\pgfnodepartsixbox=\box100
+\pgfnodepartfivebox=\box101
+))) (/usr/local/texlive/2022/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 112.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+))
+1: section
+
+/Users/pavansingh/Library/CloudStorage/GoogleDrive-sngpav003@myuct.ac.za/My Drive/Masters 2022/Dissertation/Masters-Dissertation/Writing/SNGPAV003_Thesis.tex:176: Package biblatex Error: Incompatible package 'natbib'.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 \begin{document}
+                      
+The 'natbib' package and biblatex are incompatible.
+
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+(./SNGPAV003_Thesis.aux)
+\openout1 = `SNGPAV003_Thesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 176.
+LaTeX Font Info:    ... okay on input line 176.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 176.
+LaTeX Font Info:    ... okay on input line 176.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 176.
+LaTeX Font Info:    ... okay on input line 176.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 176.
+LaTeX Font Info:    ... okay on input line 176.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 176.
+LaTeX Font Info:    ... okay on input line 176.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 176.
+LaTeX Font Info:    ... okay on input line 176.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 176.
+LaTeX Font Info:    ... okay on input line 176.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 176.
+LaTeX Font Info:    ... okay on input line 176.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 176.
+LaTeX Font Info:    ... okay on input line 176.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 176.
+ (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count481
+\scratchdimen=\dimen305
+\scratchbox=\box102
+\nofMPsegments=\count482
+\nofMParguments=\count483
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count484
+\MPscratchDim=\dimen306
+\MPnumerator=\count485
+\makeMPintoPDFobject=\count486
+\everyMPtoPDFconversion=\toks46
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: changepage package is loaded.
+\caption@adjustwidth@hsize=\dimen307
+\caption@adjustwidth@linewidth=\dimen308
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* bindingoffset: 14.22636pt
+* modes: includehead includefoot twoside 
+* h-part:(L,W,R)=(28.45274pt, 497.92326pt, 56.9055pt)
+* v-part:(T,H,B)=(28.45274pt, 788.14136pt, 28.45274pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=497.92326pt
+* \textheight=716.66759pt
+* \oddsidemargin=-29.59088pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-43.81725pt
+* \headheight=21.59998pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=98.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package scrlayer Info: Setting magic \footheight to \baselineskip while
+(scrlayer)             \begin{document} on input line 176.
+Package scrbase Info: activating english \abbrevname on input line 176.
+Package scrbase Info: activating english \byname on input line 176.
+Package scrbase Info: activating english \acknowledgementname on input line 176.
+Package scrbase Info: activating english \authorshipname on input line 176.
+Package scrbase Info: activating english \Disclaimername on input line 176.
+Package scrbase Info: activating english \constantsname on input line 176.
+Package scrbase Info: activating english \symbolsname on input line 176.
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2022/02/02 v3.17 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `SNGPAV003_Thesis.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'SNGPAV003_Thesis.bbl' not found.
+
+No file SNGPAV003_Thesis.bbl.
+Package biblatex Info: Reference section=0 on input line 176.
+Package biblatex Info: Reference segment=0 on input line 176.
+Package hyperref Info: Link coloring ON on input line 176.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count487
+)
+LaTeX Info: Redefining \ref on input line 176.
+LaTeX Info: Redefining \pageref on input line 176.
+LaTeX Info: Redefining \nameref on input line 176.
+\@outlinefile=\write5
+\openout5 = `SNGPAV003_Thesis.out'.
+
+
+1: section
+<Figures/UCTLogoLong.jpg, id=31, 365.4453pt x 53.4798pt>
+File: Figures/UCTLogoLong.jpg Graphic file (type jpg)
+<use Figures/UCTLogoLong.jpg>
+Package pdftex.def Info: Figures/UCTLogoLong.jpg  used on input line 189.
+(pdftex.def)             Requested size: 497.92326pt x 72.86783pt.
+<Figures/statslogo.png, id=35, 254.9525pt x 254.9525pt>
+File: Figures/statslogo.png Graphic file (type png)
+<use Figures/statslogo.png>
+Package pdftex.def Info: Figures/statslogo.png  used on input line 217.
+(pdftex.def)             Requested size: 124.4808pt x 124.48042pt.
+[1
+
+
+
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Figures/UCTLogoLong.jpg> <./Figures/statslogo.png>]
+--------------------
+ Acknowledgements
+--------------------
+1: section
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 250.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 250.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 250.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 250.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 250.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ot1zplm.fd
+File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+yhex on input line 250.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/yhmath/OMXyhex.fd
+File: OMXyhex.fd 
+File: OMXyhex.fd 2013/07/03 v1.1 YH's humble contribution to TeX maths (NP)
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 250.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 250.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 250.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 250.
+ [2
+
+]
+--------------------
+ Declaration of Authorship
+--------------------
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 257.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+1: section
+[3
+
+]
+--------------------
+ Abstract
+--------------------
+1: section
+[4
+
+]
+\tf@toc=\write6
+\openout6 = `SNGPAV003_Thesis.toc'.
+
+
+1: section
+[5
+
+] [6
+
+]
+1: section
+\openout2 = `Chapters/Chapter1.aux'.
+
+(./Chapters/Chapter1.tex
+Chapter 1.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
+1: section
+[1
+
+
+]
+Overfull \hbox (2.28004pt too wide) in paragraph at lines 57--58
+\T1/ptm/m/n/12 The pro-cess of fore-cast-ing can be de-scribed as pre-dict-ing the fu-ture us-ing past and cur-rent data (Brillinger,
+ []
+
+Package cleveref Info: loaded `english' language definitions on input line 63.
+[2]
+Package cleveref Info: loaded `english' language definitions on input line 84.
+ [3])
+Package cleveref Info: loaded `english' language definitions on input line 301.
+ [4]
+\openout2 = `Chapters/Chapter2.aux'.
+
+ (./Chapters/Chapter2.tex
+Chapter 2.
+1: section
+[5
+
+
+
+
+]
+Package cleveref Info: loaded `english' language definitions on input line 53.
+ [6]
+Package cleveref Info: loaded `english' language definitions on input line 72.
+ [7]
+Package cleveref Info: loaded `english' language definitions on input line 87.
+ [8])
+Package cleveref Info: loaded `english' language definitions on input line 302.
+ [9]
+\openout2 = `Chapters/Chapter3.aux'.
+
+ (./Chapters/Chapter3.tex
+Chapter 3.
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/GrowthOfStocks.pdf' not found on input line 19.
+
+
+./Chapters/Chapter3.tex:19: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/GrowthOfStocks.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...hon Coding/Figures/EDA/GrowthOfStocks.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 19.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/LogReturnsFordMotors.pdf' not found on input line 32.
+
+
+./Chapters/Chapter3.tex:32: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/LogReturnsFordMotors.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 ...ding/Figures/EDA/LogReturnsFordMotors.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+1: section
+[10
+
+
+
+
+]
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/Ford_Hist.pdf' not found on input line 73.
+
+
+./Chapters/Chapter3.tex:73: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/Ford_Hist.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.73 ...ython Coding/Figures/EDA/Ford_Hist.pdf} }}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/Ford_KDE.pdf' not found on input line 75.
+
+
+./Chapters/Chapter3.tex:75: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/Ford_KDE.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.75 ...Python Coding/Figures/EDA/Ford_KDE.pdf} }}
+                                                  %
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package cleveref Info: loaded `english' language definitions on input line 81.
+[11]
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/QQplotFord.pdf' not found on input line 85.
+
+
+./Chapters/Chapter3.tex:85: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/QQplotFord.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.85 .../Python Coding/Figures/EDA/QQplotFord.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/TechnicalIndicators.pdf' not found on input line 97.
+
+
+./Chapters/Chapter3.tex:97: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/TechnicalIndicators.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.97 ...oding/Figures/EDA/TechnicalIndicators.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package cleveref Info: loaded `english' language definitions on input line 136.
+[12]
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/BoxPlotLogReturns.pdf' not found on input line 139.
+
+
+./Chapters/Chapter3.tex:139: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/BoxPlotLogReturns.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.139 ...Coding/Figures/EDA/BoxPlotLogReturns.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/PaiorwisePlot.pdf' not found on input line 150.
+
+
+./Chapters/Chapter3.tex:150: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/PaiorwisePlot.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.150 ...hon Coding/Figures/EDA/PaiorwisePlot.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/StockHeatMap.pdf' not found on input line 159.
+
+
+./Chapters/Chapter3.tex:159: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/StockHeatMap.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 ...thon Coding/Figures/EDA/StockHeatMap.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package cleveref Info: loaded `english' language definitions on input line 172.
+[13]
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/ACF_ford.pdf' not found on input line 175.
+
+
+./Chapters/Chapter3.tex:175: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/ACF_ford.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.175 ...ython Coding/Figures/EDA/ACF_ford.pdf} }}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/PACF_ford.pdf' not found on input line 177.
+
+
+./Chapters/Chapter3.tex:177: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/PACF_ford.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.177 ...thon Coding/Figures/EDA/PACF_ford.pdf} }}
+                                                  %
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+)
+Package cleveref Info: loaded `english' language definitions on input line 303.
+ [14]
+\openout2 = `Chapters/Chapter4.aux'.
+
+ (./Chapters/Chapter4.tex
+Chapter 4.
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Write-Up/Draft/Figures/Methodprocess.png' not found on input line 9.
+
+
+./Chapters/Chapter4.tex:9: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Write-Up/Draft/Figures/Methodprocess.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...s/Write-Up/Draft/Figures/Methodprocess.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/Methods/Untitled dwd.pdf' not found on input line 26.
+
+
+./Chapters/Chapter4.tex:26: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/Methods/Untitled dwd.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 ...n Coding/Figures/Methods/Untitled dwd.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+1: section
+[15
+
+
+
+
+]
+Package cleveref Info: loaded `english' language definitions on input line 77.
+ [16]
+Package cleveref Info: loaded `english' language definitions on input line 105.
+ [17]
+Package cleveref Info: loaded `english' language definitions on input line 112.
+ [18]
+
+LaTeX Warning: File `//Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/Methods/sfasdf.pdf' not found on input line 121.
+
+
+./Chapters/Chapter4.tex:121: Package pdftex.def Error: File `//Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/Methods/sfasdf.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.121 ...Python Coding/Figures/Methods/sfasdf.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/Methods/sdssddd.pdf' not found on input line 141.
+
+
+./Chapters/Chapter4.tex:141: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/Methods/sdssddd.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.141 ...ython Coding/Figures/Methods/sdssddd.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/Methods/sdsdsss.pdf' not found on input line 154.
+
+
+./Chapters/Chapter4.tex:154: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/Methods/sdsdsss.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.154 ...ython Coding/Figures/Methods/sdsdsss.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package cleveref Info: loaded `english' language definitions on input line 160.
+[19]
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/Methods/wswsw.pdf' not found on input line 170.
+
+
+./Chapters/Chapter4.tex:170: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/Methods/wswsw.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.170 .../Python Coding/Figures/Methods/wswsw.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package cleveref Info: loaded `english' language definitions on input line 196.
+[20]
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Write-Up/Draft/Figures/rf.png' not found on input line 206.
+
+
+./Chapters/Chapter4.tex:206: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Write-Up/Draft/Figures/rf.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.206 ...ect/Thesis/Write-Up/Draft/Figures/rf.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Write-Up/Draft/Figures/adaboost.png' not found on input line 227.
+
+
+./Chapters/Chapter4.tex:227: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Write-Up/Draft/Figures/adaboost.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.227 ...esis/Write-Up/Draft/Figures/adaboost.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 228.
+
+
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 228.
+
+Package cleveref Info: loaded `english' language definitions on input line 235.
+[21]
+./Chapters/Chapter4.tex:266: Missing $ inserted.
+<inserted text> 
+                $
+l.266 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Chapters/Chapter4.tex:266: Display math should end with $$.
+<to be read again> 
+                   \tex_par:D 
+l.266 
+      
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+./Chapters/Chapter4.tex:269: Missing $ inserted.
+<inserted text> 
+                $
+l.269 \item Y_
+              {t}=\text { function of lags of } Y_{t}$
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Package cleveref Info: loaded `english' language definitions on input line 283.
+[22]
+Package cleveref Info: loaded `english' language definitions on input line 320.
+ [23]
+./Chapters/Chapter4.tex:322: Undefined control sequence.
+<recently read> \neta 
+                      
+l.322 \item $\neta
+                  $: learning rate
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Write-Up/Draft/Figures/sgd.png' not found on input line 329.
+
+
+./Chapters/Chapter4.tex:329: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Write-Up/Draft/Figures/sgd.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.329 ...ct/Thesis/Write-Up/Draft/Figures/sgd.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package cleveref Info: loaded `english' language definitions on input line 367.
+[24]
+
+./Chapters/Chapter4.tex:398: LaTeX Error: Unicode character   (U+2009)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.398 \item Date 
+                   : the date of the day on which the following trades were ...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Chapters/Chapter4.tex:399: LaTeX Error: Unicode character   (U+2009)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.399 \item Open 
+                   :  the price of a single stock at the opening of the ma...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Chapters/Chapter4.tex:399: LaTeX Error: Unicode character   (U+2009)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.399 \item Open :  
+                        the price of a single stock at the opening of the ma...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Chapters/Chapter4.tex:400: LaTeX Error: Unicode character   (U+2009)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.400  \item High 
+                    : the highest price traded for the day
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Chapters/Chapter4.tex:401: LaTeX Error: Unicode character   (U+2009)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.401 \item Low 
+                  : the lowest price traded for the day
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Chapters/Chapter4.tex:402: LaTeX Error: Unicode character   (U+2009)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.402 \item Close 
+                    :  the price of the single stock at the closing of the...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Chapters/Chapter4.tex:402: LaTeX Error: Unicode character   (U+2009)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.402 \item Close :  
+                         the price of the single stock at the closing of the...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Chapters/Chapter4.tex:403: LaTeX Error: Unicode character   (U+2009)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.403 \item Adjusted Close 
+                             :  the adjusted closed price reflects the clo...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Chapters/Chapter4.tex:403: LaTeX Error: Unicode character   (U+2009)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.403 \item Adjusted Close :  
+                                  the adjusted closed price reflects the clo...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Chapters/Chapter4.tex:404: LaTeX Error: Unicode character   (U+2009)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.404 \item Volume 
+                     : refers to the amount of shares traded on that particu...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Package cleveref Info: loaded `english' language definitions on input line 416.
+[25]
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/Methods/Untitled Diagram.pdf' not found on input line 419.
+
+
+./Chapters/Chapter4.tex:419: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/Methods/Untitled Diagram.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.419 ...ing/Figures/Methods/Untitled Diagram.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package cleveref Info: loaded `english' language definitions on input line 446.
+[26])
+Package cleveref Info: loaded `english' language definitions on input line 304.
+ [27]
+\openout2 = `Chapters/Chapter5.aux'.
+
+ (./Chapters/Chapter5.tex
+Chapter 5.
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/Methods/Untitled Diadsdsdsgram.pdf' not found on input line 11.
+
+
+./Chapters/Chapter5.tex:11: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/Methods/Untitled Diadsdsdsgram.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 ...igures/Methods/Untitled Diadsdsdsgram.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+1: section
+[28
+
+
+
+
+]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package cleveref Info: loaded `english' language definitions on input line 105.
+[29]
+Package cleveref Info: loaded `english' language definitions on input line 152.
+ [30]
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/RF AND BOOST/VAL/RandomForestGRID.pdf' not found on input line 160.
+
+
+./Chapters/Chapter5.tex:160: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/RF AND BOOST/VAL/RandomForestGRID.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.160 ...es/RF AND BOOST/VAL/RandomForestGRID.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/RF AND BOOST/VAL/Best_Model_Boosting_2.pdf' not found on input line 193.
+
+
+./Chapters/Chapter5.tex:193: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/RF AND BOOST/VAL/Best_Model_Boosting_2.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.193 ... AND BOOST/VAL/Best_Model_Boosting_2.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package cleveref Info: loaded `english' language definitions on input line 215.
+[31]
+Package cleveref Info: loaded `english' language definitions on input line 217.
+ [32]
+./Chapters/Chapter5.tex:232: Undefined control sequence.
+l.232 ...order of the ARIMA model (Binner \textiot
+                                                  {et al.}, 2005). AIC is wr...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/ARIMA/DiagnosticsARIMA_301_FORD.pdf ' not found on input line 263.
+
+
+./Chapters/Chapter5.tex:263: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/ARIMA/DiagnosticsARIMA_301_FORD.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.263 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package cleveref Info: loaded `english' language definitions on input line 277.
+[33]
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/ANN/LOSS/ModelLoss_ANN_Google.pdf' not found on input line 292.
+
+
+./Chapters/Chapter5.tex:292: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/ANN/LOSS/ModelLoss_ANN_Google.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.292 ...gures/ANN/LOSS/ModelLoss_ANN_Google.pdf}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/ANN/LOSS/ModelLoss_ANN_Ford.pdf' not found on input line 293.
+
+
+./Chapters/Chapter5.tex:293: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/ANN/LOSS/ModelLoss_ANN_Ford.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.293 ...Figures/ANN/LOSS/ModelLoss_ANN_Ford.pdf}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/RF AND BOOST/BOOST_importance.pdf' not found on input line 319.
+
+
+./Chapters/Chapter5.tex:319: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/RF AND BOOST/BOOST_importance.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.319 ...gures/RF AND BOOST/BOOST_importance.pdf}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `//Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/RF AND BOOST/RF_importance.pdf' not found on input line 320.
+
+
+./Chapters/Chapter5.tex:320: Package pdftex.def Error: File `//Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/RF AND BOOST/RF_importance.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.320 .../Figures/RF AND BOOST/RF_importance.pdf}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (15.65215pt too wide) in paragraph at lines 319--321
+[][][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+)
+Package cleveref Info: loaded `english' language definitions on input line 305.
+ [34]
+Package cleveref Info: loaded `english' language definitions on input line 305.
+ [35]
+\openout2 = `Chapters/Chapter6.aux'.
+
+ (./Chapters/Chapter6.tex
+Chapter 6.
+./Chapters/Chapter6.tex:27: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.27  \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Overfull \hbox (4.66862pt too wide) in paragraph at lines 14--27
+[][] 
+ []
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/RF AND BOOST/CONF/ConfidenceMatrix_RF_Ford.pdf' not found on input line 39.
+
+
+./Chapters/Chapter6.tex:39: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/RF AND BOOST/CONF/ConfidenceMatrix_RF_Ford.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 ... BOOST/CONF/ConfidenceMatrix_RF_Ford.pdf}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/RF AND BOOST/CONF/ConfidenceMatrix_Ada_Ford.pdf' not found on input line 40.
+
+
+./Chapters/Chapter6.tex:40: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/RF AND BOOST/CONF/ConfidenceMatrix_Ada_Ford.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 ...BOOST/CONF/ConfidenceMatrix_Ada_Ford.pdf}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/ANN/CONF/ConfidenceMatrix_FFNN_Uni_Ford.pdf' not found on input line 41.
+
+
+./Chapters/Chapter6.tex:41: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/ANN/CONF/ConfidenceMatrix_FFNN_Uni_Ford.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 .../CONF/ConfidenceMatrix_FFNN_Uni_Ford.pdf}}
+                                                   \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/ANN/CONF/ConfidenceMatrix_FFNN_Multi_Ford.pdf' not found on input line 42.
+
+
+./Chapters/Chapter6.tex:42: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/ANN/CONF/ConfidenceMatrix_FFNN_Multi_Ford.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 ...ONF/ConfidenceMatrix_FFNN_Multi_Ford.pdf}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/LSTM/CONF/ConfidenceMatrix_LSTM_Uni_Ford.pdf' not found on input line 43.
+
+
+./Chapters/Chapter6.tex:43: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/LSTM/CONF/ConfidenceMatrix_LSTM_Uni_Ford.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 .../CONF/ConfidenceMatrix_LSTM_Uni_Ford.pdf}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/LSTM/CONF/ConfidenceMatrix_LSTM_Multi_Ford.pdf' not found on input line 44.
+
+
+./Chapters/Chapter6.tex:44: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/LSTM/CONF/ConfidenceMatrix_LSTM_Multi_Ford.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.44 ...ONF/ConfidenceMatrix_LSTM_Multi_Ford.pdf}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+1: section
+[36
+
+
+
+
+]
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/RF AND BOOST/AOC/ROC_AUC_BOTH_RANDOMFOREST.pdf' not found on input line 60.
+
+
+./Chapters/Chapter6.tex:60: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/RF AND BOOST/AOC/ROC_AUC_BOTH_RANDOMFOREST.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ... BOOST/AOC/ROC_AUC_BOTH_RANDOMFOREST.pdf}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/RF AND BOOST/AOC/ROC_AUC_BOTH_BOOSTING.pdf' not found on input line 61.
+
+
+./Chapters/Chapter6.tex:61: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/RF AND BOOST/AOC/ROC_AUC_BOTH_BOOSTING.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ... AND BOOST/AOC/ROC_AUC_BOTH_BOOSTING.pdf}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (19.92116pt too wide) in paragraph at lines 60--62
+ [][][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/ANN/ROC AUC/ROC_AUC_BOTH_FFNN.pdf' not found on input line 73.
+
+
+./Chapters/Chapter6.tex:73: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/ANN/ROC AUC/ROC_AUC_BOTH_FFNN.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.73 ...igures/ANN/ROC AUC/ROC_AUC_BOTH_FFNN.pdf}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/LSTM/AUC/ROC_AUC_BOTH_LSTM.pdf' not found on input line 74.
+
+
+./Chapters/Chapter6.tex:74: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/LSTM/AUC/ROC_AUC_BOTH_LSTM.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74 ...g/Figures/LSTM/AUC/ROC_AUC_BOTH_LSTM.pdf}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (19.92116pt too wide) in paragraph at lines 73--75
+ [][][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/ARIMA/CONF/ConfidenceMatrix_ARIMA_Ford.pdf' not found on input line 86.
+
+
+./Chapters/Chapter6.tex:86: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/ARIMA/CONF/ConfidenceMatrix_ARIMA_Ford.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.86 ...IMA/CONF/ConfidenceMatrix_ARIMA_Ford.pdf}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/ARIMA/CONF/ConfidenceMatrix_ARIMA_Google.pdf' not found on input line 87.
+
+
+./Chapters/Chapter6.tex:87: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/ARIMA/CONF/ConfidenceMatrix_ARIMA_Google.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.87 ...A/CONF/ConfidenceMatrix_ARIMA_Google.pdf}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/ARIMA/CONF/ConfidenceMatrix_ARIMA_Motorola.pdf' not found on input line 88.
+
+
+./Chapters/Chapter6.tex:88: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/ARIMA/CONF/ConfidenceMatrix_ARIMA_Motorola.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.88 ...CONF/ConfidenceMatrix_ARIMA_Motorola.pdf}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package cleveref Info: loaded `english' language definitions on input line 93.
+[37]
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/LSTM/Returns/Returns_LSTM_Ford.pdf' not found on input line 99.
+
+
+./Chapters/Chapter6.tex:99: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/LSTM/Returns/Returns_LSTM_Ford.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.99 ...gures/LSTM/Returns/Returns_LSTM_Ford.pdf}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/ANN/Returns/RETURNS_ANN_FORD.pdf' not found on input line 100.
+
+
+./Chapters/Chapter6.tex:100: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/ANN/Returns/RETURNS_ANN_FORD.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100 ...igures/ANN/Returns/RETURNS_ANN_FORD.pdf}}
+                                                      \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `//Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/RF AND BOOST/RETURNS/Returns_RandomForest_Ford.pdf' not found on input line 101.
+
+
+./Chapters/Chapter6.tex:101: Package pdftex.def Error: File `//Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/RF AND BOOST/RETURNS/Returns_RandomForest_Ford.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.101 ...T/RETURNS/Returns_RandomForest_Ford.pdf}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `//Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/RF AND BOOST/RETURNS/Returns_AdaBoost_Ford.pdf' not found on input line 102.
+
+
+./Chapters/Chapter6.tex:102: Package pdftex.def Error: File `//Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/RF AND BOOST/RETURNS/Returns_AdaBoost_Ford.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.102 ...BOOST/RETURNS/Returns_AdaBoost_Ford.pdf}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+)
+Package cleveref Info: loaded `english' language definitions on input line 306.
+ [38]
+Package cleveref Info: loaded `english' language definitions on input line 306.
+ [39]
+Package cleveref Info: loaded `english' language definitions on input line 306.
+ [40]
+\openout2 = `Chapters/Chapter7.aux'.
+
+ (./Chapters/Chapter7.tex
+Chapter 7.
+
+Overfull \hbox (2.77153pt too wide) in paragraph at lines 16--17
+[]\T1/ptm/m/n/12 Comparing our ma-chine learn-ing mod-els to the ARIMA model re-sults, we ac-knowl-edged that the ARIMA
+ []
+
+1: section
+[41
+
+
+
+
+]
+Package cleveref Info: loaded `english' language definitions on input line 54.
+ [42])
+Package cleveref Info: loaded `english' language definitions on input line 307.
+ [43]
+\openout2 = `Appendices/AppendixA.aux'.
+
+ (./Appendices/AppendixA.tex
+Appendix A.
+)
+1: section
+[44
+
+
+
+
+]
+\openout2 = `Appendices/AppendixB.aux'.
+
+ (./Appendices/AppendixB.tex
+Appendix B.
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/ClosingPriceMotorola.pdf' not found on input line 7.
+
+
+./Appendices/AppendixB.tex:7: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/ClosingPriceMotorola.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 ...ding/Figures/EDA/ClosingPriceMotorola.pdf}}
+                                                   \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/ClosingPriceGoogle.pdf' not found on input line 8.
+
+
+./Appendices/AppendixB.tex:8: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/ClosingPriceGoogle.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 ...Coding/Figures/EDA/ClosingPriceGoogle.pdf}}
+                                                      \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/ClosingPriceFordMotors.pdf' not found on input line 9.
+
+
+./Appendices/AppendixB.tex:9: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/ClosingPriceFordMotors.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...ng/Figures/EDA/ClosingPriceFordMotors.pdf}}
+                                                   \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Float too large for page by 303.15392pt on input line 12.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+1: section
+[45
+
+
+
+
+]
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/LogReturnsMotorola.pdf' not found on input line 19.
+
+
+./Appendices/AppendixB.tex:19: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/LogReturnsMotorola.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...oding/Figures/EDA/LogReturnsMotorola.pdf}}
+                                                   \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/LogReturnsGoogle.pdf' not found on input line 20.
+
+
+./Appendices/AppendixB.tex:20: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/LogReturnsGoogle.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ... Coding/Figures/EDA/LogReturnsGoogle.pdf}}
+                                                      \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/LogReturnsFordMotors.pdf' not found on input line 21.
+
+
+./Appendices/AppendixB.tex:21: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/LogReturnsFordMotors.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...ing/Figures/EDA/LogReturnsFordMotors.pdf}}
+                                                   \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Float too large for page by 303.15392pt on input line 24.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package cleveref Info: loaded `english' language definitions on input line 26.
+[46]
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/QQplotMotorola.pdf' not found on input line 32.
+
+
+./Appendices/AppendixB.tex:32: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/QQplotMotorola.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 ...on Coding/Figures/EDA/QQplotMotorola.pdf}}
+                                                   \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/QQplotGoogle.pdf' not found on input line 33.
+
+
+./Appendices/AppendixB.tex:33: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/QQplotGoogle.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 ...thon Coding/Figures/EDA/QQplotGoogle.pdf}}
+                                                      \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/QQplotFord.pdf' not found on input line 34.
+
+
+./Appendices/AppendixB.tex:34: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/QQplotFord.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 ...Python Coding/Figures/EDA/QQplotFord.pdf}}
+                                                   \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Float too large for page by 303.15392pt on input line 37.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package cleveref Info: loaded `english' language definitions on input line 39.
+[47]
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/ACF_ford.pdf' not found on input line 44.
+
+
+./Appendices/AppendixB.tex:44: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/ACF_ford.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.44 ...s/Python Coding/Figures/EDA/ACF_ford.pdf}}
+                                                   \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/ACF_google.pdf' not found on input line 45.
+
+
+./Appendices/AppendixB.tex:45: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/ACF_google.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 ...Python Coding/Figures/EDA/ACF_google.pdf}}
+                                                      \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/ACF_Motorola.pdf' not found on input line 46.
+
+
+./Appendices/AppendixB.tex:46: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/ACF_Motorola.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 ...thon Coding/Figures/EDA/ACF_Motorola.pdf}}
+                                                   \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Float too large for page by 303.15392pt on input line 49.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/PACF_ford.pdf' not found on input line 54.
+
+
+./Appendices/AppendixB.tex:54: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/PACF_ford.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 .../Python Coding/Figures/EDA/PACF_ford.pdf}}
+                                                   \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/PACF_google.pdf' not found on input line 55.
+
+
+./Appendices/AppendixB.tex:55: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/PACF_google.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.55 ...ython Coding/Figures/EDA/PACF_google.pdf}}
+                                                      \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/PACF_Motorola.pdf' not found on input line 56.
+
+
+./Appendices/AppendixB.tex:56: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/PACF_Motorola.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.56 ...hon Coding/Figures/EDA/PACF_Motorola.pdf}}
+                                                   \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Float too large for page by 303.15392pt on input line 59.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+)
+Package cleveref Info: loaded `english' language definitions on input line 319.
+ [48]
+Package cleveref Info: loaded `english' language definitions on input line 319.
+ [49]
+Package cleveref Info: loaded `english' language definitions on input line 319.
+ [50]
+Package cleveref Info: loaded `english' language definitions on input line 319.
+ [51]
+Package cleveref Info: loaded `english' language definitions on input line 319.
+ [52]
+Package cleveref Info: loaded `english' language definitions on input line 319.
+ [53]
+\openout2 = `Appendices/AppendixC.aux'.
+
+ (./Appendices/AppendixC.tex
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+
+ []
+
+Package cleveref Info: loaded `english' language definitions on input line 66.
+[54
+
+
+
+])
+Package cleveref Info: loaded `english' language definitions on input line 320.
+ [55]
+\openout2 = `Appendices/AppendixD.aux'.
+
+ (./Appendices/AppendixD.tex
+Appendix C.
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/RF AND BOOST/VAL/Best_Model_Boosting_0.pdf' not found on input line 13.
+
+
+./Appendices/AppendixD.tex:13: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/RF AND BOOST/VAL/Best_Model_Boosting_0.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ... AND BOOST/VAL/Best_Model_Boosting_0.pdf}}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/RF AND BOOST/VAL/Best_Model_Boosting_1.pdf' not found on input line 14.
+
+
+./Appendices/AppendixD.tex:14: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/RF AND BOOST/VAL/Best_Model_Boosting_1.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 ... AND BOOST/VAL/Best_Model_Boosting_1.pdf}}
+                                                      \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/RF AND BOOST/VAL/Best_Model_Boosting_2.pdf' not found on input line 15.
+
+
+./Appendices/AppendixD.tex:15: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/RF AND BOOST/VAL/Best_Model_Boosting_2.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 ... AND BOOST/VAL/Best_Model_Boosting_2.pdf}}
+                                                   \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Float too large for page by 258.33034pt on input line 18.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+1: section
+[56
+
+
+
+
+]
+Package cleveref Info: loaded `english' language definitions on input line 21.
+ [57]
+Appendix D.
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/ANN/LOSS/ModelLoss_ANN_Ford.pdf' not found on input line 26.
+
+
+./Appendices/AppendixD.tex:26: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/ANN/LOSS/ModelLoss_ANN_Ford.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 .../Figures/ANN/LOSS/ModelLoss_ANN_Ford.pdf}}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/ANN/LOSS/ModelLoss_ANN_Motorola.pdf' not found on input line 27.
+
+
+./Appendices/AppendixD.tex:27: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/ANN/LOSS/ModelLoss_ANN_Motorola.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...ures/ANN/LOSS/ModelLoss_ANN_Motorola.pdf}}
+                                                      \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/ANN/LOSS/ModelLoss_ANN_Google.pdf' not found on input line 28.
+
+
+./Appendices/AppendixD.tex:28: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/ANN/LOSS/ModelLoss_ANN_Google.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 ...igures/ANN/LOSS/ModelLoss_ANN_Google.pdf}}
+                                                   \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Float too large for page by 258.33034pt on input line 31.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+)
+1: section
+[58
+
+]
+Package cleveref Info: loaded `english' language definitions on input line 321.
+ [59]
+\openout2 = `Appendices/AppendixE.aux'.
+
+ (./Appendices/AppendixE.tex
+Appendix E.
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/RF AND BOOST/CONF/ConfidenceMatrix_RF_Google.pdf' not found on input line 10.
+
+
+./Appendices/AppendixE.tex:10: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/RF AND BOOST/CONF/ConfidenceMatrix_RF_Google.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 ...OOST/CONF/ConfidenceMatrix_RF_Google.pdf}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/RF AND BOOST/CONF/ConfidenceMatrix_Ada_Google.pdf' not found on input line 11.
+
+
+./Appendices/AppendixE.tex:11: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/RF AND BOOST/CONF/ConfidenceMatrix_Ada_Google.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 ...OST/CONF/ConfidenceMatrix_Ada_Google.pdf}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/ANN/CONF/ConfidenceMatrix_FFNN_Uni_Google.pdf' not found on input line 12.
+
+
+./Appendices/AppendixE.tex:12: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/ANN/CONF/ConfidenceMatrix_FFNN_Uni_Google.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 ...ONF/ConfidenceMatrix_FFNN_Uni_Google.pdf}}
+                                                   \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/ANN/CONF/ConfidenceMatrix_FFNN_Multi_Google.pdf' not found on input line 13.
+
+
+./Appendices/AppendixE.tex:13: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/ANN/CONF/ConfidenceMatrix_FFNN_Multi_Google.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ...F/ConfidenceMatrix_FFNN_Multi_Google.pdf}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/LSTM/CONF/ConfidenceMatrix_LSTM_Uni_Google.pdf' not found on input line 14.
+
+
+./Appendices/AppendixE.tex:14: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/LSTM/CONF/ConfidenceMatrix_LSTM_Uni_Google.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 ...ONF/ConfidenceMatrix_LSTM_Uni_Google.pdf}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/LSTM/CONF/ConfidenceMatrix_LSTM_Multi_Google.pdf' not found on input line 15.
+
+
+./Appendices/AppendixE.tex:15: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/LSTM/CONF/ConfidenceMatrix_LSTM_Multi_Google.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 ...F/ConfidenceMatrix_LSTM_Multi_Google.pdf}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/RF AND BOOST/CONF/ConfidenceMatrix_RF_Motorola.pdf' not found on input line 24.
+
+
+./Appendices/AppendixE.tex:24: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/RF AND BOOST/CONF/ConfidenceMatrix_RF_Motorola.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 ...ST/CONF/ConfidenceMatrix_RF_Motorola.pdf}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/RF AND BOOST/CONF/ConfidenceMatrix_Ada_Motorola.pdf' not found on input line 25.
+
+
+./Appendices/AppendixE.tex:25: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/RF AND BOOST/CONF/ConfidenceMatrix_Ada_Motorola.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 ...T/CONF/ConfidenceMatrix_Ada_Motorola.pdf}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/ANN/CONF/ConfidenceMatrix_FFNN_Uni_Motorola.pdf' not found on input line 26.
+
+
+./Appendices/AppendixE.tex:26: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/ANN/CONF/ConfidenceMatrix_FFNN_Uni_Motorola.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 ...F/ConfidenceMatrix_FFNN_Uni_Motorola.pdf}}
+                                                   \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/ANN/CONF/ConfidenceMatrix_FFNN_Multi_Motorola.pdf' not found on input line 27.
+
+
+./Appendices/AppendixE.tex:27: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/ANN/CONF/ConfidenceMatrix_FFNN_Multi_Motorola.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...ConfidenceMatrix_FFNN_Multi_Motorola.pdf}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/LSTM/CONF/ConfidenceMatrix_LSTM_Uni_Motorola.pdf' not found on input line 28.
+
+
+./Appendices/AppendixE.tex:28: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/LSTM/CONF/ConfidenceMatrix_LSTM_Uni_Motorola.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 ...F/ConfidenceMatrix_LSTM_Uni_Motorola.pdf}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/LSTM/CONF/ConfidenceMatrix_LSTM_Multi_Motorola.pdf' not found on input line 29.
+
+
+./Appendices/AppendixE.tex:29: Package pdftex.def Error: File `/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/LSTM/CONF/ConfidenceMatrix_LSTM_Multi_Motorola.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 ...ConfidenceMatrix_LSTM_Multi_Motorola.pdf}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+)
+1: section
+[60
+
+
+
+
+]
+Package cleveref Info: loaded `english' language definitions on input line 322.
+ [61]
+
+/Users/pavansingh/Library/CloudStorage/GoogleDrive-sngpav003@myuct.ac.za/My Drive/Masters 2022/Dissertation/Masters-Dissertation/Writing/SNGPAV003_Thesis.tex:334: Package biblatex Error: '\bibliographystyle' invalid for 'biblatex'.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.334 \bibliographystyle{plain}
+                               
+Use the package option 'style' instead.
+I'm ignoring this command.
+
+
+/Users/pavansingh/Library/CloudStorage/GoogleDrive-sngpav003@myuct.ac.za/My Drive/Masters 2022/Dissertation/Masters-Dissertation/Writing/SNGPAV003_Thesis.tex:337: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.337 \bibliography
+                   {}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+(./SNGPAV003_Thesis.aux
+Package cleveref Info: loaded `english' language definitions on input line 22.
+ (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux) (./Chapters/Chapter5.aux) (./Chapters/Chapter6.aux) (./Chapters/Chapter7.aux) (./Appendices/AppendixA.aux) (./Appendices/AppendixB.aux) (./Appendices/AppendixC.aux) (./Appendices/AppendixD.aux) (./Appendices/AppendixE.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `SNGPAV003_Thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `SNGPAV003_Thesis.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  B332EF909E38A3E33ADD94A852D75C9D;12381.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                SNGPAV003_Thesis
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'SNGPAV003_Thesis.run.xml'.
+\openout1 = `SNGPAV003_Thesis.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 48115 strings out of 478268
+ 1286348 string characters out of 5846347
+ 1702313 words of memory out of 5000000
+ 65098 multiletter control sequences out of 15000+600000
+ 578572 words of font info for 173 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 96i,20n,93p,2216b,2126s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/yhmath/yhcmex.pfb>
+Output written on SNGPAV003_Thesis.pdf (67 pages, 428417 bytes).
+PDF statistics:
+ 634 PDF objects out of 1000 (max. 8388607)
+ 512 compressed objects within 6 object streams
+ 241 named destinations out of 1000 (max. 500000)
+ 131 words of extra memory for PDF output out of 10000 (max. 10000000)
+
