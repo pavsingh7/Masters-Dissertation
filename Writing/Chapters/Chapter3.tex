@@ -1,187 +1,55 @@
 % Chapter Template
 
-\chapter{Exploratory Data Analysis} % Main chapter title
+\chapter{Data Exploration and Analysis} % Main chapter title
 
 \label{Chapter3} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
 
-This section looks at the implementation of various tools to help decompose and analyse the structure of the datasets. An important part of statistics, involves the analysis, organisation, presentation, and summary of data. 
 
 %----------------------------------------------------------------------------------------
 %	SECTION 1
 %----------------------------------------------------------------------------------------
 
-\section{Time Series Analysis}
-
-A time series is a sequence of observations in chronological order and forecasting is predicting the future using past data.  In our project we implement several models for time series forecasting. The data we are concerned with are the log returns of three stocks. It is not often that the original data will be appropriate to use immediately for processing. Figure 3.1 looks at the evolution of the closing price for the three stocks - Ford Motors, Google and Motorola. 
-
-\begin{figure}[h]
-\centering
-  \includegraphics[scale =0.34]{/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/GrowthOfStocks.pdf}
-  \caption{Closing price for Google, Ford and Motorola stocks between 2005 and 2015.}
-  \label{}
-\end{figure}
-
-Figure 3.1 illustrates the tremendous growth Google has had during the period 2005 to 2015. In contrast, Motorola and Ford stock value has not experienced similar growth. In fact Ford stock value appears to have faced extended periods of negative growth between 2006 and 2010. The decrease of stock value between 2008 and 2010 is attributed to the Global financial crisis. Ford Motors stock value is considerably lower than Google, and hence their evolution of price is not clearly illustrated in the plot. A clearer representation for the evolution of each stock value is found in appendix B. 
-
-Given time series data, it is necessary to pre-analyse, as well as preprocess the time series. It is necessary to remove any known characteristics of the data which could hamper the performance of the models' forecast accuracy (Metcalfe, 2009). For example, figure 3.1 illustrates time series data with trend \footnote{Trend refers to the phenomenon that the average value of sequence elements is constantly rising or falling.}. Trend and seasonality effects, mean that the behaviour of a time series is subject to repetition and change at the same time. While similar patters may repeat over time - such as periodic patterns due to a periodic influencing factor (e.g. day of the week or time of year for trading), the frequency and intensity of those are usually not constant. Another reason for eliminating trends and seasonalities (or, for that matter, any other clearly visible or well-known pattern) is that many traditional techniques such as ARIMA, require stationarity of the time series. 
-
-In our project we are concerned with predicting the movement of daily log returns, as such we computed the daily log returns for the three stocks. Figure 3.2 (pictured below) illustrates the daily log returns for Ford motors over the period 2005 and 2015. The daily log returns for Google and Motorola can be found in appendix B.
-
-\begin{figure}[h]
-\centering
-  \includegraphics[scale =0.34]{/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/LogReturnsFordMotors.pdf}
-  \caption{Log Daily Returns for Ford Motors stock from 2005 to 2015}
-  \label{}
-\end{figure}
-
-The data shown in Figure 3.2 are typical of daily log return data for stocks. The mean of the series appears to be stable with an average return of approximately zero. As such, despite the individual large random fluctuations in daily log returns for Ford Motors, the series appears stationary, meaning that the nature of its random variation is constant over time. We also see volatility clustering, because there are periods of higher, and of lower, variation within each series that tend to be clustered together. The volatility clustering is not indicative of a lack of stationarity but rather can be viewed as a type of dependence in the conditional variance of each series (Metcalfe, 2009). 
-
-\section{Stationarity}
-
-Stationarity is a property of a time series. A stationary series is one where the value of the series are not a function of time. That is, the statistical properties of the series like mean, variance and autocorrelation are constant over time (Metcalfe, 2009). It is important for the data to be stationary in order to avoid spurious regression - a regression that produces misleading statistical evidence of relationships between independent non-stationary variables. In order to receive consistent and reliable results, non-stationary data needs to be transformed into stationary data. Non-stationary data may be generated by an underlying process that is affected by a trend, a seasonal effect, presence of a unit root, or a combination of all three. 
-
-By computing the log returns, from visual inspection (shown in Figure 3.2) the time series appears to exhibit stationarity. However visual inspection is not satisfactory. To quantitatively determine if a given series is stationary or not, we used the Augmented Dickey Fuller test (ADF Test). Here, the null hypothesis is the time series possesses a unit root and is non-stationary (Metcalfe, 2009). The results of the test are shown below in Table 3.1. 
-
-\begin{table}[h]
-\centering
-\begin{tabular}{llll}
-\toprule
-
-               & Ford Motors & Google    & Motorola  \\
-               \midrule
-
-Test-Statistic & -8.564      & -17.097   & -8.920    \\
-p-value        & 8.556e-14   & 7.522e-30 & 1.044e-14 \\
-\bottomrule
-
-\end{tabular}
-\caption{Results from augmented Dickey Fuller test.}
-\end{table}
-
-Across all stocks, we observe low p-values, hence we reject the null hypothesis and can proceed assuming our series are stationary. We look to achieve stationarity since it is  necessary so that averaging lagged products over time will be a sensible. Moreover, the sample autocorrelation  function becomes consistent - so we able to estimate autocorrelations with precision. And additionally, it is required for our ARIMA modelling. Our log transformation of the data, proved suitable to create a stationary series. 
-
-
-%-----------------------------------
-%	SUBSECTION 1
-%-----------------------------------
-\section{Data and Variables}
-
-The variables in the dataset used in this project is made up of OHLCV (open, high, low, close, volume) as well as several technical indicators. The kernel density estimation is a non-parametric way to estimate the probability density function of a random variable. To illustrate the distribution of log daily returns for Ford Motors, we use both a histogram and kernel density estimator.
-
-\begin{figure}[h]
-    \centering
-    \subfloat{{\includegraphics[scale=0.43]{/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/Ford_Hist.pdf} }}
-    \qquad
-    \subfloat{{\includegraphics[scale=0.19]{/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/Ford_KDE.pdf} }}%
-    \caption{Histogram and kernel density estimator.}%
-    \label{}%
-\end{figure}
-
-Visually the outliers may be difficult to see due to the large sample size. We see that the returns closely resemble a symmetric distribution. However, we can see that the distribution has rather narrow peak to be normally distributed. This may suggest later exploring if the distribution is in fact normal. We can look at a QQ-plot to show the distribution of the daily log returns data against the expected normal distribution.
-
-
-\begin{figure}[h]
-\centering
-  \includegraphics[scale =0.3]{/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/QQplotFord.pdf}
-  \caption{QQ-Plot of daily log returns for Ford Motors.}
-  \label{}
-\end{figure}
-
-If the set of quantiles from the Ford data come from a normal distribution, then we should see the points forming a line that’s roughly straight (Metcalfe, 2009). Figure 3.4 shows that this is not the case. We notice the points fall along a line in the middle of the graph, but curve off in the extremities. That is, the Q-Q plot highlights the fat tails of the distribution with extreme values more frequent than the normal distribution would suggest 
-Normal Q-Q plots that exhibit this behaviour usually indicate that the data have more extreme values than would be expected if they truly came from a Normal distribution. Similarly, the daily log returns for Motorola and Google also display departures from normality’s in the tails - see appendix B. We further explore this in the next section 3.4.
-
-We look at some of the technical indicators included in the study on Ford Motors. The indicators are overlayed on the closing price for Ford closing price, 200 days prior to our testing set - the unseen data on which we assess our models.
-
-\begin{figure}[!h]
-\centering
-  \includegraphics[scale =0.34]{/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/TechnicalIndicators.pdf}
-  \caption{Several technical indicators on closing price of Ford Motors stock taken from the last 200 Days.}
-  \label{}
-\end{figure}
-
-The Bollinger Bands are envelopes plotted at a standard deviation level above and below a simple moving average of the price. These help determine whether prices are high or low on a relative basis. We see there are a couple cases where the closing price deviates out of the envelope in the past 200 days. When stock prices continually touch the upper Bollinger Bands the prices are thought to be overbought; conversely, when they continually touch the lower band, prices are thought to be oversold, triggering a buy signal. A clear case of this signal working well, is during the last few days, where the closing price touched the lower band. Days later the stock closing price increased.  These bands are used in pairs, both upper and lower bands and in conjunction with a moving average. The Moving Average essentially takes a specified number of past days, takes the average of those days, and plots it on the graph. For a 7-day moving average (MA7 on figure 3.5), it takes the last 7 days, and similarly, the 21-day moving average using the past 21 days prices. These short term moving averages are best suited for short-term trends and trading (Nelson \textit{et al.}, 2017). The moving averages help with identifying trends to aid in identifying buy and sell signals. When the closing price breaks past an upwardly sloping moving average, this could indicate it is a good time to purchase the stock. The moving average can also act as a support line, that suggests that a closing price which approaches a support line may rally up again and thus signal a buy. 
-
-We also notice that the Ford Motors stock value has experienced substantial change in value over this 200 day period, reaching a high value of 12.77 and a low of 9.81. 
-
-%-----------------------------------
-%	SUBSECTION 2
-%-----------------------------------
-
-\section{Summary Statistics}
-
-By computing the summary statistics for our data, we can quickly understand the characteristics of our data sets. Table 4.2 shows the summary statistics for all three stocks.
-
-\begin{table}[h]
-\centering
-\begin{tabular}{lrrr}
-\toprule
-{} &  Ford Motors &       Google &     Motorola \\
-\midrule
-count &  2515 &  2515 &  2515 \\
-mean  &     0.000021 &     0.000658 &    -0.000008 \\
-SD   &     0.029800 &     0.019708 &     0.023202 \\
-min   &    -0.287682 &    -0.123402 &    -0.207639 \\
-25\%   &    -0.012454 &    -0.008286 &    -0.009973 \\
-50\%   &     0.000000 &     0.000384 &     0.000150 \\
-75\%   &     0.012354 &     0.010165 &     0.009720 \\
-max   &     0.258650 &     0.182251 &     0.174097 \\
-kurtosis   &     13.1942306 &     9.106027 &     9.678477 \\
-skewness   &     0.0253992 &     0.360065 &     -0.500873 \\
-\bottomrule
-\end{tabular}
-\caption{Summary statistics for Ford, Google and Motorola stocks from 2005 to 2015. Where SD refers to standard deviation and 25\%, 50\%, 75\% refer to the lower, median and upper quartiles respectively.}
-\end{table}
-
-In table 3.2, the mean daily log return for the three stocks are very small and close to 0. The range of returns appears to be quite high across all three stocks. The sample departures from the normal distribution are summarised by the coefficients of skewness and Kurtosis. Formally, kurtosis is a measure of the combined weight of a distribution's tails relative to the centre of the distribution, while skewness is the measure of how much the probability distribution of a random variable deviates from the normal distribution (the skewness for a normal distribution is zero). If the kurtosis is greater than 3, then the dataset has heavier tails than a normal distribution (more in the tails). We see that Ford motors has the greatest kurtosis value. Google and Motorola have similar values for Kurtosis.  In the previous section we noted that the distribution of the daily log returns for Ford Motors greatly departs from normality in the tails. We can further explore the tails of the distribution for daily log returns of all three stocks. This is illustrated by the box-plot in figure 3.6.
-
-\begin{figure}[h]
-\centering
-  \includegraphics[scale =0.3]{/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/BoxPlotLogReturns.pdf}
-  \caption{Box-Plot of Daily Log Returns for Ford, Google and Motorola stock from 2005 to 2015}
-  \label{}
-\end{figure}
-
-We again notice that the mean is close to 0 amongst all the stocks and spread is generally small for the central part of the distribution - this indicates that the data are very peaked but long-tailed. Ford Motors daily log returns appears to have the greatest variation amongst the stocks.  We notice a large proportion of extreme values for all the stocks. Although Ford Motors, has a noticeably greater range of values. 
-
-Finally, we can assess the association between the three chosen stocks. We explore a pairs plot, which is simply a matrix of scatterplots.
-
-\begin{figure}[h]
-\centering
-  \includegraphics[scale =0.51]{/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/PaiorwisePlot.pdf}
-  \caption{Pairs Plot of Log Daily Returns for Ford, Google and Motorola}
-  \label{}
-\end{figure}
-
-Figure 3.7, lets us see both distribution of single variables and relationships between two variables. We note that Ford and Google exhibit a stronger relationship than Motorola, where higher returns for Google stock are associated with higher log returns of Ford Stock in general. These findings are confirmed by computing the correlation between these variables. The higher correlation value between Google and Ford indicates that the returns of the two time series data tend to move together.
-
-\begin{figure}[h]
-\centering
-  \includegraphics[scale =0.25]{/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/StockHeatMap.pdf}
-  \caption{Correlation Heat Map of Log Daily Returns for Ford, Google and Motorola stocks for 2005 to 2015}
-  \label{}
-\end{figure}
-
+\section{Background}
 
 
 %----------------------------------------------------------------------------------------
 %	SECTION 2
 %----------------------------------------------------------------------------------------
 
-\section{Autocorrelation}
-After our time series has become stationary by transformation, the next step for fitting our ARIMA model is to determine whether AR or MA terms are needed to model any autocorrelation that remains in the transformed series. By looking at the autocorrelation function (ACF) and partial autocorrelation (PACF) plots of the series, we can tentatively identify the values of $p$ (AR) and $q$ (MA) terms that are needed for our ARIMA model. Autocorrelation is the correlation of a series with its own lags. The autocorrelation function )ACF) plot in figure 3.9 is shown below with the confidence band. The Partial Autocorrelation Function (PACF) conveys similar information but it conveys the pure correlation of a series and its lag, excluding the correlation contributions from the intermediate lags. We use the plots of these two measures to infer the parameterisation of our ARIMA model. 
 
-\begin{figure}[h]
-    \centering
-    \subfloat{{\includegraphics[scale=0.205]{/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/ACF_ford.pdf} }}
-    \qquad
-    \subfloat{{\includegraphics[scale=0.205]{/Users/pavansingh/Google Drive (UCT)/STA Honours/Project/Thesis/Python Coding/Figures/EDA/PACF_ford.pdf} }}%
-    \caption{Autocorrelations and Partial Autocorrelation Functions for Log Returns of Ford Motors}
-    \label{}%
-\end{figure}
+\section{Variable Description}
 
-The blue shaded region in figure 3.9 is the confidence envelope with default value of $\alpha$ = 0.05. Anything within this range represents a value that has no significant correlation. The ACF and the PACF show similar patterns with autocorrelation at several lags appearing significant. The results of figure 3.9, indicate that returns may be autocorrelated till lag 2. We also note that lags 10, 13, 19 and 20 appear significant. The lags that appear to be significant, can be used to parameterise our ARIMA model. The order $q$ of the MA process of our ARIMA model is obtained from the ACF plot. We note that the PACF in figure 3.9 also has very few significant spikes. We use this figure to infer suitable parametrisation for the $p$ in our ARIMA model. We manually configured ARIMA models for different combination of values for $p$ and $q$ to achieve the best model. We chose to try values of $p = 0,1,2$ and $q = 0,1,2$. The length of the lag $p$ is to be chosen so that the residuals are not serially correlated. For examining the information criteria for choosing lags, we went about looking to minimise the Akaike information criterion (AIC). The PACF and ACF plots of the other stocks can be seen in appendix B.
+%----------------------------------------------------------------------------------------
+%	SECTION 3
+%----------------------------------------------------------------------------------------
 
 
+\section{Data Collection and Preparation}
+
+%----------------------------------------------------------------------------------------
+%	SECTION 4
+%----------------------------------------------------------------------------------------
 
 
+\section{Data Partitioning}
 
+%----------------------------------------------------------------------------------------
+%	SECTION 5
+%----------------------------------------------------------------------------------------
+
+
+\section{Data Summary}
+
+%----------------------------------------------------------------------------------------
+%	SECTION 6
+%----------------------------------------------------------------------------------------
+
+
+\section{Data Trends and Patterns}
+
+%----------------------------------------------------------------------------------------
+%	SECTION 7
+%----------------------------------------------------------------------------------------
+
+
+\section{Conclusion}

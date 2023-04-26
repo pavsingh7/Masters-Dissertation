@@ -9,49 +9,23 @@
 %	SECTION 1
 %----------------------------------------------------------------------------------------
 
-\section{Link To Literature}
-
-Given our results in chapter 6 from our comparative analysis of four machine learning models, we can reflect on how our empirical results compare with the literature. Our results concur with the findings of Graves (2012), who found that long short-term memory neural networks (LSTM) performed better than than other machine learning models in the context of sequential data. Moreover, Chen \textit{et al.} (2015) were able to achieve an LSTM model with 55.9\% accuracy in predicting whether the price of stock would go up or down. We achieved similar results with our LSTM model, achieving a max accuracy of 59.2\%. 
-
-Comparing our machine learning models to the ARIMA model results, we acknowledged that the ARIMA produced unsatisfactory results - achieving an accuracy below 50\% for all three stocks tested. In contrast all our  multivariate machine learning models achieved accuracy over 50\%. This is in agreeance with findings from Binner \textit{et al} (2005), who also found that the neural network models they tuned achieved substantially higher accuracy than the traditional time series models; namely an ARIMA and vector autoregressive models.
-
-
-%----------------------------------------------------------------------------------------
-%	SECTION 1
-%----------------------------------------------------------------------------------------
-
-\section{Limitations and Further Work}
-
-Firstly, we have only examined these three stocks over a certain time-period. Thus, it is not clear if our results or conclusions can extend prior or past this period. More generally, it would be worth examining if our conclusions would differ if a different type of stock is chosen or if a stock index used. 
-
-In our model optimisation of hyper-hyper-parameters,  we limited ourselves to using only grid search and manual searching methods to find the best (optimal) hyper-parameters. A grid search can be classed as relatively inefficient because they do not choose the next hyper parameters to evaluate based on previous results. That is, a grid search is uninformed by past evaluations, and as a result, can lead to spending large amounts of time evaluating results. Therefore, to find an optimal solution for complex models, a common approach used is sequential model-based optimisation (SMBO). This creates a probability model of the objective function to find the most promising hyper- parameters to test on the true objective function. Moreover, this optimisation is classed as more efficient as it takes into account the previous outcomes, so it performs an informed search (Che \textit{et al.}, 2017).
-
-Our machine learning models were benchmarked using an ARIMA model. Univariate time series models like the ARIMA, are limited to statistical relationships between a target variable and it's lagged values or lagged disturbances (Ampomah \textit{et al.}, 2020). We did not include any exogenous variables to our ARIMA model. A better benchmark would be to model an ARIMAX time series model, including the same variables used for our machine learning model inputs. Moreover, common time series models in financial domain, include the Autoregressive Conditional Heteroscedasticty (ARCH) and Generalised Autoregressive Conditional Heteroscedasticty (GARCH) models. These models would be worthwhile to include in a  comparative analysis. GARCH models are well suited for modelling financial data, since there have been developed to handle and forecast the volatility of financial assets. 
-
-
-Another improvement would be including some dimensionality reduction. As the number of factors increases, so does the complexity involved in modelling stock returns behaviour. Given that computing resources are finite, coupled with time constraints, performing an extra computation for a new factor only increases the bottleneck on returns modelling calculations. A linear technique for dimensionality reduction is Principal Component Analysis (PCA) (Che \textit{et al.}, 2017. As its name suggests, PCA breaks down the movement of portfolio asset prices into its principal components, or common factors, for further statistical analysis. Common factors that don't explain much of the movement of the stock receive less weighting in their factors and are usually ignored. By keeping the most useful factors, stock return analysis can be greatly simplified without compromising on computational time and space costs (Che \textit{et al.}, 2017. Moreover, in line with feature selection, one could look at using domain knowledge of the data, and infer features to be creased to help their learning algorithms increase their predictive performance. This can be as simple as grouping or bucketing related parts of the existing data to form defining features. Even removing unwanted features is also feature engineering. 
-
-
-As mentioned in chapter 2, strategies in investment are broadly sorted into two categories, fundamental and technical analysis. This project implemented a technical analysis, as such our models disregarded any information pertaining to fundamental analysis of a company’s stock value. For further analysis, one could improve the breadth of the dataset beyond technical indicators to also include other significant financial factors. Stock data not only depends on the trend in the historical data, it also mainly depends on the product value and the information available from news channels. Such sentiment analysis has been experimented with already with financial data. Srivastava (2012) used a twitter sentiment analysis to analyse stock market movements. In his paper he found that there was a high correlation between stock returns and twitter sentiments. Moreover the financial ratios associated With fundamental analysis, such as P/E ration, book value per share and dividend yield should be considered. So, the future implementation includes the fundamental analysis, along with sentiment of the customers reviewed on the products related to a company or its domain and add this analysis to the prediction using LSTM. 
-
-
-
-The inclusion of more models is the obvious route for further study. In this paper we used a handful of non-linear machine learning models, of which there exist dozens, including hybrid models and other ensemble neural networks which have become increasingly popular in the financial setting. 
-
-Ensembles of machine learning models have proven to improve the performance of prediction tasks in various domains. However, the additional computational costs for the performance increase are usually high since multiple models must be trained. An example application, would be to investigate eh impact of using a stacked LSTM. Stacking Stacking (STK). is an ensemble learning technique that makes use of predictions from several models $\left(m_{1}, m_{2}, \ldots, m_{n}\right)$ to construct a new model, where the new model is employed for making predictions on the test dataset. STK seeks to increase the predictive power of a classifier (Ampomah \textit{et al.}, 2020). Literature suggests there have been noticeable improvements. in predictive performance, using stacking. As such it would be of interest to include other ensemble learning techniques into a comparative study of this nature.
-
-We only assessed the models on three time series. In order to adequately assess market efficiency, it would be necessary to conduct larger analysis, including much moire time series. The M3 competition is the latest in a sequel of M forecasting competitions, organised by Makridakis and Hibon (2000). It consists of 3003 business-type time series, covering a range of domains. Moreover, the M3 data has become an important benchmark for testing and comparing forecasting models. Having that many diverse time series gives confidence into comparison results. A suitable further improvement would be to implement and remodel the chosen machine learning models in this paper on the M3 data. The results of which are more comparable to other findings in the literature. 
+\section{Example}
 
 
 
 %----------------------------------------------------------------------------------------
-%	SECTION 1
+%	SECTION 2
 %----------------------------------------------------------------------------------------
 
-\section{Conclusion}
+\section{Example}
 
-The stock market prices can be influenced by many factors such as political situations, economic events, and natural disasters etc. As a result, forecasting stock market movements is a challenging task due to the complexity of the stock market. Our paper served as a comparative analysis of a feed-forward neural network, a long-short-term memory neural network, a Random Forest and a AdaBoost model. The models were assessed on their ability to predict the movement of the log returns of Google, Motorola and Ford Motors stock. Our results indicate that the LSTM model was the best machine learning model to forecast the one day ahead movement of stock data, using accuracy, F1 score and AUC classification metrics. The random forest and feed-forward neural networks produced similar results across all three classification metrics. The machine learning models were benchmarked against an ARIMA model. The results indicated that the ARIMA model was unable to provide any predictive performance in forecasting the movement of the stocks. All four machine learning models outperformed the ARIMA model.
 
-At the highest level,  our most complex model - the LSTM - achieved an accuracy of 59.2\% for predicting the movement of Motorola stock. 
+
+
+%----------------------------------------------------------------------------------------
+%	SECTION 3
+%----------------------------------------------------------------------------------------
+
+\section{Example}
 
 

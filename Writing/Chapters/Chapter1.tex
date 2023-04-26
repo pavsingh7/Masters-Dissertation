@@ -17,78 +17,30 @@
 
 
 %----------------------------------------------------------------------------------------
-%	SECTION 1
+%	SECTION 1: Background
 %----------------------------------------------------------------------------------------
 
-\section{Introduction To Problem}
-
-Thanks to a plethora of high-profile applications in fields like autonomous transport, intelligent robotics, and image recognition, artificial intelligence (AI) has gained popularity in recent years (Norvig, 2002). Machine learning is a subfield of AI and refers to the general techniques used to extrapolate patterns from large data sets, or as the ability to make predictions on new unseen data based on what is learned (Ahmed \textit{et al.}, 2010). The success of AI is largely due to the use of machine learning methods that can learn and improve over time. This is in contrast to traditional programming, where step-by-step coding instructions are followed (Norvig, 2002). Machine learning methods encompass a variety of models, including support vector machines, Random Forest, and Neural Networks, among others (Ahmed \textit{et al.}, 2010). 
-
-Given the substantial growth and popularity, machine learning has found applications in the field of time series forecasting. Time series data - data points indexed in time -  are found in many problems. One such problem which is widely researched is financial data (Zhang, 2003). Our interest in this domain for this project is stock market data. Forecasting the returns of stocks is a challenging task due to the volatility and non-linearity of the data (Oancea \textit{et al.}, 2014). Classical statistical and econometric methods like auto-regressive integrated moving average (ARIMA) and moving average (MA) have been used for financial time series prediction, but have been found to fail in efficiently handling the uncertain nature of stock market data (Oancea \textit{et al.}, 2014). This is due to the fact that these statistical methods assume the time series is generated from a linear process (Liwicki and Everingham, 2009). Therefore, they achieve poor performance when trying to predict the non-linear movements of stock prices. In recent times, neural networks have become increasingly popular in solving a variety of supervised learning \footnote {Supervised learning is the task of learning a function that maps an input to an output using labelled training data} problems, since they are capable of approximating any non-linear function without any a priori information about the properties of the data (Norvig, 2002).
-
-
-Recently, neural networks have become popular in solving a variety of scientific and financial problems, because they can approximate any non-linear function without any a priori information about the properties of the data (Norvig, 2002). 
-
-\subsection{Aim of the Paper}
-
-This paper aims to compare the performance of various machine learning models, including two ensemble decision tree methods and two neural networks, in forecasting the movement of log returns of three stocks. More specifically, we compare a Random Forest model, Adaptive Boosting model (AdaBoost), Feed-Forward neural network and a Long Short-Term Memory (LSTM) neural network. We assess these models performance by their ability to predict whether the daily log return of a stock moves up or down, using three measures - accuracy, F1 score and AUC (area under the curve) score. Three stocks are used, namely Google, Motorola and Ford Motors. In addition, we benchmark the performance of our machine learning models to that of a classical statistical approach in forecasting time series data; an auto regressive integrated moving average model (ARIMA).
-
-\subsection{Contributions of Paper}
-
-With the continuous development and growing popularity in neural networks and machine learning, there exists a great deal of literature covering machine learning models in time series forecasting. Several types of neural networks have been used in financial forecasting problems and have been extensively discussed in the literature. However, there have only been a few accounts of comparing neural networks methods and ensemble decision trees methods on financial data. In addition, our paper benchmarks and validates our models by comparing our results with  that of an ARIMA model. 
-
-\section{Theoretical Concepts}
-
-\subsection{Time Series}
-
-From stock market prices to measuring the spread of an epidemic, it is common place for data to be recorded with a time component (Naeini \textit{et al.}, 2010). When the measurements are gathered together, they form a time series. Essentially, a time series is a sequence of observations in chronological order, like the daily log returns on a stock  (Brillinger, 2001). The data do not have to be necessarily equally spaced, however this is a common assumption made (Liwicki and Everingham, 2009). For example, daily log returns on a stock may only be available for weekdays, with additional gaps on holidays. For simplicity, in this paper we regard the consecutive observations as equally spaced. 
-
-
-Time-series analysis serves as a fundamental statistical method for analysing the behaviour of time-dependent data and for forecasting. In the financial domain, time series modelling is considered the traditional technique to model financial data and is still widely used in finance today (Brillinger, 2001). The time series model chosen to benchmark the performance of our non-linear machine learning methods, is the ARIMA model. The ARIMA is a univariate time series model, which is widely used for forecasting time series using the series’ past values (Brillinger, 2001). 
-
-The choice of using stock market data is motivated by the inherit non-linearity \footnote{Non-linear time series are generated by nonlinear dynamic equations. They display features that cannot be modelled by linear processes: time-changing variance, asymmetric cycles, higher-moment structures, thresholds and breaks.} of the time series data. Because of the market's unpredictability, which stems from constantly changing economic and political situations, as well as the stock market's instability, it is difficult to accurately anticipate stock market movement only by looking at price history (Shively, 2003). The complex dynamics of the data serves as an interesting foundation in which we can assess and compare the accuracy of each machine learning model. 
-
-%-----------------------------------
-%	SUBSECTION 2
-%-----------------------------------
-
-\subsection{Forecasting}
-
-The process of forecasting can be described as predicting the future using past and current data (Brillinger, 2001). Forecasting spans many areas including - but not limited to - business, health science, environmental science and finance (Lago \textit{et al.}, 2018). It is an indispensable tool that helps, for example, financial institutions manage the uncertainty in the future for investments. Forecasting is used by businesses to make operational choices in areas such as buying, marketing, and advertising. Hence, a great deal of research has been conducted in identifying and improving forecasting models and techniques. 
-
-Forecasting models can be linear \footnote{A linear time series is one where, for each data point $X_t$, that data point can be viewed as a linear combination of past or future values or differences.} as well as non-linear. The machine learning methods used in this paper are examples of non-linear forecasting models. 
-
-
-Although linear models have shown to be effective tools for forecasting, they are intrinsically constrained when dealing with non-linear data. As a consequence, forecasts as well as other conclusions drawn from them could be misleading when applying these linear models on non-linear data. This had led to great interest in non-linear time series models in recent decades. Models such as the threshold autoregressive models (Tong, 1990) and the exponential autoregressive model (Haggan and Ozaki, 1981), are examples of non-linear models that have been developed to handle the non-linearities in the data of concern. However, one key issue that arises when using these non-linear models instead of linear models is that there is no unified theory that can be applied to all non-linear models. This is due to the fact that they need the imposition of assumptions about the specific form of non-linearity. Moreover, the pre-specified non-linear model may not be broad enough to capture all essential characteristics. One alternative way to deal with non-linearities in data is to use non-linear machine modelling approaches (Kuo and Huang, 2020). In contrast to the above model-based methods, non-linear methods like machine learning models are data driven and are thus capable of capturing complex patterns inherent in the data without needing any a priori information about the data (Liwicki and Everingham, 2009).
-
-%-----------------------------------
-%	SUBSECTION 2
-%-----------------------------------
-
-\subsection{Neural Networks}
-
-Neural networks are a class of machine learning algorithms. They are made up of a collection of neurons that connect through various layers. Neural networks attempt to learn the mapping of the input data to the output data, on being provided with a training set. These models are non-linear and operate without prior beliefs about the functional forms of the data.
-
-The objective of machine learning methods is the same as that of traditional linear statistical methods. Both machine learning and traditional linear techniques in statistics aim to improve forecasting ability, by minimising some loss function (Kuo and Huang, 2020). Their difference lies in how such minimisation is done. Machine learning methods utilise non-linear algorithms to do so while statistical methods employ linear processes (Kuo and Huang, 2020).  
-
-The application of neural networks in prediction problems is both pertinent and promising due to their special characteristic - being general function approximators (Liwicki and Everingham, 2009). Neural networks learn from examples and can capture the subtle functional relationship existing between the input and output data (Kuo and Huang, 2020).  A collection of trainable parameters called weights are dispersed over multiple layers to achieve the mapping. The weights are learned by the backpropagation algorithm whose aim is to minimise a loss function. Given their generalisation ability, after training a neural network they are able to recognise new patterns from unseen data, even if the unseen data contain noisy information, at least in principle (Liwicki and Everingham, 2009). This follows from the universal approximation theorem (Agrawal \textit{et al.}, 2013). The theorem states that any neural network can approximate any complex continuous function. We can learn about any relationship between the input and the output of the system, thus enabling us to learn any complicated relationship between the input and the output of the system (Kuo and Huang, 2020). We look at implementing two types of neural networks in this paper - a feed-forward and long short-term memory neural network.
+\section{Background Information}
 
 
 %-----------------------------------
-%	SUBSECTION 2
+%	SECTION 2: Problem
 %-----------------------------------
 
-\subsection{Ensemble Decision Trees}
-
-Decision trees are a form of supervised machine learning algorithms which employ an if-then-else decision methodology to fit data and forecast results (Ampomah \textit{et al.}, 2020). Ensemble decision tree methods are those which combines several decision trees to produce better predictive performance than by using a single decision tree (Ampomah \textit{et al.}, 2020). The main principle behind the ensemble model is that a group of weak learners come together to form a strong learner \footnote{A learner refers to a model. A weak learner is a model that has a low skill, meaning that its performance is slightly above a random classifier for binary classification or predicting the mean value for regression. In contrast a strong learner is one that performs well on a predictive modelling problem}. Random Forests and Adaptive Boosting models are built on this same principle (Nti \textit{et al.}, 2020).  A Random Forest algorithm entails building a multitude of decision trees and then merging them together to obtain a more accurate prediction (Ampomah \textit{et al.}, 2020). Adaptive boosting, or AdaBoost, is a type of boosting technique, which involves using very short decision trees as weak learners that are added sequentially to the ensemble (Ampomah \textit{et al.}, 2020). The subsequent models attempt to correct the predictions made by the model before it in the sequence. The Random Forest and AdaBoost algorithms represent some of the most popular ensemble methods (Nti \textit{et al.}, 2020). 
+\section{Research Problem}
 
 
-\subsection{Structure of Paper}
+%-----------------------------------
+%	SECTION 3: Objectives
+%-----------------------------------
 
-This paper consist of 7 chapters and the remaining chapters are organised as follows: chapter 2 presents a review of the literature published on predicting stock market data, neural networks and exploration into the performance of machine learning methods in comparison to statistical ones, with respect to applications in financial data prediction. The next chapter, then briefly explores the data sets for the stocks and try to understand the data at hand through exploratory data analysis. Following this, chapter 4 describes the methodology of the paper. Here we have a look at the data and theory of the various neural network models used for our analysis, the experiments performed, and the training algorithms used. In chapter 5, the model specification and optimisation processes for our experiment are provided. Chapter 6 presents the results of our analysis. Discussion and concludion then follow in chapter 7. 
+\section{Research Objectives and Significance}
 
 
+%-----------------------------------
+%	SECTION 4: Outline
+%-----------------------------------
 
-
+\section{Dissertation Outline}
 
 
