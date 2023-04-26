@@ -1,9 +1,0 @@
-[0] Config.pm:307> INFO - This is Biber 2.17
-[0] Config.pm:310> INFO - Logfile is 'SNGPAV003_Thesis.blg'
-[101] biber-darwin:340> INFO - === Wed Apr 26, 2023, 18:12:52
-[122] Biber.pm:418> INFO - Reading 'SNGPAV003_Thesis.bcf'
-[245] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
-[265] bbl.pm:654> INFO - Writing 'SNGPAV003_Thesis.bbl' with encoding 'UTF-8'
-[265] bbl.pm:757> INFO - Output to SNGPAV003_Thesis.bbl
-[265] Biber.pm:130> WARN - The file 'SNGPAV003_Thesis.bcf' does not contain any citations!
-[265] Biber.pm:132> INFO - WARNINGS: 1
