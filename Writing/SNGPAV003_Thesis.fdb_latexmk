@@ -1,6 +1,6 @@
 # Fdb version 3
-["biber SNGPAV003_Thesis"] 0 "SNGPAV003_Thesis.bcf" "SNGPAV003_Thesis.bbl" "SNGPAV003_Thesis" 0
-  "SNGPAV003_Thesis.bcf" 0 -1 0 "pdflatex"
+["biber SNGPAV003_Thesis"] 1682850676 "SNGPAV003_Thesis.bcf" "SNGPAV003_Thesis.bbl" "SNGPAV003_Thesis" 1682850676
+  "SNGPAV003_Thesis.bcf" 1682546564 106768 93da2bd985b26c6d0074813fd46542dd "pdflatex"
   (generated)
   "SNGPAV003_Thesis.bbl"
   "SNGPAV003_Thesis.blg"
