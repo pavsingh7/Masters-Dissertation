@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.25)  27 APR 2023 00:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.25)  22 MAY 2023 19:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1277,13 +1277,12 @@ Package biblatex Info: Automatic encoding selection.
 \openout3 = `SNGPAV003_Thesis.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'SNGPAV003_Thesis.bbl' not found.
-
-No file SNGPAV003_Thesis.bbl.
+Package biblatex Info: ... file 'SNGPAV003_Thesis.bbl' found.
+ (./SNGPAV003_Thesis.bbl)
 Package biblatex Info: Reference section=0 on input line 176.
 Package biblatex Info: Reference segment=0 on input line 176.
 Package hyperref Info: Link coloring ON on input line 176.
-(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
@@ -1545,9 +1544,9 @@ Package logreq Info: Writing requests to 'SNGPAV003_Thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45334 strings out of 478268
- 991911 string characters out of 5846347
- 1693310 words of memory out of 5000000
+ 45336 strings out of 478268
+ 991953 string characters out of 5846347
+ 1693313 words of memory out of 5000000
  62753 multiletter control sequences out of 15000+600000
  528275 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
