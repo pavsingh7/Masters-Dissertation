@@ -195,3 +195,58 @@ books = "/Users/pavansingh/Desktop/Amazon Review Data/Books_5.json"
 books = pd.read_json(books, lines=True)
 books['category'] = 'books'
 print("Shape of Books: ", books.shape)
+
+
+
+
+
+# # load all the datasets into env
+
+# beauty = "/Users/pavansingh/Desktop/Amazon Review Data/All_Beauty_5.json"
+# beauty = pd.read_json(beauty, lines=True)
+# beauty['category'] = 'beauty'
+# print("Shape of Beauty: ", beauty.shape)
+
+# fashion = "/Users/pavansingh/Desktop/Amazon Review Data/AMAZON_FASHION_5.json"
+# fashion = pd.read_json(fashion, lines=True)
+# fashion['category'] = 'fashion'
+# print("Shape of Fashion: ", fashion.shape)
+
+# appliances = "/Users/pavansingh/Desktop/Amazon Review Data/Appliances_5.json"
+# appliances = pd.read_json(appliances, lines=True)
+# appliances['category'] = 'appliances'
+# print("Shape of Appliances: ", appliances.shape)
+
+# gift_cards = "/Users/pavansingh/Desktop/Amazon Review Data/Gift_Cards_5.json"
+# gift_cards = pd.read_json(gift_cards, lines=True)
+# gift_cards['category'] = 'gift_cards'
+# print("Shape of Gift Cards: ", gift_cards.shape)
+
+# industrial = "/Users/pavansingh/Desktop/Amazon Review Data/Industrial_and_Scientific_5.json"
+# industrial = pd.read_json(industrial, lines=True)
+# industrial['category'] = 'industrial'
+# print("Shape of Industrial: ", industrial.shape)
+
+
+# luxury_beauty = "/Users/pavansingh/Desktop/Amazon Review Data/Luxury_Beauty_5.json"
+# luxury_beauty = pd.read_json(luxury_beauty, lines=True)
+# luxury_beauty['category'] = 'luxury_beauty'
+# print("Shape of Luxury Beauty: ", luxury_beauty.shape)
+
+# magazine_subscriptions = "/Users/pavansingh/Desktop/Amazon Review Data/Magazine_Subscriptions_5.json"
+# magazine_subscriptions = pd.read_json(magazine_subscriptions, lines=True)
+# magazine_subscriptions['category'] = 'magazine_subscriptions'
+# print("Shape of Magazine Subscriptions: ", magazine_subscriptions.shape)
+
+# software = "/Users/pavansingh/Desktop/Amazon Review Data/Software_5.json"
+# software = pd.read_json(software, lines=True)
+# software['category'] = 'software'
+# print("Shape of Software: ", software.shape)
+
+# # merge the smaller datasets into one dataframe
+# # combine all data data
+# all_data = pd.concat([beauty, fashion, appliances, gift_cards, industrial, luxury_beauty, magazine_subscriptions, software], ignore_index = True)
+
+# # shape of combined data
+# print("Shape of Combined Data: ", all_data.shape)
+# display(all_data)
