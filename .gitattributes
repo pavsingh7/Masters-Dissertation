@@ -1,0 +1,3 @@
+all_revs.csv filter=lfs diff=lfs merge=lfs -text
+few_revs.csv filter=lfs diff=lfs merge=lfs -text
+lots_revs.csv filter=lfs diff=lfs merge=lfs -text
