@@ -250,3 +250,44 @@ print("Shape of Books: ", books.shape)
 # # shape of combined data
 # print("Shape of Combined Data: ", all_data.shape)
 # display(all_data)
+
+
+
+# read smaller reviews
+
+# category files - large reviews
+cds_vinyl = "/Users/pavansingh/Desktop/Amazon Review Data/CDs_and_Vinyl_5.json"
+cell_phones = "/Users/pavansingh/Desktop/Amazon Review Data/Cell_Phones_and_Accessories_5.json"
+clothing_shoes = "/Users/pavansingh/Desktop/Amazon Review Data/Clothing_Shoes_and_Jewelry_5.json"
+electronics = "/Users/pavansingh/Desktop/Amazon Review Data/Electronics_5.json"
+grocery = "/Users/pavansingh/Desktop/Amazon Review Data/Grocery_and_Gourmet_Food_5.json"
+home_kitchen = "/Users/pavansingh/Desktop/Amazon Review Data/Home_and_Kitchen_5.json"
+kindle_store = "/Users/pavansingh/Desktop/Amazon Review Data/Kindle_Store_5.json"
+movies_tv = "/Users/pavansingh/Desktop/Amazon Review Data/Movies_and_TV_5.json"
+musical_instruments = "/Users/pavansingh/Desktop/Amazon Review Data/Musical_Instruments_5.json"
+office_products = "/Users/pavansingh/Desktop/Amazon Review Data/Office_Products_5.json"
+prime_pantry = "/Users/pavansingh/Desktop/Amazon Review Data/Prime_Pantry_5.json"
+patio_lawn = "/Users/pavansingh/Desktop/Amazon Review Data/Patio_Lawn_and_Garden_5.json"
+pet_supplies = "/Users/pavansingh/Desktop/Amazon Review Data/Pet_Supplies_5.json"
+sports_outdoors = "/Users/pavansingh/Desktop/Amazon Review Data/Sports_and_Outdoors_5.json"
+tools_home = "/Users/pavansingh/Desktop/Amazon Review Data/Tools_and_Home_Improvement_5.json"
+toys_games = "/Users/pavansingh/Desktop/Amazon Review Data/Toys_and_Games_5.json"
+video_games = "/Users/pavansingh/Desktop/Amazon Review Data/Video_Games_5.json"
+
+# load each file and join into dataframe
+for category, filename in [('arts_crafts_and_sewing', arts_crafts), ('automotive', automotive), ('cds_and_vinyl', cds_vinyl), ('cell_phones_and_accessories', cell_phones), ('clothing_shoes', clothing_shoes), ('electronics', electronics), ('grocery', grocery), ('home_and_kitchen', home_kitchen),  ('kindle_store', kindle_store), ('movies_tv', movies_tv), ('musical_instruments', musical_instruments), ('office_products', office_products),  ('patio_lawn', patio_lawn), ('pet_supplies', pet_supplies), ('sports_outdoors', sports_outdoors), ('tools_and_home_improvement', tools_home), ('toys_and_games', toys_games), ('video_games', video_games)]:
+    for selected_data in read_file(filename, category):
+        data.append(selected_data)
+
+# make it into a dataframe
+data_with_large_reviews = pd.DataFrame(data)
+
+# show the dataframe
+print("Shape of Data with Large Reviews Merged:", data_with_large_reviews.shape)
+display(data_with_large_reviews.head(5))
+
+# save df to csv called lots_revs.csv
+data_with_large_reviews.to_csv('lots_revs.csv')
+
+# category value counts
+print("Value counts of product reviews per category:\n",data_with_large_reviews['category'].value_counts())
