@@ -14,9 +14,9 @@
 
 # Topic
 
-**A Hybrid Multi-Modal Recommender System with Neural Collaborative Filtering and Content Based Filtering**
+**A Hybrid Multi-Modal Recommender System with Neural Collaborative Filtering and Word2Vec content Based Filtering**
 
-We essentially build a multi-modal recommender system which leverages both a neural collaborative filtering approach  and content based filtering approach. We take the text and ratings data from amazon products reviews data set.  We evaluate our model and compare it to other baseline models such as other Matrix Factorization methods and/or Memory-based methods. Can also compare performance of the model with and without text data incorporated into model. 
+We essentially build a multi-modal recommender system which leverages both a neural collaborative filtering approach and a word2vec content based filtering approach. We take the text and ratings data from amazon products reviews data set.  We evaluate our model and compare it to other baseline models such as other Matrix Factorization methods and/or Memory-based methods. We compare performance of the model with and without text data incorporated into model as well as the review sentiment. 
 
 Further details on the topic and outline can be found [here](https://www.notion.so/Multi-Modal-Neural-Recommender-System-54bd4551421b4ed3a9e3b743e1c845b6).
 
