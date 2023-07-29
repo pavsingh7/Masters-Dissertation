@@ -291,3 +291,94 @@ data_with_large_reviews.to_csv('lots_revs.csv')
 
 # category value counts
 print("Value counts of product reviews per category:\n",data_with_large_reviews['category'].value_counts())
+
+
+
+
+
+
+
+
+
+
+# get index of top 6 products with highest and lowest sentiment averages
+top6_prod_afinn = prod_data.sort_values(['mean_sent_afinn'], ascending=False).index[0:5] # TOP 6 products with highest sentiment average - afinn
+
+low_6_prod_afinn = prod_data.sort_values(['mean_sent_afinn'], ascending=True).index[0:5] # BOTTOM 6 products with lowest sentiment average - afinn
+
+top6_prod_bing = prod_data.sort_values(['mean_sent_bing'], ascending=False).index[0:5] # TOP 6 products with highest sentiment average - bing
+
+low_6_prod_bing = prod_data.sort_values(['mean_sent_bing'], ascending=True).index[0:5] # BOTTOM 6 products with lowest sentiment average - bing
+
+top6_prod_textblob = prod_data.sort_values(['mean_sent_textblob'], ascending=False).index[0:5] # TOP 6 products with highest sentiment average - textblob
+
+low_6_prod_textblob = prod_data.sort_values(['mean_sent_textblob'], ascending=True).index[0:5] # BOTTOM 6 products with lowest sentiment average - textblob
+
+
+# get all rows for product index 
+top6_prod_afinn_data = data_sentiments[data_sentiments['asin'].isin(top6_prod_afinn)]
+low_6_prod_afinn_data = data_sentiments[data_sentiments['asin'].isin(low_6_prod_afinn)]
+top6_prod_bing_data = data_sentiments[data_sentiments['asin'].isin(top6_prod_bing)]
+low_6_prod_bing_data = data_sentiments[data_sentiments['asin'].isin(low_6_prod_bing)]
+top6_prod_textblob_data = data_sentiments[data_sentiments['asin'].isin(top6_prod_textblob)]
+low_6_prod_textblob_data = data_sentiments[data_sentiments['asin'].isin(low_6_prod_textblob)]
+
+
+
+fig = plt.figure(figsize=(20, 14))
+fig.subplots_adjust(left=0.1, bottom=0.1, right=0.9, top=0.9, wspace=0.1, hspace=0.4)
+
+
+# AFINN
+# plot a violin plot for each product in prod_afinn_data using seaborn for sentiment afinn 
+plt.subplot(3, 2, 1)
+sns.violinplot(x="asin", y="sentiment_score_afinn_revText", data=top6_prod_afinn_data, palette="Set3", linewidth=1, inner="quartile")
+plt.title("Sentiment Distribution (Positive) - AFINN", fontsize=20, fontweight='bold')
+plt.xlabel("Product", fontsize=12, fontweight='semibold')
+plt.ylabel("Sentiment", fontsize=12, fontweight='semibold')
+plt.xticks(rotation=45)
+
+
+plt.subplot(3, 2, 3)
+sns.violinplot(x="asin", y="sentiment_score_afinn_revText", data=low_6_prod_afinn_data, palette="Set3", linewidth=1, inner="quartile")
+plt.title("Sentiment Distribution (Negative) - AFINN", fontsize=20, fontweight='bold')
+plt.xlabel("Product", fontsize=12, fontweight='semibold')
+plt.ylabel("Sentiment", fontsize=12, fontweight='semibold')
+plt.xticks(rotation=45)
+
+
+# BING
+# plot a violin plot for each product in prod_bing_data using seaborn for sentiment bing
+plt.subplot(3, 2, 2)
+sns.violinplot(x="asin", y="sentiment_score_bing_revText", data=top6_prod_bing_data, palette="Set3", linewidth=1, inner="quartile")
+plt.title("Sentiment Distribution (Positive) - BING", fontsize=20, fontweight='bold')
+plt.xlabel("Product", fontsize=12, fontweight='semibold')
+plt.ylabel("Sentiment", fontsize=12, fontweight='semibold')
+plt.xticks(rotation=45)
+
+plt.subplot(3, 2, 4)
+sns.violinplot(x="asin", y="sentiment_score_bing_revText", data=low_6_prod_bing_data, palette="Set3", linewidth=1, inner="quartile")
+plt.title("Sentiment Distribution (Negative) - BING", fontsize=20, fontweight='bold')
+plt.xlabel("Product", fontsize=12, fontweight='semibold')
+plt.ylabel("Sentiment", fontsize=12, fontweight='semibold')
+plt.xticks(rotation=45)
+
+# TEXTBLOB
+# plot a violin plot for each product in prod_textblob_data using seaborn for sentiment textblob
+plt.subplot(3, 2, 5)
+sns.violinplot(x="asin", y="sentiments_textblob_revText", data=top6_prod_textblob_data, palette="Set3", linewidth=1, inner="quartile")
+plt.title("Sentiment Distribution (Positive) - TEXTBLOB", fontsize=20, fontweight='bold')
+plt.xlabel("Product", fontsize=12, fontweight='semibold')
+plt.ylabel("Sentiment", fontsize=12, fontweight='semibold')
+plt.xticks(rotation=45)
+
+plt.subplot(3, 2, 6)
+sns.violinplot(x="asin", y="sentiments_textblob_revText", data=low_6_prod_textblob_data, palette="Set3", linewidth=1, inner="quartile")
+plt.title("Sentiment Distribution (Negative) - TEXTBLOB", fontsize=20, fontweight='bold')
+plt.xlabel("Product", fontsize=12, fontweight='semibold')
+plt.ylabel("Sentiment", fontsize=12, fontweight='semibold')
+plt.xticks(rotation=45)
+
+plt.tight_layout()
+plt.show()
+
