@@ -1,0 +1,95 @@
+\begin{thebibliography}{11}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Bawden and Robinson(2020)}]{bawden2020information}
+\bibinfo{author}{Bawden, D.}, \bibinfo{author}{Robinson, L.},
+  \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Information overload: An overview} .
+%Type = Article
+\bibitem[{{\c{C}}ano and Morisio(2017)}]{ccano2017hybrid}
+\bibinfo{author}{{\c{C}}ano, E.}, \bibinfo{author}{Morisio, M.},
+  \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Hybrid recommender systems: A systematic literature
+  review}.
+\newblock \bibinfo{journal}{Intelligent data analysis} \bibinfo{volume}{21},
+  \bibinfo{pages}{1487--1524}.
+%Type = Article
+\bibitem[{He et~al.(2017)He, Liao, Zhang, Nie, Hu and Chua}]{he2017neural}
+\bibinfo{author}{He, X.}, \bibinfo{author}{Liao, L.}, \bibinfo{author}{Zhang,
+  H.}, \bibinfo{author}{Nie, L.}, \bibinfo{author}{Hu, X.},
+  \bibinfo{author}{Chua, T.S.}, \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Neural collaborative filtering} ,
+  \bibinfo{pages}{173--182}.
+%Type = Article
+\bibitem[{Liu et~al.(2023)Liu, Hu, Xiao, Gao and Zhao}]{liu2023multimodal}
+\bibinfo{author}{Liu, Q.}, \bibinfo{author}{Hu, J.}, \bibinfo{author}{Xiao,
+  Y.}, \bibinfo{author}{Gao, J.}, \bibinfo{author}{Zhao, X.},
+  \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{Multimodal recommender systems: A survey}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:2302.03883} .
+%Type = Article
+\bibitem[{Medhat et~al.(2014)Medhat, Hassan and Korashy}]{medhat2014sentiment}
+\bibinfo{author}{Medhat, W.}, \bibinfo{author}{Hassan, A.},
+  \bibinfo{author}{Korashy, H.}, \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{Sentiment analysis algorithms and applications: A
+  survey}.
+\newblock \bibinfo{journal}{Ain Shams engineering journal} \bibinfo{volume}{5},
+  \bibinfo{pages}{1093--1113}.
+%Type = Article
+\bibitem[{O'Donovan and Smyth(2005)}]{o2005trust}
+\bibinfo{author}{O'Donovan, J.}, \bibinfo{author}{Smyth, B.},
+  \bibinfo{year}{2005}.
+\newblock \bibinfo{title}{Trust in recommender systems} ,
+  \bibinfo{pages}{167--174}.
+%Type = Article
+\bibitem[{Seth and Sharaff(2022)}]{seth2022comparative}
+\bibinfo{author}{Seth, R.}, \bibinfo{author}{Sharaff, A.},
+  \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{A comparative overview of hybrid recommender systems:
+  Review, challenges, and prospects}.
+\newblock \bibinfo{journal}{Data Mining and Machine Learning Applications} ,
+  \bibinfo{pages}{57--98}.
+%Type = Article
+\bibitem[{SINTEF(2013)}]{sintef2013bigdata}
+\bibinfo{author}{SINTEF}, \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Big data, for better or worse: 90percent of world's
+  data generated over last two years}.
+\newblock \bibinfo{journal}{ScienceDaily} .
+%Type = Article
+\bibitem[{Steck et~al.(2021)Steck, Baltrunas, Elahi, Liang, Raimond and
+  Basilico}]{steck2021deep}
+\bibinfo{author}{Steck, H.}, \bibinfo{author}{Baltrunas, L.},
+  \bibinfo{author}{Elahi, E.}, \bibinfo{author}{Liang, D.},
+  \bibinfo{author}{Raimond, Y.}, \bibinfo{author}{Basilico, J.},
+  \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Deep learning for recommender systems: A netflix case
+  study}.
+\newblock \bibinfo{journal}{AI Magazine} \bibinfo{volume}{42},
+  \bibinfo{pages}{7--18}.
+%Type = Article
+\bibitem[{Thorat et~al.(2015)Thorat, Goudar and Barve}]{thorat2015survey}
+\bibinfo{author}{Thorat, P.B.}, \bibinfo{author}{Goudar, R.M.},
+  \bibinfo{author}{Barve, S.}, \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{Survey on collaborative filtering, content-based
+  filtering and hybrid recommendation system}.
+\newblock \bibinfo{journal}{International Journal of Computer Applications}
+  \bibinfo{volume}{110}, \bibinfo{pages}{31--36}.
+%Type = Article
+\bibitem[{Truong et~al.(2021)Truong, Salah and Lauw}]{truong2021multi}
+\bibinfo{author}{Truong, Q.T.}, \bibinfo{author}{Salah, A.},
+  \bibinfo{author}{Lauw, H.}, \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Multi-modal recommender systems: Hands-on
+  exploration} , \bibinfo{pages}{834--837}.
+
+\end{thebibliography}

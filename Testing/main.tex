@@ -1,30 +1,20 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Masters/Doctoral Thesis 
-% LaTeX Template
-
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
 \documentclass[
 12pt, % The default document font size, options: 10pt, 11pt, 12pt
-english, 
-singlespacing, % Single line spacing
+english, % ngerman for German
+singlespacing, % Single line spacing, alternatives: onehalfspacing or doublespacing
 liststotoc, % Uncomment to add the list of figures/tables/etc to the table of contents
-%toctotoc, % Uncomment to add the main table of contents to the table of contents
 parskip, % Uncomment to add space between paragraphs
 headsepline, % Uncomment to get a line under the header
-chapterinoneline, % Uncomment to place the chapter title next to the number on one line
 openany,
 ]{MastersDoctoralThesis} % The class file specifying the document structure
 
 \usepackage[utf8]{inputenc} % Required for inputting international characters
 \usepackage[T1]{fontenc} % Output font encoding for international characters
 \usepackage{mathpazo} % Use the Palatino font by default
-\usepackage{tabularx}
-\usepackage[demo]{graphicx}
-\usepackage{subcaption}
-\usepackage{changepage}
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{multirow}
@@ -33,14 +23,8 @@ openany,
 \usepackage{algpseudocode}
 \usepackage{float}
 \usepackage{bbm}
-\usepackage{multirow}
-
-\usepackage{biblatex}
-\addbibresource{/Users/pavansingh/Library/CloudStorage/GoogleDrive-pavansingho23@gmail.com/My Drive/Portfolio/Masters-Dissertation/Writing/Thesis.bib}
 
 \renewcommand{\familydefault}{\rmdefault}
-
-%\renewcommand{\familydefault}{\sfdefault}
 
 \usepackage{natbib}
 
@@ -84,9 +68,11 @@ breaklinks=true]{hyperref}
 \usepackage{array}
 \usepackage{multirow}
 \usepackage{amssymb}
+% \usepackage{gensymb}
 \usepackage{tabularx}
 \usepackage{booktabs}
 \usepackage{mathptmx}
+% \usepackage{bbm}
 \usetikzlibrary{fadings}
 \usetikzlibrary{patterns}
 \usetikzlibrary{shadows.blur}
@@ -222,7 +208,7 @@ breaklinks=true]{hyperref}
 \vspace{1cm}
 \noindent Signed:\\
 \rule[0.5em]{25em}{0.5pt} % This prints a line for the signature
- 
+	
 \noindent Date:\\
 \rule[0.5em]{25em}{0.5pt} % This prints a line to write the date
 \end{declaration}
@@ -244,29 +230,30 @@ The algorithm, models and techniques developed and used in this paper are not pr
 
 \end{abstract}
 
-
 %----------------------------------------------------------------------------------------
 %	ACKNOWLEDGEMENTS
 %----------------------------------------------------------------------------------------
-\begin{acknowledgements}
-	\addchaptertocentry{\acknowledgementname} 
-	\vspace{1.5cm}
-	
-	I would like to thank many people who made this journey happy, inspiring and rewarding. First and foremost, I would like to thank my advisors Ian Durbach and Allan Clark. I’ve learned a lot from their deep insights in statistics and their passion about developing scientific and practically useful methodologies.  They were both very generous with their time and are always there to help. I am deeply grateful for all the inspiring discussions we had and the constructive feedbacks I received. This project wouldn’t be possible without their valuable guidance and input. 
-	
-	\vspace{0.3cm}
-	
-	I’m also very grateful for the great faculty and staff at Department of Statistics. Finally, I’m thankful to my sibling and parents for their unconditional love and support. Because of them, no matter where I am and what I am doing, I always feel encouraged and loved.
-	
-	
-	\vspace{0.3cm}
-	
-	I would additionally like to acknowledge the assistance and support from my friends and fellow statistics masters students, who have provided persistent support and advice during this year.
-	
-	\end{acknowledgements}
-	
 
-	
+\begin{acknowledgements}
+\addchaptertocentry{\acknowledgementname} 
+\vspace{1.5cm}
+
+I would like to thank many people who made this journey happy, inspiring and rewarding. First and foremost, I would like to thank my advisors Ian Durbach and Allan Clark. I’ve learned a lot from their deep insights in statistics and their passion about developing scientific and practically useful methodologies.  They were both very generous with their time and are always there to help. I am deeply grateful for all the inspiring discussions we had and the constructive feedbacks I received. This project wouldn’t be possible without their valuable guidance and input. 
+
+\vspace{0.3cm}
+
+I’m also very grateful for the great faculty and staff at Department of Statistics. Finally, I’m thankful to my sibling and parents for their unconditional love and support. Because of them, no matter where I am and what I am doing, I always feel encouraged and loved.
+
+
+\vspace{0.3cm}
+
+I would additionally like to acknowledge the assistance and support from my friends and fellow statistics masters students, who have provided persistent support and advice during this year.
+
+\end{acknowledgements}
+
+
+
+
 
 %----------------------------------------------------------------------------------------
 %	LIST OF CONTENTS/FIGURES/TABLES PAGES
@@ -274,6 +261,57 @@ The algorithm, models and techniques developed and used in this paper are not pr
 
 \tableofcontents % Prints the main table of contents
 
+\listoffigures % Prints the list of figures
+
+\listoftables % Prints the list of tables
+
+\listofalgorithms % Prints the list of algorithms
+
+%----------------------------------------------------------------------------------------
+%	ABBREVIATIONS
+%----------------------------------------------------------------------------------------
+
+\begin{abbreviations}{ll} % Include a list of abbreviations (a table of two columns)
+
+\textbf{LAH} & \textbf{L}ist \textbf{A}bbreviations \textbf{H}ere\\
+\textbf{WSF} & \textbf{W}hat (it) \textbf{S}tands \textbf{F}or\\
+
+\end{abbreviations}
+
+%----------------------------------------------------------------------------------------
+%	PHYSICAL CONSTANTS/OTHER DEFINITIONS
+%----------------------------------------------------------------------------------------
+
+%\begin{constants}{lr@{${}={}$}l} % The list of physical constants is a three column table
+%
+%% The \SI{}{} command is provided by the siunitx package, see its documentation for instructions on how to use it
+%
+%Speed of Light & $c_{0}$ & \SI{2.99792458e8}{\meter\per\second} (exact)\\
+%%Constant Name & $Symbol$ & $Constant Value$ with units\\
+%
+%\end{constants}
+
+%----------------------------------------------------------------------------------------
+%	SYMBOLS
+%----------------------------------------------------------------------------------------
+
+%\begin{symbols}{lll} % Include a list of Symbols (a three column table)
+%
+%$a$ & distance & \si{\meter} \\
+%$P$ & power & \si{\watt} (\si{\joule\per\second}) \\
+%%Symbol & Name & Unit \\
+%
+%\addlinespace % Gap to separate the Roman symbols from the Greek
+%
+%$\omega$ & angular frequency & \si{\radian} \\
+%
+%\end{symbols}
+
+%----------------------------------------------------------------------------------------
+%	DEDICATION
+%----------------------------------------------------------------------------------------
+
+%\dedicatory{For/Dedicated to/To my\ldots} 
 
 %----------------------------------------------------------------------------------------
 %	THESIS CONTENT - CHAPTERS
@@ -284,15 +322,11 @@ The algorithm, models and techniques developed and used in this paper are not pr
 \pagestyle{thesis} 
 
 \include{Chapters/Chapter1}
- \include{Chapters/Chapter2} 
- \include{Chapters/Chapter3}
- \include{Chapters/Chapter4} 
- \include{Chapters/Chapter5} 
-  \include{Chapters/Chapter6} 
-  \include{Chapters/Chapter7} 
-
-
-
+\include{Chapters/Chapter2} 
+\include{Chapters/Chapter3}
+\include{Chapters/Chapter4} 
+\include{Chapters/Chapter5} 
+\include{Chapters/Chapter6} 
 
 %----------------------------------------------------------------------------------------
 %	THESIS CONTENT - APPENDICES
@@ -300,9 +334,7 @@ The algorithm, models and techniques developed and used in this paper are not pr
 
 \appendix 
 
-\include{Appendices/AppendixA}
-\include{Appendices/AppendixB}
-
+% \include{Appendices/AppendixA}
 % \include{Appendices/AppendixB}
 % \include{Appendices/AppendixC}
 % \include{Appendices/AppendixD}
@@ -311,12 +343,8 @@ The algorithm, models and techniques developed and used in this paper are not pr
 %	BIBLIOGRAPHY
 %----------------------------------------------------------------------------------------
 
-%\bibliographystyle{elsarticle-harv}
-\bibliographystyle{plain}
-%\bibliography{/Users/pavansingh/Library/CloudStorage/GoogleDrive-sngpav003@myuct.ac.za/My Drive/Masters 2022/Dissertation/Masters-Dissertation/Writing/Thesis.bib}
-%\nocite{*}
-\bibliography{}
-
+\bibliographystyle{elsarticle-harv}
+\bibliography{main.bib}
 
 %----------------------------------------------------------------------------------------
 

@@ -1,0 +1,58 @@
+This is BibTeX, Version 0.99d (TeX Live 2022)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+A level-1 auxiliary file: Chapters/Chapter1.aux
+A level-1 auxiliary file: Chapters/Chapter2.aux
+A level-1 auxiliary file: Chapters/Chapter3.aux
+A level-1 auxiliary file: Chapters/Chapter4.aux
+A level-1 auxiliary file: Chapters/Chapter5.aux
+A level-1 auxiliary file: Chapters/Chapter6.aux
+The style file: elsarticle-harv.bst
+Database file #1: main.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty journal in bawden2020information
+Warning--empty journal in he2017neural
+Warning--empty journal in o2005trust
+Warning--empty journal in truong2021multi
+You've used 11 entries,
+            2986 wiz_defined-function locations,
+            703 strings with 7299 characters,
+and the built_in function-call counts, 7053 in all, are:
+= -- 533
+> -- 302
+< -- 5
++ -- 118
+- -- 105
+* -- 790
+:= -- 1060
+add.period$ -- 29
+call.type$ -- 11
+change.case$ -- 90
+chr.to.int$ -- 11
+cite$ -- 15
+duplicate$ -- 492
+empty$ -- 476
+format.name$ -- 144
+if$ -- 1264
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 102
+newline$ -- 66
+num.names$ -- 44
+pop$ -- 183
+preamble$ -- 1
+purify$ -- 79
+quote$ -- 0
+skip$ -- 152
+stack$ -- 0
+substring$ -- 314
+swap$ -- 360
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 99
+warning$ -- 4
+while$ -- 49
+width$ -- 0
+write$ -- 153
+(There were 4 warnings)
