@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.25)  23 AUG 2023 21:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.25)  25 AUG 2023 14:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -991,12 +991,12 @@ LaTeX Info: Redefining \nameref on input line 140.
 
 
 1: section
-<Figures/UCTLogoLong.jpg, id=284, 365.4453pt x 53.4798pt>
+<Figures/UCTLogoLong.jpg, id=296, 365.4453pt x 53.4798pt>
 File: Figures/UCTLogoLong.jpg Graphic file (type jpg)
 <use Figures/UCTLogoLong.jpg>
 Package pdftex.def Info: Figures/UCTLogoLong.jpg  used on input line 153.
 (pdftex.def)             Requested size: 497.92326pt x 72.86783pt.
-<Figures/statslogo.png, id=288, 254.9525pt x 254.9525pt>
+<Figures/statslogo.png, id=300, 254.9525pt x 254.9525pt>
 File: Figures/statslogo.png Graphic file (type png)
 <use Figures/statslogo.png>
 Package pdftex.def Info: Figures/statslogo.png  used on input line 181.
@@ -1121,7 +1121,7 @@ Chapter 1.
 
 
 ]
-</Users/pavansingh/Library/CloudStorage/GoogleDrive-pavansingho23@gmail.com/My Drive/Portfolio/Masters-Dissertation/Testing/Figures/types.pdf, id=437, 2764.3275pt x 1479.5275pt>
+</Users/pavansingh/Library/CloudStorage/GoogleDrive-pavansingho23@gmail.com/My Drive/Portfolio/Masters-Dissertation/Testing/Figures/types.pdf, id=452, 2764.3275pt x 1479.5275pt>
 File: /Users/pavansingh/Library/CloudStorage/GoogleDrive-pavansingho23@gmail.com/My Drive/Portfolio/Masters-Dissertation/Testing/Figures/types.pdf Graphic file (type pdf)
 <use /Users/pavansingh/Library/CloudStorage/GoogleDrive-pavansingho23@gmail.com/My Drive/Portfolio/Masters-Dissertation/Testing/Figures/types.pdf>
 Package pdftex.def Info: /Users/pavansingh/Library/CloudStorage/GoogleDrive-pavansingho23@gmail.com/My Drive/Portfolio/Masters-Dissertation/Testing/Figures/types.pdf  used on input line 35.
@@ -1140,6 +1140,11 @@ Package cleveref Info: loaded `english' language definitions on input line 324.
 
  (./Chapters/Chapter2.tex
 Chapter 2.
+
+Overfull \hbox (15.9273pt too wide) in paragraph at lines 13--13
+[]\T1/ptm/b/n/17.28 Recommender Sys-tems: his-tory and ap-pli-ca-tions in E-Commerce 
+ []
+
 )
 1: section
 [7
@@ -1208,21 +1213,21 @@ Package cleveref Info: loaded `english' language definitions on input line 21.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D17BC81EC05FE1AFE7F4C33B59FE3FE5;10825.
+(rerunfilecheck)             Checksum: 8270EDD09BABB1677A923D41EC9E06F6;11447.
  ) 
 Here is how much of TeX's memory you used:
- 38747 strings out of 478268
- 855425 string characters out of 5846347
- 1166521 words of memory out of 5000000
- 56174 multiletter control sequences out of 15000+600000
+ 38759 strings out of 478268
+ 855592 string characters out of 5846347
+ 1166811 words of memory out of 5000000
+ 56183 multiletter control sequences out of 15000+600000
  539988 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  96i,20n,93p,2513b,1258s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (22 pages, 383218 bytes).
+Output written on main.pdf (22 pages, 383635 bytes).
 PDF statistics:
- 602 PDF objects out of 1000 (max. 8388607)
- 541 compressed objects within 6 object streams
- 102 named destinations out of 1000 (max. 500000)
- 640 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 618 PDF objects out of 1000 (max. 8388607)
+ 557 compressed objects within 6 object streams
+ 105 named destinations out of 1000 (max. 500000)
+ 664 words of extra memory for PDF output out of 10000 (max. 10000000)
 
