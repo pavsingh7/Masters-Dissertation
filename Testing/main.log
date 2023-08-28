@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.25)  25 AUG 2023 14:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.25)  28 AUG 2023 07:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1213,18 +1213,18 @@ Package cleveref Info: loaded `english' language definitions on input line 21.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8270EDD09BABB1677A923D41EC9E06F6;11447.
+(rerunfilecheck)             Checksum: C06F96440C8D7C2F8D39E785B3C85B94;11434.
  ) 
 Here is how much of TeX's memory you used:
  38759 strings out of 478268
  855592 string characters out of 5846347
- 1166811 words of memory out of 5000000
+ 1166808 words of memory out of 5000000
  56183 multiletter control sequences out of 15000+600000
  539988 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  96i,20n,93p,2513b,1258s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (22 pages, 383635 bytes).
+Output written on main.pdf (22 pages, 383632 bytes).
 PDF statistics:
  618 PDF objects out of 1000 (max. 8388607)
  557 compressed objects within 6 object streams
