@@ -2,6 +2,9 @@
 --- WRITE UP
 - Lit Review
 - Submit for Review
+- Change introduction to reflect new direction
+- Data Section
+- Methodology Section
 
 --- CODE
 - Hyperparameter tuning for NCF
