@@ -12,3 +12,4 @@
 - Look at varying Item to Item filtering 
 - Look at adding text reviews into NCF model
 - Look at adding sentiment analysis into NCF model
+- Look at Top N recommendations
