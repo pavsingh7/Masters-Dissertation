@@ -1,8 +1,12 @@
+--- NOTES 
+- Need to complete: abstract, introduction, lit-review, data, and methodology by 31/12/2023
+
 
 --- WRITE UP
 - Lit Review
 - Submit for Review
 - Change introduction to reflect new direction
+- Change abstract to reflect new direction
 - Data Section
 - Methodology Section
 
