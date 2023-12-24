@@ -3,7 +3,7 @@
 
 
 --- WRITE UP
-- Lit Review
+- Lit Review - almost done
 - Submit for Review
 - Change introduction to reflect new direction
 - Change abstract to reflect new direction
