@@ -3,14 +3,11 @@
 
 
 --- WRITE UP
-- Lit Review - almost done
-- Submit for Review
-- Change introduction to reflect new direction
 - Change abstract to reflect new direction
-- Data Section
-- Methodology Section
+- ADD FICTIONAL GRAPHS FOR METHODOLOGY SECTION
 
 --- CODE
+- FIX METHODOLOGY SECTION GRAPHS
 - Hyperparameter tuning for NCF
 - Fix packages for MF
 - Look at varying Item to Item filtering 
