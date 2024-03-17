@@ -1,0 +1,295 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+12pt, % The default document font size, options: 10pt, 11pt, 12pt
+english, % ngerman for German
+singlespacing, % Single line spacing, alternatives: onehalfspacing or doublespacing
+parskip, % Uncomment to add space between paragraphs
+headsepline, % Uncomment to get a line under the header
+]{MastersDoctoralThesis} % The class file specifying the document structure
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+\usepackage[T1]{fontenc} % Output font encoding for international characters
+\usepackage{mathpazo} % Use the Palatino font by default
+\usepackage{amssymb} % Required for math symbols
+\usepackage{amsmath} % Required for math symbols
+\usepackage{multirow} % Required for multirows in tables
+\usepackage[boxed]{algorithm} % Required for algorithms
+\usepackage{enumerate} % Required for enumerating with letters
+\usepackage{algpseudocode} % Required for algorithms
+\usepackage{float} % Required for floating figures
+\usepackage{bbm} % Required for indicator function
+\usepackage{natbib} % Required to change bibliography style to APA
+\usepackage[autostyle = true]{csquotes} % Required to generate language-dependent quotes in the bibliography
+\usepackage[bookmarksopen=true,
+bookmarksopenlevel=0,
+hypertexnames=false,
+colorlinks=true,% Set to false to disable coloring links
+citecolor=blue,% The color of citations
+linkcolor=mdtRed,% The color of references to document elements (sections, figures, etc)
+urlcolor=mdtRed,% The color of hyperlinks (URLs)
+breaklinks=true]{hyperref}
+\usepackage{cleveref} % Required for referencing figures, tables, equations, etc.
+
+\renewcommand{\familydefault}{\rmdefault}
+\renewcommand*{\bibfont}{\footnotesize}
+\renewcommand{\vec}[1]{\mathbf{#1}}
+\newcommand{\iu}{\mathrm{i}\mkern1mu}
+
+\newtheorem{theorem}{Theorem}
+\numberwithin{theorem}{section}
+\newtheorem{remark}{Remark}
+\numberwithin{remark}{section}
+\newtheorem{assumption}{Assumption}
+\numberwithin{assumption}{section}
+\DeclareMathAlphabet\mathbfcal{OMS}{cmsy}{b}{n}
+\newcommand\hmmax{0}
+\newcommand\bmmax{0}
+
+\usepackage{physics} % Required for physics symbols
+\usepackage{tikz} % Required for drawing custom shapes
+\usepackage{mathdots} % Required for \iddots
+\usepackage{yhmath} % Required for the \wideparen command
+\usepackage{cancel} % Required for strikeout in math mode
+\usepackage{color} % Required for custom colors
+\usepackage{siunitx} % Required for alignment of table columns
+\usepackage{array} % Required for boldface in table
+\usepackage{multirow} % Required for multirows in tables
+% \usepackage{gensymb}
+\usepackage{tabularx} % in the preamble
+\usepackage{booktabs} % Required for better table rules 
+\usepackage{mathptmx} % Times New Roman
+\usepackage{bbm} % Required for indicator function
+
+
+\usetikzlibrary{fadings}
+\usetikzlibrary{patterns}
+\usetikzlibrary{shadows.blur}
+\usetikzlibrary{shapes}
+
+\usepackage{caption3} % load caption package kernel first
+\DeclareCaptionOption{parskip}[]{} % disable "parskip" caption option
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\pagestyle{plain}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+\setlength{\parskip}{\medskipamount}
+\setlength{\parindent}{0pt}
+\makeatletter
+\usepackage{caption}%----------------------- added newly
+\captionsetup[figure]{labelfont={bf,footnotesize,rm},textfont={rm,footnotesize}}%----------------------- added newly
+\captionsetup[subfloat]{labelfont={bf,footnotesize},textfont={rm,footnotesize}}%----------------------- added newly
+\captionsetup[algorithm]{labelfont={bf,footnotesize},textfont={rm,footnotesize}}%----------------------- added newly
+\captionsetup[table]{labelfont={bf,footnotesize},textfont={rm,footnotesize}}%----------------------- added newly
+
+%----------------------------------------------------------------------------------------
+%	MARGIN SETTINGS
+%----------------------------------------------------------------------------------------
+
+\geometry{
+	paper=a4paper, % Change to letterpaper for US letter
+	inner=1.0cm, % Inner margin
+	outer=2.0cm, % Outer margin
+	bindingoffset=.5cm, % Binding offset
+	top=1.0cm, % Top margin
+	bottom=1.0cm, % Bottom margin
+	%showframe, % Uncomment to show how the type block is set on the page
+}
+
+%----------------------------------------------------------------------------------------
+%	THESIS INFORMATION
+%----------------------------------------------------------------------------------------
+\thesistitle{A Review-Aware Multi-Modal Neural Collaborative Filtering Recommender System} % Your thesis title, this is used in the title and abstract, print it elsewhere with \ttitle
+\supervisor{Assoc. Professor Ian \textsc{Durbach} \\
+		Dr. Allan E \textsc{Clark}} % Your supervisor's name, this is used in the title page, print it elsewhere with \supname
+\examiner{} % Your examiner's name, this is not currently used anywhere in the template, print it elsewhere with \examname
+\course{Master of Science Advanced Analytics} % Your degree name, this is used in the title page and abstract, print it elsewhere with \degreename
+\author{Pavan \textsc{Singh}} % Your name, this is used in the title page and abstract, print it elsewhere with \authorname
+\addresses{} % Your address, this is not currently used anywhere in the template, print it elsewhere with \addressname
+\subject{Statistical Science Masters} % Your subject area, this is not currently used anywhere in the template, print it elsewhere with \subjectname
+\keywords{} % Keywords for your thesis, this is not currently used anywhere in the template, print it elsewhere with \keywordnames
+\university{\href{http://www.uct.ac.za/}{University of Cape Town}} % Your university's name and URL, this is used in the title page and abstract, print it elsewhere with \univname
+\department{\href{http://www.stats.uct.ac.za/}{Department of Statistical Sciences}} % Your department's name and URL, this is used in the title page and abstract, print it elsewhere with \deptname
+% \group{\href{http://researchgroup.university.com}{Research Group Name}} % Your research group's name and URL, this is used in the title page, print it elsewhere with \groupname
+\faculty{\href{http://faculty.university.com}{Science}} % Your faculty's name and URL, this is used in the title page and abstract, print it elsewhere with \facname
+\AtBeginDocument{
+\hypersetup{pdftitle=\ttitle} % Set the PDF's title to your title
+\hypersetup{pdfauthor=\authorname} % Set the PDF's author to your name
+\hypersetup{pdfkeywords=\keywordnames} % Set the PDF's keywords to your keywords
+}
+
+\begin{document}
+\frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
+\pagestyle{plain} % Default to the plain heading style until the thesis style is called for the body content
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{titlepage}
+\begin{center}
+
+\includegraphics*[width=\linewidth]{Figures/UCTLogoLong.jpg} 
+
+\vspace*{.06\textheight}
+{\scshape\LARGE \univname\par}\vspace{1.0cm} % University name
+\textsc{\Large Master's Dissertation}\\[0.5cm] % Thesis type
+
+\HRule \\[0.4cm] % Horizontal line
+{\large \bfseries \ttitle\par}\vspace{0.4cm} % Thesis title
+\HRule \\[1.5cm] % Horizontal line
+ 
+\begin{minipage}[t]{0.4\textwidth}
+\begin{flushleft} \large
+{Author:}\\
+\authorname
+\end{flushleft}
+\end{minipage}
+\begin{minipage}[t]{0.4\textwidth}
+\begin{flushright} \large
+{Supervisor:} \\
+\supname
+\end{flushright}
+\end{minipage}\\[1cm]
+
+\vfill
+
+\large {A dissertation presented for the degree of \\ \degreename \ }\\[0.3cm] % University requirement text
+{from the}\\[0.4cm]
+\deptname\\[1cm] % Research group name and department name
+\includegraphics*[width=0.25\linewidth]{Figures/statslogo.png} \\[1cm]
+{\large \today}\\[4cm] % Date
+ 
+\vfill
+\end{center}
+\end{titlepage}
+
+%----------------------------------------------------------------------------------------
+%	ACKNOWLEDGEMENTS
+%----------------------------------------------------------------------------------------
+
+\begin{acknowledgements}
+\addchaptertocentry{\acknowledgementname} 
+\vspace{1.5cm}
+I would like to thank many people who made this journey happy, inspiring and rewarding. First and foremost, I would like to thank my advisors Ian Durbach and Allan Clark. I’ve learned a lot from their deep insights in statistics and their passion about developing scientific and practically useful methodologies.  They were both very generous with their time and are always there to help. I am deeply grateful for all the inspiring discussions we had and the constructive feedbacks I received. This project wouldn’t be possible without their valuable guidance and input. 
+
+\vspace{0.3cm}
+
+I’m also very grateful for the great faculty and staff at Department of Statistics. Finally, I’m thankful to my sibling and parents for their unconditional love and support. Because of them, no matter where I am and what I am doing, I always feel encouraged and loved.
+
+\vspace{0.3cm}
+
+I would additionally like to acknowledge the assistance and support from my friends and fellow statistics masters students, who have provided persistent support and advice during this year.
+
+\end{acknowledgements}
+
+
+%----------------------------------------------------------------------------------------
+%	DECLARATION PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{declaration}
+\addchaptertocentry{\authorshipname} 
+\vspace{1.5cm}
+
+\noindent I, \authorname, declare that this dissertation titled, \enquote{\ttitle} and the work presented in it are my own. I confirm that:
+
+\begin{itemize} 
+\item This work was done wholly while in candidature for a research degree at this University.
+\item The contents of this dissertation has not been previously submitted for a degree or any other qualification at this University or any other institution.
+\item Where I have consulted the published work of others, this is always clearly attributed.
+\item Where I have quoted from the work of others, the source is always given. With the exception of such quotations, this thesis is entirely my own work.
+\item I have acknowledged all main sources of help.
+\end{itemize}
+
+\vspace{1cm}
+\noindent Signed:\\
+\rule[0.5em]{25em}{0.5pt} % This prints a line for the signature
+ 
+\noindent Date:\\
+\rule[0.5em]{25em}{0.5pt} % This prints a line to write the date
+\end{declaration}
+
+\cleardoublepage
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{abstract}
+\addchaptertocentry{\abstractname} % Add the abstract to the table of contents
+
+Online shopping has become a ubiquitous aspect of modern life and recommender systems have become a crucial tool for e-commerce giants to efficiently sift through vast amounts of data to locate the information that users are seeking. Within e-commerce, recommender systems aim to provide users with personalised product recommendations based on their preferences and behaviours. They analyse user data, for example their browsing history, purchase history, and ratings to understand their preferences and make recommendations that align with these preferences. They have become fundamental for information retrieval and provide a particularly lucrative landscape for e-commerce platforms, providing suggestions that effectively prune large information spaces so that users are directed toward those items that best meet their needs and preferences.
+
+This paper looks at developing a neural collaborative filtering (NCF) recommender system model which incorporates data from multi-modalities, textual data and explicit ratings data (and review sentiment). The primary objectives of this study are twofold. Firstly, the aim is to create and assess the efficacy of the, relatively new, deep-learning based collaborative filtering  approach - NCF - in comparison to other more traditional collaborative filtering models, commonly used. Secondly, the study seeks to investigate the potential impact of incorporating product review text and review text sentiment in improving the accuracy of recommendations. Our model shall be trained and evaluated on the Amazon Product Reviews dataset, which contains millions of user reviews and feedback on thousands of different products across different categories. The metrics used to evaluate the model include predictive accuracy metrics such as mean absolute error, amongst others, as well as top-n evaluation metrics such as recall@K and precision@K. Our methodology is based on a literature analysis and aims to clearly extrapolate on the recent works which have established a framework for NCF.
+
+The results of our study show that the NCF model outperforms all the benchmark models in terms of predictive accuracy and top-n evaluation. The results also show that the inclusion of review text in the NCF model improves the predictive accuracy of the model significantly. The results of this study are significant as they demonstrate the potential benefits of incorporating review text into deep-learning based approaches for collaborative filtering for improved rating prediction. Additionally, the algorithm, models, and techniques developed and used in this paper are not problem-specific and can be applied to different recognition and prediction problems.
+
+
+\end{abstract}
+%----------------------------------------------------------------------------------------
+%	LIST OF CONTENTS/FIGURES/TABLES PAGES
+%----------------------------------------------------------------------------------------
+
+\tableofcontents % Prints the main table of contents
+
+% \listoffigures % Prints the list of figures
+
+%\listoftables % Prints the list of tables
+
+% \listofalgorithms % Prints the list of algorithms
+
+%----------------------------------------------------------------------------------------
+%	ABBREVIATIONS
+%----------------------------------------------------------------------------------------
+
+\begin{abbreviations}{ll} % Include a list of abbreviations (a table of two columns)
+
+\textbf{NCF} & \textbf{N}eural \textbf{C}ollaborative \textbf{F}iltereing\\
+\textbf{MAE} & \textbf{M}ean \textbf{A}bsolute \textbf{E}rror\\
+\textbf{RMSE} & \textbf{R}oot \textbf{M}ean \textbf{S}quare \textbf{E}rror\\
+\textbf{MSE} & \textbf{M}ean \textbf{S}quare \textbf{E}rror\\
+\textbf{DNN} & \textbf{D}eep \textbf{N}eural \textbf{N}etwork\\
+
+
+\end{abbreviations}
+
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - CHAPTERS
+%----------------------------------------------------------------------------------------
+
+\mainmatter % Begin numeric (1,2,3...) page numbering
+
+\pagestyle{thesis} 
+
+\include{Chapters/Chapter1}
+\include{Chapters/Chapter2} 
+\include{Chapters/Chapter3}
+\include{Chapters/Chapter4} 
+\include{Chapters/Chapter5} 
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - APPENDICES
+%----------------------------------------------------------------------------------------
+
+\appendix 
+
+% \include{Appendices/AppendixA}
+% \include{Appendices/AppendixB}
+% \include{Appendices/AppendixC}
+% \include{Appendices/AppendixD}
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+\bibliographystyle{plain}
+\bibliography{main.bib}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}  
