@@ -3,16 +3,16 @@
 
 \label{Chapter3} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
 
-Chapter \ref{Chapter2} provided a review of literature done on the history and applications of collaborative filtering models, as well as the research conducted within the space of text analysis, deep learning and collaborative filtering in the context of e-commerce. Chapter \ref{Chapter3} will discuss the details of the dataset used for the development of the neural collaborative filtering recommender system using both user sentiment and user reviews. This Chapter is divided into several sections; the first of which will introduce the data set chosen for this thesis (\ref{subsec:3 Amazon Review Dataset}), followed by some descriptions of the variables in the dataset (\ref{sec:3 Variable Description}). We shall then provide some technical details about how we collected and prepared the data (\ref{sec:3 Data Collection and Preprocessing}), also detailing how the user review text was handled as well as the sentiment analysis (\ref{subsec:3 Text Analysis and Cleaning}). Following this, we shall provide a summary of the data, giving some high-level figures and statistics (\ref{sec:3 Data Summary}). We shall then explore the data by identifying trends and patterns within the dataset (\ref{sec:3 Trends and Patterns}). To conclude this chapter, we provide a description of how we partitioned the dataset for the subsequent analyses (\ref{sec:3 Data Partitioning}). 
+Chapter \ref{Chapter2} provided a review of literature done on the history and applications of collaborative filtering models, as well as the research conducted within the space of text analysis, deep learning and collaborative filtering in the context of e-commerce. Chapter \ref{Chapter3} will discuss the details of the dataset used for the development of the neural collaborative filtering recommender system using both user sentiment and user reviews. This Chapter is divided into several sections; the first of which will introduce the data set chosen for this thesis (\ref{subsec:3 Amazon Review Dataset}), followed by some descriptions of the variables in the dataset (\ref{sec:3 Variable Description}). We shall then provide some technical details about how we collected and prepared the data (\ref{sec:3 Data Collection and Preprocessing}), also detailing how the user review text was cleaned as well as the sentiment analysis (\ref{subsec:3 Text Analysis and Cleaning}). Following this, we shall provide a summary of the data, giving some high-level figures and statistics (\ref{sec:3 Data Summary}). We shall then explore the data by identifying trends and patterns within the dataset (\ref{sec:3 Trends and Patterns}). To conclude this chapter, we provide a description of how we partitioned the dataset for the subsequent analyses (\ref{sec:3 Data Partitioning}). 
 
 \section{Amazon Review Dataset}
 \label{subsec:3 Amazon Review Dataset}
 
-For this research, we use the Amazon Review dataset \cite{mcauley2013hidden}. This dataset has gained significant popularity and recognition within the research community due to its size, diversity, and real-world relevance (\cite{kaushik2018exploring}; \cite{haque2018sentiment}; \cite{skalicky2015statistical}). It spans numerous product categories, ranging from electronics and books to fashion and home appliances. Due to the vast number of reviews and diverse range of products, the Amazon product review dataset offers a large-scale and real-world representation of user preferences and behaviours in an e-commerce setting. Specifically, this dataset contains just over 142 million reviews on the Amazon products between May 1996 and February 2018 along with user profiles and item metadata. The data gathered over this 18-year period, enables it to be a rich and dynamic source of information reflecting the evolving landscape of consumer choices on the Amazon platform.
+Amazon, as one of the world's largest online retailers, facilitates an immense volume of transactions and interactions daily \cite{kaushik2018exploring}. Like many other large e-commerce platforms, they contain a wealth of user-generated content, particularly in the form of product reviews. For this research, we use the Amazon Review dataset \cite{mcauley2013hidden}. This dataset has gained significant popularity and recognition within the research community due to its size, diversity, and real-world relevance (\cite{kaushik2018exploring}; \cite{haque2018sentiment}; \cite{skalicky2015statistical}). It spans numerous product categories, ranging from electronics and books to fashion and home appliances. Due to the vast number of reviews and diverse range of products, the Amazon product review dataset offers a large-scale and real-world representation of user preferences and behaviours in an e-commerce setting. Specifically, this dataset contains just over 142 million reviews on the Amazon products between May 1996 and February 2018 along with user profiles and item metadata. The data gathered over this 22-year period, enables it to be a rich and dynamic source of information reflecting the evolving landscape of consumer choices on the Amazon platform.
 
-Amazon, as one of the world's largest online retailers, facilitates an immense volume of transactions and interactions daily \cite{kaushik2018exploring}. Like many other large e-commerce platforms, they contain a wealth of user-generated content, particularly in the form of product reviews, which presents a unique opportunity for studying consumer behaviour and preferences \cite{kaushik2018exploring}. Specifically, each review in the dataset is accompanied by a written text component where users express their opinions, experiences, and feedback regarding the products they have purchased. The significance of the Amazon product review dataset in the context of this thesis lies in its ability to provide a rich source of information for building and evaluating a review-aware neural collaborative-based filtering recommender system. By incorporating user reviews (and additionally, review sentiments) into the recommendation process, the system may gain a deeper understanding of user preferences and the factors that influence their satisfaction with products, as well as perhaps alleviate the limitations of traditional collaborative filtering methods (namely, sparsity) as discussed in Section \ref{subsec:2 Sparsity}. The dataset also enables us to directly ask and answer the questions posed in this thesis (see Section \ref{sec:1 Research Questions and Significance}). 
+Specifically, each review in the dataset is accompanied by a written text component where users express their opinions, experiences, and feedback regarding the products they have purchased. The significance of the Amazon product review dataset in the context of this thesis lies in its ability to provide a rich source of information for building and evaluating a review-aware neural collaborative-based filtering recommender system. By incorporating user reviews (and additionally, review sentiments) into the recommendation process, the system may gain a deeper understanding of user preferences and the factors that influence their satisfaction with products, as well as perhaps alleviate the limitations of traditional collaborative filtering methods (namely, sparsity) as discussed in Section \ref{subsec:2 Sparsity}. The dataset also enables us to directly ask and answer the questions posed in this thesis (see Section \ref{sec:1 Research Questions and Significance}). 
 
-In summary, the Amazon review dataset serves as a foundational element for this thesis, offering a real-world, diverse, and expansive source of information to build and evaluate a review-aware neural collaborative filtering recommender system. Ultimately, the diverse nature of products (all of which are considered in this thesis) and wide array of information (including review text and product ratings) available within the Amazon dataset enables us to effectively study the impact of incorporating sentiment and user reviews in recommendation systems. 
+In summary, the Amazon review dataset serves as a foundational element for this thesis, offering a real-world, diverse and expansive source of information to build and evaluate a review-aware neural collaborative filtering recommender system. The diverse nature of products (spanning across different categories) and wide array of information (including review text and product ratings) available within the Amazon dataset, enables us to effectively study the impact of incorporating sentiment and user reviews in recommendation systems. 
 
 
 \subsection{Feedback and Data Types}
@@ -22,7 +22,7 @@ Recommender systems rely on different types of input data, which are often place
 
 In our thesis, we concentrate on explicit feedback, which (as mentioned) involves direct and intentional input from users regarding their preferences and satisfaction with products. This explicit feedback is represented through numerical ratings (on a numerical scale from 1-5), user reviews in our dataset, and review sentiments. Review sentiments are considered to be derived explicit feedback, since they are inferred from the explicit review text provided by the user\cite{chen2015recommender}. Additionally, the written review goes beyond simple numerical ratings and provides a more detailed and contextual understanding of users' experiences, highlighting specific features, pros and cons of the product. 
 
-While this thesis only uses explicit feedback, it is worth noting that almost all platforms nowadays gather implicit evaluations along with explicit \cite{koren2009collaborative}. A list of examples of these (explicit and implicit feedback) are shown in Table \ref{tab:explicit_and_implicit_feedback}.
+While this thesis only uses explicit feedback, it is worth noting that almost all platforms nowadays gather implicit feedback along with explicit \cite{koren2009collaborative}. A list of examples of these (explicit and implicit feedback) are shown in Table \ref{tab:explicit_and_implicit_feedback}.
 
 \begin{table}[h]
   \centering
@@ -53,7 +53,7 @@ While this thesis only uses explicit feedback, it is worth noting that almost al
 \section{Variable Description}
 \label{sec:3 Variable Description}
 
-As highlighted, the Amazon product reviews dataset contains millions of records, each row corresponding to a user review of a certain product in the Amazon catalog. It is important to note that the dataset was anonymised and stripped of any personally identifiable information to ensure (individual's) privacy and that it complies with ethical considerations. Each review (record) comprises a variety of features - namely the product ID, review ID, rating and review text amongst several others. The wealth of available item information presents opportunities for exploring  additional features that could potentially enhance recommendations, including features like price, brand or images. Although incorporating these features are not studied in this thesis, they are discussed for potential future work in Section \ref{sec:6 Future Work}. We are particularly interested in the user review text and the user product ratings. A detailed breakdown of all the features for each record is shown in Table \ref{tab:variable_description}, including the feature name in the dataset, the feature description and examples of how they appear in the data.
+As highlighted, the Amazon product reviews dataset contains millions of records. Each record corresponds to a user review of a certain product in the Amazon catalog. It is important to note that the dataset was anonymised and stripped of any personally identifiable information to ensure (individual's) privacy and that it complies with ethical considerations. Each review (record) comprises a variety of features - namely the product ID, review ID, rating and review text amongst several others. The wealth of available item information presents opportunities for exploring  additional features that could potentially enhance recommendations, including features like price, brand or images. Although incorporating these features are not studied in this thesis, they are discussed for potential future work in Section \ref{sec:6 Future Work}. We are particularly interested in the user review text and the user product ratings. A detailed breakdown of all the features for each record is shown in Table \ref{tab:variable_description}, including the feature name in the dataset, the feature description and examples of how they appear in the data.
 
 \begin{table}[h]
   \centering
@@ -101,11 +101,11 @@ As highlighted, the Amazon product reviews dataset contains millions of records,
 \label{sec:3 Data Collection and Preprocessing}
 
 
-The specific data (Amazon product reviews) used in this thesis was sourced from an online repository, which contained a comprehensive collection of Amazon product reviews (between 1996 and 2018) organised in 29 JSON files categorised by product categories \cite{pasricha2018translation}. That is, each JSON file has reviews associated with products from a specific category. There were 29 product categories, and hence JSON files, with each category containing on average over 8 million reviews. Despite the categorisation, the size of each file posed a computational challenge and demanded substantial computational resources for data management. The volume of reviews within individual files proved too large for efficient processing using Pandas\footnote{A popular data manipulation library in Python.}, rendering direct loading into memory unfeasible.
+The specific data (Amazon product reviews) used in this thesis was sourced from an online repository, which contained a comprehensive collection of Amazon product reviews (between 1996 and 2018) organised in 29 JSON files categorised by product categories \cite{pasricha2018translation}. That is, each JSON file has reviews associated with products from a specific category. There were 29 product categories, and hence 29 JSON files, with each category containing on average over 8 million reviews. Despite the categorisation, the size of each file posed a computational challenge and demanded substantial computational resources for data management. The volume of reviews within individual files proved too large for efficient processing using Pandas\footnote{A popular data manipulation library in Python.}, rendering direct loading into memory unfeasible.
 
-To address this issue, we designed specific code which selectively read random selection of rows from each JSON file. Specifically, for each category (JSON file), we extracted up to 500 000 randomly chosen reviews. For categories having fewer than 500 000 reviews, we opted to read all available entries. Following the extraction of each subset, we stored these randomly selected reviews in a CSV file, reset the environment, and proceeded to load another file representing another distinct category. Once we had repeated this process for all categories, we successfully merged the randomly selected reviews from the 29 different CSV files into a unified dataset, creating a comprehensive CSV file containing reviews spanning various categories. 
+To address this issue, we designed specific code which selectively reads random selections of rows from each JSON file. Specifically, for each category (JSON file), we extracted up to 500 000 randomly chosen reviews. For categories having fewer than 500 000 reviews, we opted to read all available entries. Following the extraction of each subset, we stored these randomly selected reviews in a CSV file, reset the environment, and proceeded to load another file representing another distinct category. Once we had repeated this process for all categories, we successfully merged the randomly selected reviews from the 29 different CSV files into a unified dataset, creating a comprehensive CSV file containing reviews spanning various categories. 
 
-Subsequently, we aimed to further reduce this dataset, as well as address potential cold start problems (see Section \ref{subsec:2 Cold Start Problem}). The unified dataset was still relatively very large (just over 9 million reviews), but also highly sparse. For example, over 30\% of users had only one review, making it difficult to evaluate collaborative filtering algorithms as we would encounter the cold start problem. As such, we filtered the dataset and only retained users with at least 13 reviews. The minimum threshold of 13 was chosen to ensure that we had enough data to train and evaluate the recommender system. To achieve this filtering, we first identified which users from the merged file have over 13 reviews, and then took that user’s ID ($reviewerID$) and identified each and every review associated with this ID. The result of this was a significantly reduced subset. We followed a similar process to ensure that each product had at least 13 reviews. Effectively, after ensuring that each user and product had at least 13 reviews, we were left with a dataset of 91 235 rows (or reviews), 3801 unique users and 3283 unique products. This reduction in the dataset size alleviates the cold start problem, and also enables us to handle the dataset using the available computation resources more effectively. Having loaded and reduced the number of reviews, we sought to conduct a thorough data cleaning process, prior to analysis and building of recommender models.
+Subsequently, we aimed to further reduce this dataset, as well as address potential cold start problems (see Section \ref{subsec:2 Cold Start Problem}). The unified dataset was still relatively  large (just over 9 million reviews), but also highly sparse. For example, over 30\% of users had only one review, making it difficult to evaluate collaborative filtering algorithms as we would encounter the cold start problem. As such, we filtered the dataset and only retained users with at least 13 reviews. The minimum threshold of 13 was chosen to ensure that we had enough data to train and evaluate the recommender system. To achieve this filtering, we first identified which users from the merged file have over 13 reviews, and then took that user’s ID ($reviewerID$) and identified each and every review associated with this ID. The result of this was a significantly reduced subset. We followed a similar process to ensure that each product had at least 13 reviews. Effectively, after ensuring that each user and product had at least 13 reviews, we were left with a dataset of 91 235 rows (or reviews), 3801 unique users and 3283 unique products. This reduction in the dataset size alleviates the cold start problem, and also enables us to handle the dataset using the available computation resources more effectively. Having loaded and reduced the number of reviews, we sought to conduct a thorough data cleaning process, prior to analysis and building of recommender models.
 
 
 \subsection{Data Preprocessing}
@@ -118,7 +118,7 @@ During this preprocessing we had removed some reviews from the dataset. As a res
 \subsection{Text Analysis and Cleaning}
 \label{subsec:3 Text Analysis and Cleaning}
 
-As outlined in Section \ref{sec:2 Text Analysis in Recommender Systems}, the idea is to use the review text (and sentiments) as additional information to supplement the ratings for collaborative filtering. The motive is that this additional information (reviews and sentiments) provides valuable insights and opinions expressed by users about the items they have reviewed. By including the review text as a feature in our dataset, we can potentially leverage natural language processing techniques to extract meaningful information and sentiment from the text to better inform the recommendation process \cite{leino2007case}. However, to achieve or study these potential outcomes, the text data needs to undergo a cleaning process, ensuring its readiness and appropriateness for subsequent  analysis \cite{chen2015augmenting}. To fulfil this requirement, we conduct a through text cleaning procedure. 
+As outlined in Section \ref{sec:2 Text Analysis in Recommender Systems}, the idea is to use the review text (and sentiments) as additional information to supplement the ratings for collaborative filtering. The motive is that this additional information (reviews and sentiments) provides potentially valuable insights and opinions expressed by users about the items they have reviewed. By including the review text as a feature in our dataset, we can potentially leverage natural language processing techniques to extract meaningful information and sentiment from the text to better inform the recommendation process \cite{leino2007case}. However, to achieve or study these potential outcomes, the text data needs to undergo a cleaning process, ensuring its readiness and appropriateness for subsequent  analysis \cite{chen2015augmenting}. To fulfil this requirement, we conduct a through text cleaning procedure. 
 
 Text cleaning refers to the process of preparing textual data for analysis by removing unnecessary or irrelevant information and transforming the text into a suitable format \cite{gharatkar2017review}. In the context of this thesis, text cleaning specifically refers to the steps taken to preprocess and clean the review text data before incorporating it into recommenders as well as performing sentiment analysis. As such, the textual data ($reviewText$) was subjected to several principal text preprocessing steps - which we will discuss in detail. These text analysis techniques were applied so as to extract meaningful information from the review text and enable it to be incorporated with our explicit numerical ratings for the recommender model to be built at a later stage. It was also pivotal to clean the text before conducting sentiment analysis to generate the sentiment feature. The cleaning steps as well as an explanation of the techniques used and choices made shall be made clearer, next.
 
@@ -149,8 +149,6 @@ For the subsequent analysis, we decided to use VADER as the sentiment analysis m
 In summary, using VADER we were able to generate sentiment scores for each review in our dataset. These scores provide a measure of the sentiment expressed in the review text, which can be used to augment the recommender system or contribute an additional layer of understanding to perhaps enhance the accuracy and relevance of recommendations.
 
 
-
-
 \section{Data Summary}
 \label{sec:3 Data Summary}
 
@@ -162,23 +160,23 @@ Having cleaned and preprocessed the review text, as well as generated the user s
   \hline
   \textbf{Metric}                                & \textbf{}            \\
   \hline
-  Number of Reviews                     & 256 725          \\
+  Number of Reviews                     & 83 139          \\
   \hline
-  Number of Unique Products             & 10 487          \\
+  Number of Unique Products             & 3249          \\
   \hline
-  Number of Unique Reviewers            & 11 675          \\
+  Number of Unique Reviewers            & 3668          \\
   \hline
-  Average Number of Reviews per Reviewer& 22.0        \\
+  Median Number of Reviews per Reviewer& 18.0        \\
   \hline
-  Average Number of Reviews per Product & 24.5        \\
+  Median Number of Reviews per Product & 19.0  \\
   \hline
   Average Ratings Overall               & 4.4        \\
   \hline
-  Mean Sentiment Score Overall          & 0.58           \\
+  Mean Sentiment Score Overall          & 0.6           \\
   \hline
-  Average Word Count of Reviews         & 116.5        \\
+  Average Word Count of Reviews         & 127        \\
   \hline
-  Most Words in a Review                &   5838      \\
+  Most Words in a Review                &   5741      \\
   \hline
   Least Words in a Review               &   1      \\
   \hline
@@ -187,7 +185,7 @@ Having cleaned and preprocessed the review text, as well as generated the user s
   \label{tab:data statistics overview}
   \end{table}
 
- We have a dataset of just over 250 000 reviews from around 11 500 unique clients and have around 10 500 unique products after cleaning the data. This diversity in users and products offers ample opportunity to test the robustness of our recommender models and challenges them to generalise well beyond the data the models were trained on. The dataset is 1gb in size, which is relatively large, but manageable for the computational resources available locally. The numbers in Table \ref{tab:data statistics overview} also takes into account that we further filtered our dataset to ensure that each user and product had at least 13 reviews, which ensures that we do not encounter any cold-start problems and also offers us space to partition the dataset accordingly for subsequent analysis. Our review ratings are highly skew (more on this in Section \ref{subsec:3 User Ratings Distribution}), with the majority of reviews having relatively high ratings given. As such, we opted to show the median rating in Table \ref{tab:data statistics overview} to provide a more accurate representation of the central tendency of the ratings. The numbers from Table \ref{tab:data statistics overview} provide a high-level overview of the dataset, which warrant further exploration and analysis to uncover deeper insights and patterns that can inform the development of the recommender system - this will be discussed in the next section.
+ We have a dataset of just 83 139 reviews from 3668 unique users and have 3249 unique products after cleaning the data. This diversity in users and products offers an opportunity to test the robustness of our recommender models and challenges them to generalise well beyond the data the models were trained on. The dataset is 190mb in size, which makes it manageable for the computational resources available locally. The numbers in Table \ref{tab:data statistics overview} also takes into account that we further filtered our dataset to ensure that each user and product had at least 13 reviews, which ensures that we do not encounter any cold-start problems and also offers us space to partition the dataset accordingly for subsequent analysis. Our review ratings are highly skew (more on this in Section \ref{subsec:3 Ratings}), with the majority of reviews having relatively high ratings given. As such, we opted to show the median rating in Table \ref{tab:data statistics overview} to provide a more accurate representation of the central tendency of the ratings. The numbers from Table \ref{tab:data statistics overview} provide a high-level overview of the dataset, which warrant further exploration and analysis to uncover deeper insights and patterns that can inform the development of the recommender system - this will be discussed in the next section.
 
 \section{Trends and Patterns}
 \label{sec:3 Trends and Patterns}
@@ -198,7 +196,7 @@ In this section we will explore the dataset to identify trends and patterns that
 \label{subsec:3 User Engagement}
 
 
-We begin by exploring the users within the dataset and their review habits. The distribution of user engagement, measured by the number of reviews per user - shown in Figure \ref{fig:user review distribution} - provides an initial understanding of user activity. Notably, the Figure highlights that the vast majority of users have fewer than 40 reviews associated with their ID, with the peak frequency exceeding 5000 users. As the number of reviews increases, the frequency sharply decreases, indicating that user engagement in terms of review contribution is skewed towards lower values. That is, the distribution is highly right skewed. As explained in Section \ref{sec:3 Data Collection and Preprocessing}, we ensured that each user had at least 13 reviews to alleviate the cold start problem, thus Figure \ref{fig:user review distribution} shows the minimum number of reviews per user in the dataset, starts at 13. The median number of reviews per user is 21.9. This observation suggests that while some users are highly engaged, contributing numerous reviews, the bulk of users tend to contribute fewer reviews. Understanding this distribution can help in providing context around the level of data sparseness within the dataset.
+We begin by exploring the users within the dataset and their review habits. The distribution of user engagement, measured by the number of reviews per user - shown in Figure \ref{fig:user review distribution} - provides an initial understanding of user activity. Notably, the Figure highlights that the vast majority of users have fewer than 40 reviews associated with their ID, with the peak frequency exceeding 800 users. As the number of reviews increases, the frequency sharply decreases, indicating that user engagement in terms of review contribution is skewed towards lower values. That is, the distribution is highly right skewed. As explained in Section \ref{sec:3 Data Collection and Preprocessing}, we ensured that each user had at least 13 reviews to alleviate the cold start problem, thus Figure \ref{fig:user review distribution} shows the minimum number of reviews per user in the dataset, starts at 13. The median number of reviews per user is 18. This observation suggests that while some users are highly engaged, contributing numerous reviews, the bulk of users tend to contribute fewer reviews. Understanding this distribution can help in providing context around the level of data sparseness within the dataset.
 
 \begin{figure}[ht]
   \centering
@@ -207,7 +205,7 @@ We begin by exploring the users within the dataset and their review habits. The 
   \label{fig:user review distribution}
 \end{figure}
 
-Additionally, a temporal analysis, shown in Figure \ref{fig:reviews per year}, illustrates an increasing trend in the number of reviews over time which illustrates an increasing trend in user engagement. Specifically, the line chart in Figure \ref{fig:reviews per year} displays the trend in the number of reviews per year from 1998 to 2018. It is clear that the number of reviews has experienced exponential growth over the years. The review count remains relatively low until around 2010, after which there is a sharp increase, indicating a surge in user engagement on the platform. This trend of exponential growth is a common characteristic of user-generated content on digital platforms, reflecting the rapid adoption and increasing popularity of online shopping and product reviews \cite{alzoubi2022effect}. In 2017, the review count reaches its peak at 57,934, demonstrating the high level of user engagement during this period. However, there is a noticeable dip in the number of reviews in 2018, with the count dropping to 12,042. This decline is not indicative of a decrease in user engagement but it is likely due to the dataset only containing reviews up until February 2018. Therefore, the data for 2018 is not complete, which explains the sudden drop.
+Additionally, a temporal analysis, shown in Figure \ref{fig:reviews per year}, illustrates an increasing trend in the number of reviews over time which illustrates an increasing trend in user engagement. Specifically, the line chart in Figure \ref{fig:reviews per year} displays the trend in the number of reviews per year from 6 to 2018. It is clear that the number of reviews has experienced exponential growth over the years. The review count remains relatively low until around 2010, after which there is a sharp increase, indicating a surge in user engagement on the platform. This trend of exponential growth is a common characteristic of user-generated content on digital platforms, reflecting the rapid adoption and increasing popularity of online shopping and product reviews \cite{alzoubi2022effect}. In 2017, the review count reaches its peak at just over 20 000, demonstrating the high level of user engagement during this period. However, there is a noticeable dip in the number of reviews in 2018, with the count dropping to just under 5000 reviews. This decline is not indicative of a decrease in user engagement but it is likely due to the dataset only containing reviews up until February 2018. Therefore, the data for 2018 is not complete, which explains the sudden drop.
 
 \begin{figure}[ht]
   \centering
@@ -221,9 +219,9 @@ These figures have provided valuable insights into the general user engagement, 
 \subsection{Products}
 \label{subsec:3 Products}
 
-Similar to Figure \ref{fig:user review distribution}, we can look at the number of reviews per product. Analysing this is essential for shedding light on the dynamics and characteristics of the dataset that extend beyond individual user behaviors. Figure \ref{fig:product review distribution} illustrates the number of reviews per product. From the Figure, it is evident that a significant number of products have received fewer than 40 reviews, with a peak frequency observed for products with around 12 to 20 reviews. This suggests that while some products receive a high volume of reviews, the majority tend to have a relatively lower count.
+Similar to Figure \ref{fig:user review distribution}, we can look at the number of reviews per product. Analysing this is essential for shedding light on the dynamics and characteristics of the dataset that extend beyond individual user behaviors. Figure \ref{fig:product review distribution} illustrates the number of reviews per product. From the Figure, it is evident that a significant number of products have received fewer than 40 reviews, with a peak frequency observed for products with around 13 and 20 reviews. This suggests that while some products receive a high volume of reviews, the majority tend to have a relatively lower count.
 
-Importantly, the figure aligns with our data subsetting process of ensuring that each product has at least 13 reviews. Again, this was done to alleviate the cold start problem, ensuring that there is sufficient interaction data for each product to generate reliable recommendations. Similar to Figure \ref{fig:user review distribution}, this product distribution is right skewed and the median number of reviews per product is 24.5. 
+Importantly, the figure aligns with our data subsetting process of ensuring that each product has at least 13 reviews. Again, this was done to alleviate the cold start problem, ensuring that there is sufficient interaction data for each product to generate reliable recommendations. Similar to Figure \ref{fig:user review distribution}, this product distribution is right skewed and the median number of reviews per product is 19. 
 
 \begin{figure}[h]
   \centering
@@ -236,7 +234,7 @@ Importantly, the figure aligns with our data subsetting process of ensuring that
 \subsection{Ratings}
 \label{subsec:3 Ratings}
 
-We can also generate an overall picture of the dataset by looking at the distribution of ratings - allowing us to discern the user's general perception toward the products in our dataset. Figure \ref{fig:ratings distribution}, illustrates the the spread and central tendency of ratings. As mentioned in Section \ref{subsec:Amazon Review Dataset}, the rating scale is 1 to 5 for this Amazon Product Reviews dataset. From the Figure, it is clear that the majority of users have given a rating of 5, with the count exceeding 160,000 reviews. This suggests a high level of customer satisfaction, indicating that most users had positive experiences with the products they reviewed. On the other end of the spectrum, very few users have given ratings of 1 and 2, with counts of 7,606 and 8,465 respectively. This suggests that negative experiences are relatively rare among the users. Nevertheless, this scarcity could be indicative of two potential scenarios: either negative encounters are genuinely uncommon, or users may not be as prompt to express dissatisfaction compared to their enthusiasm in sharing positive experiences (\cite{chen2015augmenting};\cite{skalicky2015statistical})
+We can also generate an overall picture of the dataset by looking at the distribution of ratings - allowing us to discern the user's general perception toward the products in our dataset. Figure \ref{fig:ratings distribution}, illustrates the the spread and central tendency of ratings. As mentioned in Section \ref{subsec:Amazon Review Dataset}, the rating scale is 1 to 5 for this Amazon Product Reviews dataset. From the Figure, it is clear that the majority of users have given a rating of 5, with the count exceeding 50 000 reviews. This suggests a high level of customer satisfaction, indicating that most users had positive experiences with the products they reviewed. On the other end of the spectrum, few users have given ratings of 1 and 2, with counts of 2000 and 3000 reviews respectively. This suggests that negative experiences are relatively rare among the users. Nevertheless, this scarcity could be indicative of two potential scenarios: either negative encounters are genuinely uncommon, or users may not be as prompt to express dissatisfaction compared to their enthusiasm in sharing positive experiences (\cite{chen2015augmenting};\cite{skalicky2015statistical})
 
 \begin{figure}[h]
   \centering
@@ -253,9 +251,9 @@ Ultimately, understanding the distribution of user ratings is crucial for buildi
       \hline
       \textbf{Statistic} & \textbf{Value} \\
       \hline
-      Count & 294,255 \\
-      Mean & 4.41 \\
-      Standard Deviation & 0.98 \\
+      Count & 83 139 \\
+      Mean & 4.40 \\
+      Standard Deviation & 0.97 \\
       Minimum & 1 \\
       25\% Percentile & 4 \\
       50\% Percentile & 5 \\
@@ -267,12 +265,14 @@ Ultimately, understanding the distribution of user ratings is crucial for buildi
   \label{tab:rating summary}
 \end{table}
 
+
+
 \subsection{Review Text and Sentiments}
 \label{subsec:3 Review Text}
 
-Regarding the review, we have spent a considerable amount of time cleaning and preprocessing the this feature. We can now explore it, both from a lens of the textual content and the sentiments - the goal being to visualise and iedentify any patterns within the user reviews or sentiments. 
+Regarding the review, we have spent a considerable amount of time cleaning and preprocessing the this feature. We can now explore it, both from a lens of the textual content and the sentiments - the goal being to visualise and identify any patterns within the user reviews or sentiments. 
 
-On average, we found that there are 116 words in each review. To supplement this, we visualise the distribution of the word count in Figure \ref{fig:distribution of word count}. From the Figure, it is clear that a majority of the reviews are relatively short, with most falling under 200 words - with large number of reviews containing somewhere in the region of 100 words. This suggests that users typically prefer to leave concise feedback on products. Since we are looking at incorporating these reviews into NCF models, this could have several implications. Given that shorter reviews are more frequent, they might have a more significant impact on the prediction outcomes. However, shorter reviews might not always provide comprehensive insights into a user’s preferences or experiences, as they might lack detailed descriptions or explanations. On the other hand, longer reviews, although less frequent, might offer more detailed insights into a user’s preferences, potentially enhancing the accuracy of the recommendations. However, they might also introduce noise into the model due to the increased likelihood of off-topic content or unnecessary details. A potential outcome of this is that the model might be biased towards shorter reviews, as they are more frequent \cite{srifi2020recommender}. This shall be explored further in the Chapter \ref{Chapter5} - the results.
+On average, we found that there are 127 words in each review. To supplement this, we visualise the distribution of the word count in Figure \ref{fig:distribution of word count}. From the Figure, it is clear that a majority of the reviews are relatively short, with most falling under 200 words - with large proportion of reviews containing below 100 words. This suggests that users typically prefer to leave concise feedback on products. Since we are looking at incorporating these reviews into NCF models, this could have several implications. Given that shorter reviews are more frequent, they might have a more significant impact on the prediction outcomes. However, shorter reviews might not always provide comprehensive insights into a user’s preferences or experiences, as they might lack detailed descriptions or explanations. On the other hand, longer reviews, although less frequent, might offer more detailed insights into a user’s preferences, potentially enhancing the accuracy of the recommendations. However, they might also introduce noise into the model due to the increased likelihood of off-topic content or unnecessary details. A potential outcome of this is that the model might be biased towards shorter reviews, as they are more frequent \cite{srifi2020recommender}. This shall be explored further in the Chapter \ref{Chapter5} - the results.
 
 \begin{figure}[h]
   \centering
@@ -281,7 +281,7 @@ On average, we found that there are 116 words in each review. To supplement this
   \label{fig:distribution of word count}
 \end{figure}
 
-Using the review text we can also explore the prevalence of specific phrases or consecutive words, commonly known as $n$-grams, where $n$ is the number of words \cite{mcauley2013hidden}. In Figure \ref{fig:n-grams}, we specifically examine the top 10 frequently occurring consecutive tri-grams (Figure \ref{fig:trigrams}) and four-grams (Figure \ref{fig:four-grams}). This analysis provides insights into the distinctive linguistic structures that frequently appear in the reviews, improving our understanding of the language dynamics within the dataset.
+Using the review text we can also explore the prevalence of specific phrases or consecutive words, commonly known as $n$-grams, where $n$ is the number of words \cite{mcauley2013hidden}. In Figure \ref{fig:n-grams}, we specifically examine the top 10 frequently occurring consecutive tri-grams (Figure \ref{fig:tri-grams}) and four-grams (Figure \ref{fig:four-grams}). This analysis provides insights into the distinctive linguistic structures that frequently appear in the reviews, improving our understanding of the language dynamics within the dataset.
 
 \begin{figure}[h]
   \centering
@@ -304,70 +304,76 @@ From the Figure \ref{fig:n-grams}, it is clear that phrases like “metal gear s
 
 These $N$-grams are useful in text analysis as they provide context that individual words might not. By considering sequences of words (like tri-grams and four-grams), we can capture more meaningful phrases that often occur in our text data. This can help in understanding common themes or topics in our reviews \cite{collins2019document}. Furthermore, in the context of our recommender system, these $n$-grams can provide valuable insights into the aspects that users frequently discuss or value in products \cite{srifi2020recommender}. However, it’s important to note that while $n$-grams can capture local context (i.e., within the $n$-gram), they might not capture the overall sentiment of a review if it’s expressed through complex or long-range dependencies between words. Techniques like sentiment analysis, which we employed, are more effective in capturing the overall sentiment of a review, as they consider the entire review text \cite{collins2019document}.
 
-To that end, we can also explore the distribution of the sentiment scores from from each of the three sentiment analysis lexicon-based methods in Figure \ref{fig:comparison_sentiments}. From Figure \ref{fig:comparison_sentiments}, it is clear that the distribution of sentiment scores from AFINN (Figure \ref{fig:afinn sentiment distribution}) and BING (Figure \ref{fig:bing sentiment distribution}) are similar, while the distribution of sentiment scores from VADER (Figure \ref{fig:vader sentiment distribution}) is distinct. For AFINN and BING, their distributions are uni-modal and skewed to the right, with most sentiment scores concentrated around 0. This suggests that these sentiment analysis techniques tends to classify a significant portion of the reviews as neutral. In contrast to Figures \ref{fig:bing sentiment distribution} and \ref{fig:afinn sentiment distribution}, the sentiment score distribution for VADER (Figure \ref{fig:vader sentiment distribution}) illustrates sentiment scores not uniformly distributed. Most of the sentiment scores are clustered around 0 and 1, indicating that most reviews are either neutral or positive. There is a significant spike in frequency close to the 1.00 score, suggesting a high volume of very positive sentiments in the reviews. Given that we have spikes at 0, 1 scores, as well as some reviews classified negatively (as shown in Figure \ref{fig:vader sentiment distribution}), we find that the distribution of VADER sentiments illustrates that this technique is capturing both the positive, neutral, and negative sentiments in our review data, albeit with a higher frequency of positive sentiments. We expect this behaviour since the distribution of ratings (as shown in Figure \ref{fig:ratings distribution}) is heavily skewed towards the higher ratings.
+To that end, we can also explore the distribution of the sentiment scores from from each of the three sentiment analysis lexicon-based methods in Figure \ref{fig:comparison_sentiments}. From Figure \ref{fig:comparison_sentiments}, it is clear that the distribution of sentiment scores from AFINN (Figure \ref{fig:afinn sentiment distribution}) and BING (Figure \ref{fig:bing sentiment distribution}) are similar, while the distribution of sentiment scores from VADER (Figure \ref{fig:vader sentiment distribution}) is distinct. For AFINN and BING, their distributions are uni-modal and skewed to the right, with most sentiment scores concentrated around 0. This suggests that these sentiment analysis techniques tends to classify a significant portion of the reviews as neutral. In contrast to Figures \ref{fig:bing sentiment distribution} and \ref{fig:afinn sentiment distribution}, the sentiment score distribution for VADER (Figure \ref{fig:vader sentiment distribution}) illustrates sentiment scores not uniformly distributed. Most of the sentiment scores are clustered around 0 and 1, indicating that most reviews are either neutral or positive. There is a significant spike in frequency close to the 1.00 score, suggesting a large volume of highly positive sentiments in the reviews. Given that we have spikes at 0, 1 scores, as well as some reviews classified negatively (as shown in Figure \ref{fig:vader sentiment distribution}), we find that the distribution of VADER sentiments illustrates that this technique is capturing both the positive, neutral, and negative sentiments in our review data, albeit with a higher frequency of positive sentiments. We expect this behaviour since the distribution of ratings (as shown in Figure \ref{fig:ratings distribution}) is heavily skewed towards the higher ratings.
 
 As we mentioned in Section \ref{subsec:3 Sentiment Analysis} we opted for VADER as it held the strongest correlation with the user ratings. This decision seems well-supported as VADER, unlike AFINN and BING, captures a wider range of sentiments (as shown from Figure \ref{fig:vader sentiment distribution}), which could lead to a more nuanced understanding of user opinions. This can be particularly useful for our recommender system as it can help in capturing more detailed user preferences, potentially enhancing the accuracy of our recommendations \cite{dang2021approach}. 
 
-
 \begin{figure}[h]
   \centering
-  \begin{subfigure}{0.32\textwidth} % Adjust the width based on the number of figures
+  \begin{subfigure}{0.49\textwidth} % Adjust the width based on the number of figures and desired spacing
       \includegraphics[width=\textwidth]{Figures/distribution_afinn.pdf} % Adjust the file path and width as needed
       \caption{AFINN}
       \label{fig:afinn sentiment distribution}
   \end{subfigure}
   \hfill
-  \begin{subfigure}{0.32\textwidth} % Adjust the width based on the number of figures
+  \begin{subfigure}{0.49\textwidth} % Adjust the width based on the number of figures and desired spacing
       \includegraphics[width=\textwidth]{Figures/distribution_bing.pdf} % Add the path to the third figure
       \caption{BING} % Add a caption for the third figure
       \label{fig:bing sentiment distribution} % Add a label for the third figure
   \end{subfigure}
-  \hfill
-  \begin{subfigure}{0.32\textwidth} % Adjust the width based on the number of figures
-      \includegraphics[width=\textwidth]{Figures/distribution_vader.pdf} % Adjust the file path and width as needed
+  \vskip\baselineskip % Add vertical space between rows
+  \begin{subfigure}{0.999\textwidth} % Adjust the width based on the number of figures and desired spacing
+      \centering
+      \includegraphics[width=0.9\textwidth]{Figures/distribution_vader.pdf} % Adjust the file path and width as needed
       \caption{VADER}
       \label{fig:vader sentiment distribution}
   \end{subfigure}
-  \caption{Distribution of Sentiment Scores for AFINN, BING and VADER algorithms.} % Update the caption accordingly
+  \caption{Distribution of Sentiment Scores for AFINN, BING, and VADER algorithms.} % Update the caption accordingly
   \label{fig:comparison_sentiments}
 \end{figure}
 
-In Figures \ref{fig:top 10 products sentiments} and \ref{fig:bottom 10 products sentiments}, we identify the the top 10 products and bottom 10 products based on their average sentiment scores. We see that the top products have very similar mean sentiment scores. In contrast, there is a clearer difference between the bottom 10 products. Additionally, Tables \ref{tab:top 10 products statistics} and \ref{tab:bottom 10 products statistics} illustrates that the ratings for the top 10 and bottom 10 products (by sentiment) line up quite well. This is indicative of a consistent correlation between product (VADER) sentiment and user ratings, suggesting that products with higher sentiment scores tend to receive more positive ratings, while those with lower sentiment scores align with lower ratings. 
+
+
+In Figures \ref{fig:top 10 products sentiments} and \ref{fig:bottom 10 products sentiments}, we identify the the top 10 products and bottom 10 products based on their average sentiment scores. We see that the top products have similar mean sentiment scores. In contrast, there is a clearer difference between the bottom 10 products. Additionally, Tables \ref{tab:top 10 products statistics} and \ref{tab:bottom 10 products statistics} illustrates that the ratings for the top 10 and bottom 10 products (by sentiment) line up quite well. This is indicative of a consistent correlation between product (VADER) sentiment and user ratings, suggesting that products with higher sentiment scores tend to receive more positive ratings, while those with lower sentiment scores align with lower ratings. 
 
 \begin{figure}[h]
   \centering
-  \begin{subfigure}{0.48\textwidth}
-      \includegraphics[width=\textwidth]{Figures/Top_10_Products_Sentiments.pdf} % Adjust the file path and width as needed
-      \caption{Top 10 Products Sentiments}
-      \label{fig:top 10 products sentiments}
+  \begin{subfigure}{\textwidth}
+    \centering
+    \includegraphics[width=0.98\textwidth]{Figures/Top_10_Products_Sentiments.pdf} % Adjust the file path and width as needed
+    \caption{Top 10 Products Sentiments}
+    \label{fig:top 10 products sentiments}
   \end{subfigure}
   \hfill
-  \begin{subfigure}{0.48\textwidth}
-      \includegraphics[width=\textwidth]{Figures/Bottom_10_Products_Sentiments.pdf} % Adjust the file path and width as needed
-      \caption{Bottom 10 Products Sentiments}
-      \label{fig:bottom 10 products sentiments}
+  \begin{subfigure}{\textwidth}
+    \centering
+    \includegraphics[width=0.98\textwidth]{Figures/Bottom_10_Products_Sentiments.pdf} % Adjust the file path and width as needed
+    \caption{Bottom 10 Products Sentiments}
+    \label{fig:bottom 10 products sentiments}
   \end{subfigure}
   \caption{Comparison of Sentiments for Top and Bottom 10 Products}
-  \label{fig:comparison_sentiments_top_10s}
+  \label{fig:comparison_sentiments}
 \end{figure}
+
 
 \begin{table}[h]
   \centering
   \begin{tabular}{cccc}
       \hline
-      \textbf{ASIN} & \textbf{Count of Reviews} & \textbf{Mean Rating} & \textbf{Mean Sentiment} \\
+      \textbf{Title} & \textbf{Count of Reviews} & \textbf{Mean Rating} & \textbf{Mean Sentiment} \\
       \hline
-      B00RBQV2XK & 13 & 4.538 & 0.981 \\
-      B000TT4GBG & 16 & 4.312 & 0.977 \\
-      B000WINB56 & 17 & 4.235 & 0.977 \\
-      B00LYYMXF6 & 14 & 5     & 0.977 \\
-      B00BB5HU6K & 13 & 4.462 & 0.976 \\
-      B00D96BNGM & 19 & 4.526 & 0.976 \\
-      B0171155ZU & 13 & 4.923 & 0.975 \\
-      B00KAYDYE0 & 14 & 4.857 & 0.974 \\
-      B0007TFCFW & 13 & 4.923 & 0.974 \\
-      B00004U9MS & 12 & 3.917 & 0.974 \\
-      \hline
+      Super Mario Bros. 3                             &         4.733 &      15 &        0.987 \\
+      Super Mario Bros. 3                             &         4.733 &      15 &        0.987 \\
+      Rock Band 2 - Xbox 360                          &         4.6   &      15 &        0.982 \\
+      Brother PE525 Embroidery Machine                &         4.692 &      13 &        0.981 \\
+      Logitech Gaming Keyboard G110                   &         4     &      13 &        0.979 \\
+      LucidSound LS30 - Wireless Universal Gaming     &         4.75  &      16 &        0.976 \\
+      Xbox 360 Rock Band Special Edition              &         4.267 &      15 &        0.976 \\
+      Turtle Beach Call of Duty: Ghosts               &         4.714 &      14 &        0.976 \\
+      da Vinci Watercolor Series Maestro Paint        &         4.947 &      19 &        0.976 \\
+      CORSAIR M65 Pro RGB - FPS                       &         4.8   &      15 &        0.969 \\
+      AeroGarden Harvest Elite (Classic) with Gourmet &         4.75  &      16 &        0.968 \\
+           \hline
   \end{tabular}
   \caption{Details about the Top 10 Products by Average Sentiment}
   \label{tab:top 10 products statistics}
@@ -380,17 +386,19 @@ In Figures \ref{fig:top 10 products sentiments} and \ref{fig:bottom 10 products 
       \hline
       \textbf{ASIN} & \textbf{Count of Reviews} & \textbf{Mean Rating} & \textbf{Mean Sentiment} \\
       \hline
-      B00KGVCJX4 & 16 & 3.875 & -0.312 \\
-      B00004SPW9 & 13 & 3.9230 & -0.323 \\
-      B00005JO16 & 13 & 3.461 & -0.325 \\
-      B000059HCH & 14 & 3.643 & -0.341 \\
-      B000VKL6Z2 & 16 & 3.938 & -0.371 \\
-      B0011G6FDI & 15 & 3.467 & -0.397 \\
-      B000XJO78Y & 13 & 2.769 & -0.462 \\
-      B0096Q19YU & 18 & 3.444 & -0.479 \\
-      B00KGVCK42 & 16 & 4.375 & -0.492 \\
-      B00008DDVU & 12 & 3.833 & -0.670 \\
-      \hline
+      Tomcat Snap Traps, 2-Pack (Mouse Trap) &         2.062 &      16 &       -0.16  \\
+      Silent Hill                            &         4.56  &      25 &       -0.218 \\
+      Silent Hill                            &         4.56  &      25 &       -0.218 \\
+      Condemned Criminal Origins - Xbox 360  &         4.115 &      26 &       -0.221 \\
+      Black Flag Mouse Bait Station (8       &         4.286 &      14 &       -0.276 \\
+      Medal of Honor Airborne - Xbox         &         3     &      13 &       -0.291 \\
+      Ortho - Ant and Roach                  &         4.357 &      14 &       -0.321 \\
+      Victor Tri-Kill Mouse Trap, 1 Trap     &         3.615 &      13 &       -0.333 \\
+      Alone in the Dark - Xbox               &         2.316 &      19 &       -0.417 \\
+      Manhunt - PlayStation 2                &         3.895 &      19 &       -0.562 \\
+      Manhunt - PlayStation 2                &         3.895 &      19 &       -0.562 \\
+      Victor M140S Quick Kill Mouse Trap,    &         4.333 &      15 &       -0.572 \\
+           \hline
   \end{tabular}
   \caption{Details about the Bottom 10 Products by Average Sentiment}
   \label{tab:bottom 10 products statistics}
@@ -398,7 +406,7 @@ In Figures \ref{fig:top 10 products sentiments} and \ref{fig:bottom 10 products 
 
 The products with high sentiments (see Figure \ref{fig:top 10 products sentiments}) have received high positive feedback from users and furthermore, from Table \ref{tab:top 10 products statistics} we see that these products also have at least a mean rating of 4 (and more often than not closer to 5). This further reinforces the positive sentiment towards these products, indicating that they are well-received by users in terms of both ratings and review sentiments. We can say the same for the for bottom 10 products shown in Figure \ref{fig:bottom 10 products sentiments}  and Table \ref{fig:bottom 10 products sentiments} - these low mean sentiments achieved by these products reviews are also reflected in their mean ratings being mostly below 4.
 
-To end off this visual analysis, Figure \ref{fig:correlation heat map sentiments} is a correlation heat map displaying the relationship between the various sentiment scores generated from AFINN, BING and VADER as well as the ratings and review word count. The goal here is to illustrate  whether there is a correlation between any of these sentiment scores with the ratings, and whether review length has a correlation with sentiments or ratings. From Figure \ref{fig:correlation heat map sentiments}, it is clear that VADER has the highest correlation with rating (0.32), suggesting a moderate positive relationship. This indicates that as the VADER sentiment score increases, the rating tends to increase as well. This is an important observation and was pivotal to our decision to use VADER as the sentiment analysis method of choice to generate sentiments to be used in our model Specifically, AFINN and BING have lower correlations with rating (0.09 and 0.13 respectively), indicating weaker relationships with the rating.  Word count has a negative correlation with rating (-0.13), suggesting that longer reviews tend to have lower ratings - albeit the correlation is very weak. However, it has positive correlations with all three sentiment analysis techniques, with the highest being with AFINN (0.59). However, this is also an expected result, as AFINN (and BING) assign sentiment scores to each word in a review, and the cumulative score is influenced by the number of words \cite{haque2018sentiment}. Consequently, reviews with more words have a greater chance of containing positive words, resulting in higher sentiment scores. 
+To end off this visual analysis, Figure \ref{fig:correlation heat map sentiments} is a correlation heat map displaying the relationship between the various sentiment scores generated from AFINN, BING and VADER as well as the ratings and review word count. The goal here is to illustrate  whether there is a correlation between any of these sentiment scores with the ratings, and whether review length has a correlation with sentiments or ratings. From Figure \ref{fig:correlation heat map sentiments}, it is clear that VADER has the highest correlation with rating (0.32), suggesting a moderate positive relationship. This indicates that as the VADER sentiment score increases, the rating tends to increase as well. This is an important observation and was pivotal to our decision to use VADER as the sentiment analysis method of choice to generate sentiments to be used in our model. Specifically, AFINN and BING have lower correlations with rating (0.09 and 0.13 respectively), indicating weaker relationships with the rating.  Word count has a negative correlation with rating (-0.13), suggesting that longer reviews tend to have lower ratings - albeit the correlation is  weak. However, it has positive correlations with all three sentiment analysis techniques, with the highest being with AFINN (0.59). However, this is also an expected result, as AFINN (and BING) assign sentiment scores to each word in a review, and the cumulative score is influenced by the number of words \cite{haque2018sentiment}. Consequently, reviews with more words have a greater chance of containing positive words, resulting in higher sentiment scores. 
 
 Ultimately, this section has provided us with a holistic understanding of the dataset's inherent structures and offers context-rich insights that will guide subsequent modelling, interpretation and discussions. However, before we detail the next steps, it is important to establish what data is used to train our models and what data is used to validate our models - this is studied in the next section. 
 
@@ -413,15 +421,15 @@ Ultimately, this section has provided us with a holistic understanding of the da
 \section{Data Partitioning}
 \label{sec:3 Data Partitioning}
 
-When analysing a recommendation model, we are more concerned with its future performance on new (unseen) data, rather than in its performance on past data \cite{witten2005practical}. In order to test future performance and estimate the prediction error, we must properly partition the original dataset into training and test subsets. This section outlines the data partitioning strategy employed for this thesis, considering the cleaned and transformed reviews dataset consisting of over 250,000 records. 
+When analysing a recommendation model, we are more concerned with its future performance on new (unseen) data, rather than its performance on past data \cite{witten2005practical}. In order to test future performance and estimate the prediction error, we must properly partition the original dataset into training and test subsets. This section outlines the data partitioning strategy employed for this thesis, considering the cleaned and transformed reviews dataset consisting of over 83 139 reviews.
 
-Training data refers to the data that is used by one or more learning methods to develop the model and the test data is used to evaluate the quality of the model by giving the trained model this unseen (test) data \cite{witten2005practical}. The test set must be different and independent from the training set in order to obtain a reliable estimate of the true error \cite{witten2005practical}. It is very important that performance is estimated on data which take no part in the formulation of the model. Some learning schemes, such as in the case of ours, need also a validation set in order to optimise the model parameters. In summary, to evaluate the performance of our recommender models, we need to train, validate (to optimise) and test our recommender model using different data. To do so, is not as simple as randomly allocating reviews (records) into three distinct sets. 
+Training data refers to the data that is used by one or more learning methods to develop the model and the test data is used to evaluate the quality of the model by giving the trained model this unseen (test) data \cite{witten2005practical}. The test set must be different and independent from the training set in order to obtain a reliable estimate of the true error \cite{witten2005practical}. It is important that performance is estimated on data which take no part in the formulation of the model. Some learning schemes, such as our case, need also a validation set in order to optimise the model parameters. In summary, to evaluate the performance of our recommender models, we need to train, validate (to optimise) and test our recommender model using different data. To do so, is not as simple as randomly allocating reviews (records) into three distinct sets. 
 
 For recommender systems, the partitioning is performed by randomly selecting some ratings from all (or some of) the users. That is, for each user, we randomly select some ratings they have given and hide them, whilst keeping their remaining ratings in tact and to be used for training. The selected ratings constitute the test set, while the remaining ones are the training set. This method is called leave-$k$-out\footnote{method involves selecting a subset of $k$ ratings from the dataset as the test set, while the remaining ratings form the training set}. In \cite{sarwar2002incremental}, they split the dataset into 80\% training and 20\% test data following this leave-$k$-out approach. In \cite{herlocker1999algorithmic} the test set is made by 10\% of users: here only 5 ratings for each user in the test set are withheld. This leave-$k$-out approach is in fact also the method that we employ in our paper. 
 
-We opted to hide 3 random ratings from each user and allocate these to the test set, and 2 (again random) ratings to the validation set, and allocate the remaining reviews for the user to the training set. To further ensure the integrity of the partitioning process, we also ensured that the reviews for each user were randomly shuffled before allocating them to the respective subsets. This randomisation helps to mitigate any potential biases that may be present in the original dataset and ensures a representative distribution of user-item interactions across the subsets. We used a seed of 2207 to ensure reproducibility of the results. Note, there are other methods of splitting the dataset such as $k$-fold cross-validation\footnote{$k$-fold cross-validation divides the dataset into $k$ equally sized folds. The model is trained $k$ times, each time using $k-1$ folds for training and one fold for validation. The performance is then averaged over the $k$ iterations.}, however for our research we opted to use leave-$k$-out due to its simplicity and popularity in recommender research.
+We opted to hide 3 random ratings from each user and allocate these to the test set, and hide another 2 (again random) ratings which were allocated to the validation set. We allocated the remaining reviews for the user to the training set. To further ensure the integrity of the partitioning process, we also ensured that the reviews for each user were randomly shuffled before allocating them to the respective subsets. This randomisation helps to mitigate any potential biases that may be present in the original dataset and ensures a representative distribution of user-item interactions across the subsets. We used a seed of 2207 to ensure reproducibility of the results. Note, there are other methods of splitting the dataset such as $k$-fold cross-validation\footnote{$k$-fold cross-validation divides the dataset into $k$ equally sized folds. The model is trained $k$ times, each time using $k-1$ folds for training and one fold for validation. The performance is then averaged over the $k$ iterations.}, however for our research we opted to use leave-$k$-out due to its simplicity and popularity in recommender research.
 
-The choice for the partition was made to ensure that the recommender system is trained on a large enough dataset to capture the underlying patterns and relationships between users and items, whilst also ensuring that the test set is large enough to provide a reliable estimate of the model's performance. To that end, the training data, the largest partition of the data containing at least 9 reviews per user, comprises approximately 72 percent of the dataset, or close to 185 000 reviews. The validation set comprises of approximately 13 percent of the dataset (35,000 reviews. Finally, the test set is represented by approximately 13 percent of the dataset (35,000 reviews). These datasets are summarised in Table \ref{tab:partition summary}.
+The choice for the partition was made to ensure that the recommender system is trained on a large enough dataset to capture the underlying patterns and relationships between users and items, whilst also ensuring that the test set is large enough to provide a reliable estimate of the model's performance. To that end, the training data, the largest partition of the data containing at least 7 reviews per user, comprises approximately 77.9\% of the dataset, or 64 799 reviews. The validation set comprises of approximately 8.8\% percent of the dataset (7 336 reviews). Finally, the test set is represented by approximately 13.2\% of the dataset (11 004 reviews). These datasets are summarised in Table \ref{tab:partition summary}.
 
 \begin{table}[h]
   \centering
@@ -429,16 +437,17 @@ The choice for the partition was made to ensure that the recommender system is t
   \hline
   \textbf{Dataset} & \textbf{Purpose} & \textbf{Number of Reviews} & \textbf{Proportion of Reviews} \\
   \hline
-  Training & Training the model  & 186 675 & 72.7\% \\
+  Training & Training the model  & 64 799 & 77.9\% \\
   \hline
-  Validation & Model validation  & 35 025 & 13.64\% \\
+  Validation & Model validation  & 7 336 & 8.8\% \\
   \hline
-  Testing & Model evaluation  & 35 025 & 13.64\% \\
+  Testing & Model evaluation  & 11 004 & 13.2\% \\
   \hline
   \end{tabular}
   \caption{Dataset Partition}
   \label{tab:partition summary}
   \end{table}
+
 
   The partitioning of the dataset into training, validation, and test sets is crucial for achieving reliable and accurate results. It helps to evaluate the recommender system's performance on unseen data and provides an estimate of its effectiveness in real-world scenarios. The training set facilitates the learning of user preferences, the validation set aids in fine-tuning the model, and the test set provides an independent assessment of the system's performance. Having established this partitioning process, our data is ready to be used for our analysis. 
 
@@ -452,7 +461,7 @@ In this chapter we have discussed a variety of aspects of the Amazon product rev
 
 Specifically, in Section \ref{subsec:3 Amazon Review Dataset}, we provided some background and context on the Amazon Product Reviews dataset, which we have chosen for this thesis. In this same section we also dived into the details of the type of user feedback that we have in the dataset and explained that we are using explicit feedback provided through numerical ratings and review text variables. In section \ref{sec:3 Variable Description}, we provided a brief overview of the variables in the dataset and gave some descriptions of these. 
 
-The data that consists of over 142 million reviews over an 18-year period. Through data management and filtering (see Section \ref{sec:3 Data Collection and Preprocessing}), we were able to extract a subset of the data that contains 91 235 reviews from 3801 unique users and 3283 unique products. In this same section, we also explained in detail the preprocessing steps taken to ready the data for further analysis, which included handling of nulls and duplicate amongst other steps. Subsection \ref{subsec:3 Text Analysis and Cleaning}and \ref{subsec:3 Sentiment Analysis} summarised the work done to analyse and clean the textual data - the user review text. These sections outlined the text cleaning steps taken from normalising  to lemmatising the review text. We also covered what sentiment analysis is (see Section \ref{subsec:3 Sentiment Analysis}) and why we opted for the VADER lexicon-based approach to generate the sentiment feature for the dataset. At this stage we had filtered our dataset to 83 139 reviews in the dataset, where we had 3668 unique users and 3249 unique products 
+The data that consists of over 142 million reviews over a 22-year period. Through data management and filtering (see Section \ref{sec:3 Data Collection and Preprocessing}), we were able to extract a subset of the data that contains 91 235 reviews from 3801 unique users and 3283 unique products. In this same section, we also explained in detail the preprocessing steps taken to ready the data for further analysis, which included handling of nulls and duplicates amongst other steps. Subsection \ref{subsec:3 Text Analysis and Cleaning} and \ref{subsec:3 Sentiment Analysis} summarised the work done to analyse and clean the textual data - the user review text. These sections outlined the text cleaning steps taken from normalising  to lemmatising the review text. We also covered what sentiment analysis is (see Section \ref{subsec:3 Sentiment Analysis}) and why we opted for the VADER lexicon-based approach to generate the sentiment feature for the dataset. At this stage we had filtered our dataset to 83 139 reviews in the dataset, where we had 3668 unique users and 3249 unique products 
 
 Sections \ref{sec:3 Data Summary} and \ref{sec:3 Trends and Patterns} provided a brief high level visual summary of the dataset from different angles, looking at user engagement, review text and ratings data. We looked at the distributions and identified any trends in the data. Over the entire cleaned data set of reviews (approximately 83 139 reviews), the average ratings are 4.4 - where the ratings are on a five-point scale. We also identified that the general sentiment of users vary, however they are majority positive. Lastly, we outlined the method of partition of our dataset in Section \ref{sec:3 Data Partitioning}. Data partitioning is a pivotal step in the development and evaluation of recommender systems, serving to gauge the system's ability to generalise to unseen user-item interactions. We opted for the leave-$k$-out approach where we simply, hid or removed 5 ratings at random from each user and allocated 2 of those hidden ratings to a validation set and 3 of them to a testing set, the balance of the ratings were used as the training set. 
 
