@@ -8,6 +8,7 @@ english, % ngerman for German
 singlespacing, % Single line spacing, alternatives: onehalfspacing or doublespacing
 parskip, % Uncomment to add space between paragraphs
 headsepline, % Uncomment to get a line under the header
+openany % Uncomment to start chapters on any page, not just odd pages
 ]{MastersDoctoralThesis} % The class file specifying the document structure
 \usepackage[utf8]{inputenc} % Required for inputting international characters
 \usepackage[T1]{fontenc} % Output font encoding for international characters
@@ -22,6 +23,7 @@ headsepline, % Uncomment to get a line under the header
 \usepackage{bbm} % Required for indicator function
 \usepackage{natbib} % Required to change bibliography style to APA
 \usepackage{subcaption} % Required for subfigures
+\usepackage{graphicx} % Required for the \includegraphics command
 \usepackage[autostyle = true]{csquotes} % Required to generate language-dependent quotes in the bibliography
 \usepackage[bookmarksopen=true,
 bookmarksopenlevel=0,
@@ -207,10 +209,10 @@ I would additionally like to acknowledge the assistance and support from my frie
 \end{itemize}
 
 \vspace{1cm}
-\noindent Signed:\\
+\noindent Signed: \includegraphics[height=10em]{Figures/sig.png} \\ % Adjust the height as needed
 \rule[0.5em]{25em}{0.5pt} % This prints a line for the signature
  
-\noindent Date:\\
+\noindent Date: \today \\
 \rule[0.5em]{25em}{0.5pt} % This prints a line to write the date
 \end{declaration}
 
@@ -225,9 +227,9 @@ I would additionally like to acknowledge the assistance and support from my frie
 
 Online shopping has become a ubiquitous aspect of modern life and recommender systems have become a crucial tool for e-commerce giants to efficiently sift through vast amounts of data to locate the information that users are seeking. Within e-commerce, recommender systems aim to provide users with personalised product recommendations based on their preferences and behaviours. They analyse user data, for example their browsing history, purchase history, and ratings to understand their preferences and make recommendations that align with these preferences. They have become fundamental for information retrieval and provide a particularly lucrative landscape for e-commerce platforms, providing suggestions that effectively prune large information spaces so that users are directed toward those items that best meet their needs and preferences.
 
-This paper looks at developing a neural collaborative filtering (NCF) recommender system model which incorporates data from multi-modalities, textual data and explicit ratings data (and review sentiment). The primary objectives of this study are twofold. Firstly, the aim is to create and assess the efficacy of the, relatively new, deep-learning based collaborative filtering  approach - NCF - in comparison to other more traditional collaborative filtering models, commonly used. Secondly, the study seeks to investigate the potential impact of incorporating product review text and review text sentiment in improving the accuracy of recommendations. Our model shall be trained and evaluated on the Amazon Product Reviews dataset, which contains millions of user reviews and feedback on thousands of different products across different categories. The metrics used to evaluate the model include predictive accuracy metrics such as mean absolute error, amongst others, as well as top-n evaluation metrics such as recall@K and precision@K. Our methodology is based on a literature analysis and aims to clearly extrapolate on the recent works which have established a framework for NCF.
+This paper looks at developing a neural collaborative filtering (NCF) recommender system model which incorporates data from multi-modalities, textual data and explicit ratings data (and review sentiment). The primary objectives of this study are twofold. Firstly, the aim is to create and assess the efficacy of the, relatively new, deep learning-based collaborative filtering  approach - NCF - in comparison to other more traditional collaborative filtering models, commonly used. Secondly, the study seeks to investigate the potential impact of incorporating product review text and review text sentiment in improving the accuracy of recommendations. Our model shall be trained and evaluated on the Amazon Product Reviews dataset, which contains millions of user reviews and feedback on thousands of different products across different categories. The metrics used to evaluate the model include predictive accuracy metrics such as mean absolute error, amongst others, as well as top-$n$ evaluation metrics such as recall@$n$ and precision@$n$. Our methodology is based on a literature analysis and aims to clearly extrapolate on the recent works which have established a framework for NCF.
 
-The results of our study show that the NCF model outperforms all the benchmark models in terms of predictive accuracy and top-n evaluation. The results also show that the inclusion of review text in the NCF model improves the predictive accuracy of the model significantly. The results of this study are significant as they demonstrate the potential benefits of incorporating review text into deep-learning based approaches for collaborative filtering for improved rating prediction. Additionally, the algorithm, models, and techniques developed and used in this paper are not problem-specific and can be applied to different recognition and prediction problems.
+The results of our study show that the NCF model outperforms all the benchmark models in terms of predictive accuracy and top-$n$ evaluation. The results also show that the inclusion of review text in the NCF model improves the predictive accuracy of the model significantly. The results of this study are significant as they demonstrate the potential benefits of incorporating review text into deep learning-based approaches for collaborative filtering for improved rating prediction. 
 
 
 \end{abstract}
@@ -249,12 +251,17 @@ The results of our study show that the NCF model outperforms all the benchmark m
 
 \begin{abbreviations}{ll} % Include a list of abbreviations (a table of two columns)
 
-\textbf{NCF} & \textbf{N}eural \textbf{C}ollaborative \textbf{F}iltereing\\
-\textbf{MAE} & \textbf{M}ean \textbf{A}bsolute \textbf{E}rror\\
-\textbf{RMSE} & \textbf{R}oot \textbf{M}ean \textbf{S}quare \textbf{E}rror\\
-\textbf{MSE} & \textbf{M}ean \textbf{S}quare \textbf{E}rror\\
 \textbf{DNN} & \textbf{D}eep \textbf{N}eural \textbf{N}etwork\\
-
+\textbf{IBCF} & \textbf{I}tem-\textbf{B}ased \textbf{C}ollaborative \textbf{F}iltering\\
+\textbf{MAE} & \textbf{M}ean \textbf{A}bsolute \textbf{E}rror\\
+\textbf{MF} & \textbf{M}atrix \textbf{F}actorisation\\
+\textbf{MLP} & \textbf{M}ulti-\textbf{L}ayer \textbf{P}erceptron\\
+\textbf{MSE} & \textbf{M}ean \textbf{S}quare \textbf{E}rror\\
+\textbf{NCF} & \textbf{N}eural \textbf{C}ollaborative \textbf{F}iltereing\\
+\textbf{NeuMF} & \textbf{Neu}ral \textbf{M}atrix \textbf{F}actorisation\\
+\textbf{NMF} & \textbf{N}on-\textbf{N}egative \textbf{M}atrix \textbf{F}actorisation\\
+\textbf{RMSE} & \textbf{R}oot \textbf{M}ean \textbf{S}quare \textbf{E}rror\\
+\textbf{UBCF} & \textbf{U}ser-\textbf{B}ased \textbf{C}ollaborative \textbf{F}iltering\\
 
 \end{abbreviations}
 
@@ -272,6 +279,7 @@ The results of our study show that the NCF model outperforms all the benchmark m
 \include{Chapters/Chapter3}
 \include{Chapters/Chapter4} 
 \include{Chapters/Chapter5} 
+\include{Chapters/Chapter6}
 
 %----------------------------------------------------------------------------------------
 %	THESIS CONTENT - APPENDICES
@@ -279,8 +287,8 @@ The results of our study show that the NCF model outperforms all the benchmark m
 
 \appendix 
 
-% \include{Appendices/AppendixA}
-% \include{Appendices/AppendixB}
+\include{Appendices/AppendixA}
+\include{Appendices/AppendixB}
 % \include{Appendices/AppendixC}
 % \include{Appendices/AppendixD}
 

@@ -1,0 +1,66 @@
+This is BibTeX, Version 0.99d (TeX Live 2022)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+A level-1 auxiliary file: Chapters/Chapter1.aux
+A level-1 auxiliary file: Chapters/Chapter2.aux
+A level-1 auxiliary file: Chapters/Chapter3.aux
+A level-1 auxiliary file: Chapters/Chapter4.aux
+A level-1 auxiliary file: Chapters/Chapter5.aux
+A level-1 auxiliary file: Chapters/Chapter6.aux
+A level-1 auxiliary file: Appendices/AppendixA.aux
+A level-1 auxiliary file: Appendices/AppendixB.aux
+The style file: plain.bst
+Database file #1: main.bib
+Warning--there's a number but no series in abdi1999neural
+Warning--empty journal in bawden2020information
+Warning--empty journal in buczak2002personalization
+Warning--empty journal in mckinsey_personalization_2021
+Warning--can't use both volume and number fields in hutto2014vader
+Warning--there's a number but no series in musat2013recommendation
+Warning--can't use both volume and number fields in sarwar2002incremental
+Warning--empty journal in sarwar2000application
+Warning--empty journal in shapira2022recommender
+Warning--can't use both volume and number fields in witten2005practical
+Warning--empty journal in zhang2014urcf
+You've used 159 entries,
+            2118 wiz_defined-function locations,
+            1339 strings with 34523 characters,
+and the built_in function-call counts, 63058 in all, are:
+= -- 6280
+> -- 3089
+< -- 73
++ -- 1240
+- -- 1052
+* -- 4422
+:= -- 10019
+add.period$ -- 497
+call.type$ -- 159
+change.case$ -- 992
+chr.to.int$ -- 0
+cite$ -- 170
+duplicate$ -- 2449
+empty$ -- 4762
+format.name$ -- 1052
+if$ -- 13424
+int.to.chr$ -- 0
+int.to.str$ -- 159
+missing$ -- 163
+newline$ -- 799
+num.names$ -- 318
+pop$ -- 1064
+preamble$ -- 1
+purify$ -- 838
+quote$ -- 0
+skip$ -- 1891
+stack$ -- 0
+substring$ -- 4130
+swap$ -- 764
+text.length$ -- 73
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 626
+warning$ -- 11
+while$ -- 629
+width$ -- 162
+write$ -- 1750
+(There were 11 warnings)

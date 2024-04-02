@@ -1,0 +1,61 @@
+This is BibTeX, Version 0.99d (TeX Live 2022)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+A level-1 auxiliary file: Chapters/Chapter1.aux
+A level-1 auxiliary file: Chapters/Chapter2.aux
+A level-1 auxiliary file: Chapters/Chapter3.aux
+A level-1 auxiliary file: Chapters/Chapter4.aux
+A level-1 auxiliary file: Chapters/Chapter5.aux
+The style file: plain.bst
+Database file #1: main.bib
+Warning--empty journal in bawden2020information
+Warning--empty journal in mckinsey_personalization_2021
+Warning--can't use both volume and number fields in hutto2014vader
+Warning--there's a number but no series in musat2013recommendation
+Warning--can't use both volume and number fields in sarwar2002incremental
+Warning--empty journal in sarwar2000application
+Warning--empty journal in shapira2022recommender
+Warning--can't use both volume and number fields in witten2005practical
+Warning--empty journal in zhang2014urcf
+You've used 121 entries,
+            2118 wiz_defined-function locations,
+            1146 strings with 27463 characters,
+and the built_in function-call counts, 48463 in all, are:
+= -- 4849
+> -- 2319
+< -- 59
++ -- 930
+- -- 788
+* -- 3388
+:= -- 7652
+add.period$ -- 376
+call.type$ -- 121
+change.case$ -- 751
+chr.to.int$ -- 0
+cite$ -- 130
+duplicate$ -- 1898
+empty$ -- 3675
+format.name$ -- 788
+if$ -- 10347
+int.to.chr$ -- 0
+int.to.str$ -- 121
+missing$ -- 121
+newline$ -- 609
+num.names$ -- 242
+pop$ -- 793
+preamble$ -- 1
+purify$ -- 632
+quote$ -- 0
+skip$ -- 1489
+stack$ -- 0
+substring$ -- 3272
+swap$ -- 614
+text.length$ -- 59
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 482
+warning$ -- 9
+while$ -- 489
+width$ -- 124
+write$ -- 1335
+(There were 9 warnings)

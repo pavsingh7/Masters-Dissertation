@@ -1,0 +1,969 @@
+\begin{thebibliography}{100}
+
+\bibitem{abdi1999neural}
+Herv{\'e} Abdi, Dominique Valentin, and Betty Edelman.
+\newblock {\em Neural networks}.
+\newblock Number 124. Sage, 1999.
+
+\bibitem{adamopoulos2013beyond}
+Panagiotis Adamopoulos.
+\newblock Beyond rating prediction accuracy: on new perspectives in recommender
+  systems.
+\newblock In {\em Proceedings of the 7th ACM conference on Recommender
+  systems}, pages 459--462, 2013.
+
+\bibitem{adomavicius2005toward}
+Gediminas Adomavicius and Alexander Tuzhilin.
+\newblock Toward the next generation of recommender systems: A survey of the
+  state-of-the-art and possible extensions.
+\newblock {\em IEEE transactions on knowledge and data engineering},
+  17(6):734--749, 2005.
+
+\bibitem{agarwal2016machine}
+Basant Agarwal, Namita Mittal, Basant Agarwal, and Namita Mittal.
+\newblock Machine learning approach for sentiment analysis.
+\newblock {\em Prominent feature extraction for sentiment analysis}, pages
+  21--45, 2016.
+
+\bibitem{ahuja2019impact}
+Ravinder Ahuja, Aakarsha Chug, Shruti Kohli, Shaurya Gupta, and Pratyush Ahuja.
+\newblock The impact of features extraction on the sentiment analysis.
+\newblock {\em Procedia Computer Science}, 152:341--348, 2019.
+
+\bibitem{aivazoglou2020fine}
+Markos Aivazoglou, Antonios~O Roussos, Dionisis Margaris, Costas Vassilakis,
+  Sotiris Ioannidis, Jason Polakis, and Dimitris Spiliotopoulos.
+\newblock A fine-grained social network recommender system.
+\newblock {\em Social Network Analysis and Mining}, 10:1--18, 2020.
+
+\bibitem{alzoubi2022effect}
+H~Alzoubi, M~Alshurideh, B~al Kurdi, K~Alhyasat, and T~Ghazal.
+\newblock The effect of e-payment and online shopping on sales growth: Evidence
+  from banking industry.
+\newblock {\em International Journal of Data and Network Science},
+  6(4):1369--1380, 2022.
+
+\bibitem{asudani2023impact}
+Deepak~Suresh Asudani, Naresh~Kumar Nagwani, and Pradeep Singh.
+\newblock Impact of word embedding models on text analytics in deep learning
+  environment: a review.
+\newblock {\em Artificial intelligence review}, 56(9):10345--10425, 2023.
+
+\bibitem{balabanovic1997fab}
+Marko Balabanovi{\'c} and Yoav Shoham.
+\newblock Fab: content-based, collaborative recommendation.
+\newblock {\em Communications of the ACM}, 40(3):66--72, 1997.
+
+\bibitem{bawden2020information}
+David Bawden and Lyn Robinson.
+\newblock Information overload: An overview.
+\newblock 2020.
+
+\bibitem{bennett2007netflix}
+James Bennett, Stan Lanning, et~al.
+\newblock The netflix prize.
+\newblock In {\em Proceedings of KDD cup and workshop}, volume 2007, page~35.
+  New York, 2007.
+
+\bibitem{bergstra2011algorithms}
+James Bergstra, R{\'e}mi Bardenet, Yoshua Bengio, and Bal{\'a}zs K{\'e}gl.
+\newblock Algorithms for hyper-parameter optimization.
+\newblock {\em Advances in neural information processing systems}, 24, 2011.
+
+\bibitem{bogdanov2013semantic}
+Dmitry Bogdanov, Mart{\'\i}n Haro, Ferdinand Fuhrmann, Anna Xamb{\'o}, Emilia
+  G{\'o}mez, and Perfecto Herrera.
+\newblock Semantic audio content-based music recommendation and visualization
+  based on user preference examples.
+\newblock {\em Information Processing \& Management}, 49(1):13--33, 2013.
+
+\bibitem{breese2013empirical}
+John~S Breese, David Heckerman, and Carl Kadie.
+\newblock Empirical analysis of predictive algorithms for collaborative
+  filtering.
+\newblock {\em arXiv preprint arXiv:1301.7363}, 2013.
+
+\bibitem{brynjolfsson2003consumer}
+Erik Brynjolfsson, Yu~Hu, and Michael~D Smith.
+\newblock Consumer surplus in the digital economy: Estimating the value of
+  increased product variety at online booksellers.
+\newblock {\em Management science}, 49(11):1580--1596, 2003.
+
+\bibitem{buczak2002personalization}
+Anna Buczak, John Zimmerman, and Kaushal Kurapati.
+\newblock Personalization: Improving ease-of-use, trust and accuracy of a tv
+  show recommender.
+\newblock 2002.
+
+\bibitem{burke2002hybrid}
+Robin Burke.
+\newblock Hybrid recommender systems: Survey and experiments.
+\newblock {\em User modeling and user-adapted interaction}, 12:331--370, 2002.
+
+\bibitem{burke2007hybrid}
+Robin Burke.
+\newblock Hybrid web recommender systems.
+\newblock {\em The adaptive web: methods and strategies of web
+  personalization}, pages 377--408, 2007.
+
+\bibitem{burke2015robust}
+Robin Burke, Michael~P O’Mahony, and Neil~J Hurley.
+\newblock Robust collaborative recommendation.
+\newblock {\em Recommender systems handbook}, pages 961--995, 2015.
+
+\bibitem{ccano2017hybrid}
+Erion {\c{C}}ano and Maurizio Morisio.
+\newblock Hybrid recommender systems: A systematic literature review.
+\newblock {\em Intelligent data analysis}, 21(6):1487--1524, 2017.
+
+\bibitem{cer2018universal}
+Daniel Cer, Yinfei Yang, Sheng-yi Kong, Nan Hua, Nicole Limtiaco, Rhomni~St
+  John, Noah Constant, Mario Guajardo-Cespedes, Steve Yuan, Chris Tar, et~al.
+\newblock Universal sentence encoder.
+\newblock {\em arXiv preprint arXiv:1803.11175}, 2018.
+
+\bibitem{chan2011web}
+Nguyen~Ngoc Chan, Walid Gaaloul, and Samir Tata.
+\newblock A web service recommender system using vector space model and latent
+  semantic indexing.
+\newblock In {\em 2011 IEEE International conference on advanced information
+  networking and applications}, pages 602--609. IEEE, 2011.
+
+\bibitem{chen2015augmenting}
+Guanliang Chen and Li~Chen.
+\newblock Augmenting service recommender systems by incorporating contextual
+  opinions from user reviews.
+\newblock {\em User Modeling and User-Adapted Interaction}, 25:295--329, 2015.
+
+\bibitem{chen2017fully}
+Hung-Wei Chen, Yi-Leh Wu, Maw-Kae Hor, and Cheng-Yuan Tang.
+\newblock Fully content-based movie recommender system with feature extraction
+  using neural network.
+\newblock In {\em 2017 International conference on machine learning and
+  cybernetics (ICMLC)}, volume~2, pages 504--509. IEEE, 2017.
+
+\bibitem{chen2015recommender}
+Li~Chen, Guanliang Chen, and Feng Wang.
+\newblock Recommender systems based on user reviews: the state of the art.
+\newblock {\em User Modeling and User-Adapted Interaction}, 25:99--154, 2015.
+
+\bibitem{chen2012critiquing}
+Li~Chen and Pearl Pu.
+\newblock Critiquing-based recommenders: survey and emerging trends.
+\newblock {\em User Modeling and User-Adapted Interaction}, 22:125--150, 2012.
+
+\bibitem{cheng2016wide}
+Heng-Tze Cheng, Levent Koc, Jeremiah Harmsen, Tal Shaked, Tushar Chandra,
+  Hrishi Aradhye, Glen Anderson, Greg Corrado, Wei Chai, Mustafa Ispir, et~al.
+\newblock Wide \& deep learning for recommender systems.
+\newblock In {\em Proceedings of the 1st workshop on deep learning for
+  recommender systems}, pages 7--10, 2016.
+
+\bibitem{cherkassky2012statistics}
+Vladimir Cherkassky, Jerome~H Friedman, and Harry Wechsler.
+\newblock {\em From statistics to neural networks: theory and pattern
+  recognition applications}, volume 136.
+\newblock Springer Science \& Business Media, 2012.
+
+\bibitem{cheung2003mining}
+Kwok-Wai Cheung, James~T Kwok, Martin~H Law, and Kwok-Ching Tsui.
+\newblock Mining customer product ratings for personalized marketing.
+\newblock {\em Decision Support Systems}, 35(2):231--243, 2003.
+
+\bibitem{chien1999bayesian}
+Yung-Hsin Chien and Edward~I George.
+\newblock A bayesian model for collaborative filtering.
+\newblock In {\em AISTATS}. Citeseer, 1999.
+
+\bibitem{clark1999scientific}
+John~W Clark, Thomas Lindenau, and Manfred~L Ristig.
+\newblock Scientific applications of neural nets.
+\newblock {\em Scientific Applications of Neural Nets}, 522, 1999.
+
+\bibitem{claypool1999combing}
+Mark Claypool, Anuja Gokhale, Tim Miranda, Paul Murnikov, Dmitry Netes, and
+  Matthew Sartin.
+\newblock Combing content-based and collaborative filters in an online
+  newspaper.
+\newblock In {\em Proc. of Workshop on Recommender Systems-Implementation and
+  Evaluation}, 1999.
+
+\bibitem{collins2019document}
+Andrew Collins and Joeran Beel.
+\newblock Document embeddings vs. keyphrases vs. terms for recommender systems:
+  a large-scale online evaluation.
+\newblock In {\em 2019 ACM/IEEE Joint Conference on Digital Libraries (JCDL)},
+  pages 130--133. IEEE, 2019.
+
+\bibitem{mckinsey_personalization_2021}
+McKinsey~\& Company.
+\newblock The value of getting personalization right—or wrong—is
+  multiplying.
+\newblock June 2021.
+\newblock Accessed on 17 Dec 2023.
+
+\bibitem{covington2016deep}
+Paul Covington, Jay Adams, and Emre Sargin.
+\newblock Deep neural networks for youtube recommendations.
+\newblock In {\em Proceedings of the 10th ACM conference on recommender
+  systems}, pages 191--198, 2016.
+
+\bibitem{cremonesi2010performance}
+Paolo Cremonesi, Yehuda Koren, and Roberto Turrin.
+\newblock Performance of recommender algorithms on top-n recommendation tasks.
+\newblock In {\em Proceedings of the fourth ACM conference on Recommender
+  systems}, pages 39--46, 2010.
+
+\bibitem{da2018effects}
+Joao Felipe~Guedes da~Silva, Natanael~Nunes de~Moura~Junior, and Luiz~Pereira
+  Caloba.
+\newblock Effects of data sparsity on recommender systems based on
+  collaborative filtering.
+\newblock In {\em 2018 International Joint Conference on Neural Networks
+  (IJCNN)}, pages 1--8. IEEE, 2018.
+
+\bibitem{dang2021approach}
+Cach~N Dang, Mar{\'\i}a~N Moreno-Garc{\'\i}a, and Fernando De~la Prieta.
+\newblock An approach to integrating sentiment analysis into recommender
+  systems.
+\newblock {\em Sensors}, 21(16):5666, 2021.
+
+\bibitem{dang2020sentiment}
+Nhan~Cach Dang, Mar{\'\i}a~N Moreno-Garc{\'\i}a, and Fernando De~la Prieta.
+\newblock Sentiment analysis based on deep learning: A comparative study.
+\newblock {\em Electronics}, 9(3):483, 2020.
+
+\bibitem{davidson2010youtube}
+James Davidson, Benjamin Liebald, Junning Liu, Palash Nandy, Taylor Van~Vleet,
+  Ullas Gargi, Sujoy Gupta, Yu~He, Mike Lambert, Blake Livingston, et~al.
+\newblock The youtube video recommendation system.
+\newblock In {\em Proceedings of the fourth ACM conference on Recommender
+  systems}, pages 293--296, 2010.
+
+\bibitem{desrosiers2010comprehensive}
+Christian Desrosiers and George Karypis.
+\newblock A comprehensive survey of neighborhood-based recommendation methods.
+\newblock {\em Recommender systems handbook}, pages 107--144, 2010.
+
+\bibitem{devlin2018bert}
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova.
+\newblock Bert: Pre-training of deep bidirectional transformers for language
+  understanding.
+\newblock {\em arXiv preprint arXiv:1810.04805}, 2018.
+
+\bibitem{diao2014jointly}
+Qiming Diao, Minghui Qiu, Chao-Yuan Wu, Alexander~J Smola, Jing Jiang, and
+  Chong Wang.
+\newblock Jointly modeling aspects, ratings and sentiments for movie
+  recommendation (jmars).
+\newblock In {\em Proceedings of the 20th ACM SIGKDD international conference
+  on Knowledge discovery and data mining}, pages 193--202, 2014.
+
+\bibitem{diaz2017effective}
+Gonzalo~I Diaz, Achille Fokoue-Nkoutche, Giacomo Nannicini, and Horst
+  Samulowitz.
+\newblock An effective algorithm for hyperparameter optimization of neural
+  networks.
+\newblock {\em IBM Journal of Research and Development}, 61(5):9--1, 2017.
+
+\bibitem{getoor1999using}
+Lise Getoor, Mehran Sahami, et~al.
+\newblock Using probabilistic relational models for collaborative filtering.
+\newblock In {\em Workshop on Web Usage Analysis and User Profiling
+  (WEBKDD'99)}, pages 1--6, 1999.
+
+\bibitem{ghani2002building}
+Rayid Ghani and Andrew Fano.
+\newblock Building recommender systems using a knowledge base of product
+  semantics.
+\newblock In {\em Proceedings of the Workshop on Recommendation and
+  Personalization in ECommerce at the 2nd International Conference on Adaptive
+  Hypermedia and Adaptive Web based Systems}, pages 27--29. Citeseer, 2002.
+
+\bibitem{gharatkar2017review}
+Sandesh Gharatkar, Aakash Ingle, Tanmay Naik, and Ashwini Save.
+\newblock Review preprocessing using data cleaning and stemming technique.
+\newblock In {\em 2017 international conference on innovations in information,
+  embedded and communication systems (ICIIECS)}, pages 1--4. IEEE, 2017.
+
+\bibitem{goldberg1992using}
+David Goldberg, David Nichols, Brian~M Oki, and Douglas Terry.
+\newblock Using collaborative filtering to weave an information tapestry.
+\newblock {\em Communications of the ACM}, 35(12):61--70, 1992.
+
+\bibitem{gomez2015netflix}
+Carlos~A Gomez-Uribe and Neil Hunt.
+\newblock The netflix recommender system: Algorithms, business value, and
+  innovation.
+\newblock {\em ACM Transactions on Management Information Systems (TMIS)},
+  6(4):1--19, 2015.
+
+\bibitem{goodfellow2016deep}
+Ian Goodfellow, Yoshua Bengio, and Aaron Courville.
+\newblock {\em Deep learning}.
+\newblock MIT press, 2016.
+
+\bibitem{gurney2018introduction}
+Kevin Gurney.
+\newblock {\em An introduction to neural networks}.
+\newblock CRC press, 2018.
+
+\bibitem{haque2018sentiment}
+Tanjim~Ul Haque, Nudrat~Nawal Saber, and Faisal~Muhammad Shah.
+\newblock Sentiment analysis on large scale amazon product reviews.
+\newblock In {\em 2018 IEEE international conference on innovative research and
+  development (ICIRD)}, pages 1--6. IEEE, 2018.
+
+\bibitem{hariri2011context}
+Negar Hariri, Bamshad Mobasher, Robin Burke, and Yong Zheng.
+\newblock Context-aware recommendation based on review mining.
+\newblock In {\em ITWP@ IJCAI}, 2011.
+
+\bibitem{he2016ups}
+Ruining He and Julian McAuley.
+\newblock Ups and downs: Modeling the visual evolution of fashion trends with
+  one-class collaborative filtering.
+\newblock In {\em proceedings of the 25th international conference on world
+  wide web}, pages 507--517, 2016.
+
+\bibitem{he2015trirank}
+Xiangnan He, Tao Chen, Min-Yen Kan, and Xiao Chen.
+\newblock Trirank: Review-aware explainable recommendation by modeling aspects.
+\newblock In {\em Proceedings of the 24th ACM international on conference on
+  information and knowledge management}, pages 1661--1670, 2015.
+
+\bibitem{he2017neural}
+Xiangnan He, Lizi Liao, Hanwang Zhang, Liqiang Nie, Xia Hu, and Tat-Seng Chua.
+\newblock Neural collaborative filtering.
+\newblock In {\em Proceedings of the 26th international conference on world
+  wide web}, pages 173--182, 2017.
+
+\bibitem{he2016fast}
+Xiangnan He, Hanwang Zhang, Min-Yen Kan, and Tat-Seng Chua.
+\newblock Fast matrix factorization for online recommendation with implicit
+  feedback.
+\newblock In {\em Proceedings of the 39th International ACM SIGIR conference on
+  Research and Development in Information Retrieval}, pages 549--558, 2016.
+
+\bibitem{herlocker2002empirical}
+Jon Herlocker, Joseph~A Konstan, and John Riedl.
+\newblock An empirical analysis of design choices in neighborhood-based
+  collaborative filtering algorithms.
+\newblock {\em Information retrieval}, 5:287--310, 2002.
+
+\bibitem{herlocker1999algorithmic}
+Jonathan~L Herlocker, Joseph~A Konstan, Al~Borchers, and John Riedl.
+\newblock An algorithmic framework for performing collaborative filtering.
+\newblock In {\em Proceedings of the 22nd annual international ACM SIGIR
+  conference on Research and development in information retrieval}, pages
+  230--237, 1999.
+
+\bibitem{herlocker2004evaluating}
+Jonathan~L Herlocker, Joseph~A Konstan, Loren~G Terveen, and John~T Riedl.
+\newblock Evaluating collaborative filtering recommender systems.
+\newblock {\em ACM Transactions on Information Systems (TOIS)}, 22(1):5--53,
+  2004.
+
+\bibitem{hernandez2019comparative}
+Mar{\'\i}a Hern{\'a}ndez-Rubio, Iv{\'a}n Cantador, and Alejandro Bellog{\'\i}n.
+\newblock A comparative analysis of recommender systems based on item aspect
+  opinions extracted from user reviews.
+\newblock {\em User Modeling and User-Adapted Interaction}, 29(2):381--441,
+  2019.
+
+\bibitem{hill1995recommending}
+Will Hill, Larry Stead, Mark Rosenstein, and George Furnas.
+\newblock Recommending and evaluating choices in a virtual community of use.
+\newblock In {\em Proceedings of the SIGCHI conference on Human factors in
+  computing systems}, pages 194--201, 1995.
+
+\bibitem{hu2014your}
+Longke Hu, Aixin Sun, and Yong Liu.
+\newblock Your neighbors affect your ratings: on geographical neighborhood
+  influence to rating prediction.
+\newblock In {\em Proceedings of the 37th international ACM SIGIR conference on
+  Research \& development in information retrieval}, pages 345--354, 2014.
+
+\bibitem{hu2004mining}
+Minqing Hu and Bing Liu.
+\newblock Mining and summarizing customer reviews.
+\newblock In {\em Proceedings of the tenth ACM SIGKDD international conference
+  on Knowledge discovery and data mining}, pages 168--177, 2004.
+
+\bibitem{huang2004applying}
+Zan Huang, Hsinchun Chen, and Daniel Zeng.
+\newblock Applying associative retrieval techniques to alleviate the sparsity
+  problem in collaborative filtering.
+\newblock {\em ACM Transactions on Information Systems (TOIS)}, 22(1):116--142,
+  2004.
+
+\bibitem{hurley2011novelty}
+Neil Hurley and Mi~Zhang.
+\newblock Novelty and diversity in top-n recommendation--analysis and
+  evaluation.
+\newblock {\em ACM Transactions on Internet Technology (TOIT)}, 10(4):1--30,
+  2011.
+
+\bibitem{hutto2014vader}
+Clayton Hutto and Eric Gilbert.
+\newblock Vader: A parsimonious rule-based model for sentiment analysis of
+  social media text.
+\newblock In {\em Proceedings of the international AAAI conference on web and
+  social media}, volume~8, pages 216--225, 2014.
+
+\bibitem{jannach2010recommender}
+Dietmar Jannach, Markus Zanker, Alexander Felfernig, and Gerhard Friedrich.
+\newblock {\em Recommender systems: an introduction}.
+\newblock Cambridge University Press, 2010.
+
+\bibitem{jia2015user}
+Zhiyang Jia, Yuting Yang, Wei Gao, and Xu~Chen.
+\newblock User-based collaborative filtering for tourist attraction
+  recommendations.
+\newblock In {\em 2015 IEEE international conference on computational
+  intelligence \& communication technology}, pages 22--25. IEEE, 2015.
+
+\bibitem{kaushik2018exploring}
+Kapil Kaushik, Rajhans Mishra, Nripendra~P Rana, and Yogesh~K Dwivedi.
+\newblock Exploring reviews and review sequences on e-commerce platform: A
+  study of helpful reviews on amazon. in.
+\newblock {\em Journal of retailing and Consumer Services}, 45:21--32, 2018.
+
+\bibitem{kazmaier2022power}
+Jacqueline Kazmaier and Jan~H Van~Vuuren.
+\newblock The power of ensemble learning in sentiment analysis.
+\newblock {\em Expert Systems with Applications}, 187:115819, 2022.
+
+\bibitem{kim2016convolutional}
+Donghyun Kim, Chanyoung Park, Jinoh Oh, Sungyoung Lee, and Hwanjo Yu.
+\newblock Convolutional matrix factorization for document context-aware
+  recommendation.
+\newblock In {\em Proceedings of the 10th ACM conference on recommender
+  systems}, pages 233--240, 2016.
+
+\bibitem{konstan1997grouplens}
+Joseph~A Konstan, Bradley~N Miller, David Maltz, Jonathan~L Herlocker, Lee~R
+  Gordon, and John Riedl.
+\newblock Grouplens: Applying collaborative filtering to usenet news.
+\newblock {\em Communications of the ACM}, 40(3):77--87, 1997.
+
+\bibitem{koren2008factorization}
+Yehuda Koren.
+\newblock Factorization meets the neighborhood: a multifaceted collaborative
+  filtering model.
+\newblock In {\em Proceedings of the 14th ACM SIGKDD international conference
+  on Knowledge discovery and data mining}, pages 426--434, 2008.
+
+\bibitem{koren2009collaborative}
+Yehuda Koren.
+\newblock Collaborative filtering with temporal dynamics.
+\newblock In {\em Proceedings of the 15th ACM SIGKDD international conference
+  on Knowledge discovery and data mining}, pages 447--456, 2009.
+
+\bibitem{koren2009matrix}
+Yehuda Koren, Robert Bell, and Chris Volinsky.
+\newblock Matrix factorization techniques for recommender systems.
+\newblock {\em Computer}, 42(8):30--37, 2009.
+
+\bibitem{kurt2017image}
+Z{\"u}hal Kurt and Kemal {\"O}zkan.
+\newblock An image-based recommender system based on feature extraction
+  techniques.
+\newblock In {\em 2017 International Conference on Computer Science and
+  Engineering (UBMK)}, pages 769--774. IEEE, 2017.
+
+\bibitem{lecun2015deep}
+Yann LeCun, Yoshua Bengio, and Geoffrey Hinton.
+\newblock Deep learning.
+\newblock {\em nature}, 521(7553):436--444, 2015.
+
+\bibitem{lee2000algorithms}
+Daniel Lee and H~Sebastian Seung.
+\newblock Algorithms for non-negative matrix factorization.
+\newblock {\em Advances in neural information processing systems}, 13, 2000.
+
+\bibitem{lee2009convolutional}
+Honglak Lee, Roger Grosse, Rajesh Ranganath, and Andrew~Y Ng.
+\newblock Convolutional deep belief networks for scalable unsupervised learning
+  of hierarchical representations.
+\newblock In {\em Proceedings of the 26th annual international conference on
+  machine learning}, pages 609--616, 2009.
+
+\bibitem{leino2007case}
+Juha Leino and Kari-Jouko Raiha.
+\newblock Case amazon: ratings and reviews as part of recommendations.
+\newblock In {\em Proceedings of the 2007 ACM conference on Recommender
+  systems}, pages 137--140, 2007.
+
+\bibitem{leung2003tuning}
+Frank Hung-Fat Leung, Hak-Keung Lam, Sai-Ho Ling, and Peter Kwong-Shun Tam.
+\newblock Tuning of the structure and parameters of a neural network using an
+  improved genetic algorithm.
+\newblock {\em IEEE Transactions on Neural networks}, 14(1):79--88, 2003.
+
+\bibitem{lika2014facing}
+Blerina Lika, Kostas Kolomvatsos, and Stathes Hadjiefthymiades.
+\newblock Facing the cold start problem in recommender systems.
+\newblock {\em Expert systems with applications}, 41(4):2065--2073, 2014.
+
+\bibitem{linden2003amazon}
+Greg Linden, Brent Smith, and Jeremy York.
+\newblock Amazon. com recommendations: Item-to-item collaborative filtering.
+\newblock {\em IEEE Internet computing}, 7(1):76--80, 2003.
+
+\bibitem{linden2001collaborative}
+Gregory~D Linden, Jennifer~A Jacobi, and Eric~A Benson.
+\newblock Collaborative recommendations using item-to-item similarity mappings,
+  July~24 2001.
+\newblock US Patent 6,266,649.
+
+\bibitem{liu2014promoting}
+Jin-Hu Liu, Tao Zhou, Zi-Ke Zhang, Zimo Yang, Chuang Liu, and Wei-Min Li.
+\newblock Promoting cold-start items in recommender systems.
+\newblock {\em PloS one}, 9(12):e113457, 2014.
+
+\bibitem{liu2023multimodal}
+Qidong Liu, Jiaxi Hu, Yutian Xiao, Jingtong Gao, and Xiangyu Zhao.
+\newblock Multimodal recommender systems: A survey.
+\newblock {\em arXiv preprint arXiv:2302.03883}, 2023.
+
+\bibitem{loh2003tourism}
+Stanley Loh, Fabiana Lorenzi, Ramiro Salda{\~n}a, and Daniel Licthnow.
+\newblock A tourism recommender system based on collaboration and text
+  analysis.
+\newblock {\em Information Technology \& Tourism}, 6(3):157--165, 2003.
+
+\bibitem{lops2011content}
+Pasquale Lops, Marco De~Gemmis, and Giovanni Semeraro.
+\newblock Content-based recommender systems: State of the art and trends.
+\newblock {\em Recommender systems handbook}, pages 73--105, 2011.
+
+\bibitem{lu2012recommender}
+Linyuan L{\"u}, Mat{\'u}{\v{s}} Medo, Chi~Ho Yeung, Yi-Cheng Zhang, Zi-Ke
+  Zhang, and Tao Zhou.
+\newblock Recommender systems.
+\newblock {\em Physics reports}, 519(1):1--49, 2012.
+
+\bibitem{madadipouya2017literature}
+Kasra Madadipouya and Sivananthan Chelliah.
+\newblock A literature review on recommender systems algorithms, techniques and
+  evaluations.
+\newblock {\em BRAIN. Broad Research in Artificial Intelligence and
+  Neuroscience}, 8(2):109--124, 2017.
+
+\bibitem{manfei2017differences}
+XU~Manfei, Drew Fralick, Julia~Z Zheng, Bokai Wang, FENG Changyong, et~al.
+\newblock The differences and similarities between two-sample t-test and paired
+  t-test.
+\newblock {\em Shanghai archives of psychiatry}, 29(3):184, 2017.
+
+\bibitem{marlin2003modeling}
+Benjamin~M Marlin.
+\newblock Modeling user rating profiles for collaborative filtering.
+\newblock {\em Advances in neural information processing systems}, 16, 2003.
+
+\bibitem{mcauley2013hidden}
+Julian McAuley and Jure Leskovec.
+\newblock Hidden factors and hidden topics: understanding rating dimensions
+  with review text.
+\newblock In {\em Proceedings of the 7th ACM conference on Recommender
+  systems}, pages 165--172, 2013.
+
+\bibitem{medhat2014sentiment}
+Walaa Medhat, Ahmed Hassan, and Hoda Korashy.
+\newblock Sentiment analysis algorithms and applications: A survey.
+\newblock {\em Ain Shams engineering journal}, 5(4):1093--1113, 2014.
+
+\bibitem{mikolov2013distributed}
+Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg~S Corrado, and Jeff Dean.
+\newblock Distributed representations of words and phrases and their
+  compositionality.
+\newblock {\em Advances in neural information processing systems}, 26, 2013.
+
+\bibitem{musat2013recommendation}
+C-C Musat, Yizhong Liang, and Boi Faltings.
+\newblock Recommendation using textual opinions.
+\newblock In {\em IJCAI International Joint Conference on Artificial
+  Intelligence}, number CONF, pages 2684--2690, 2013.
+
+\bibitem{musto2015word}
+Cataldo Musto, Giovanni Semeraro, Marco De~Gemmis, and Pasquale Lops.
+\newblock Word embedding techniques for content-based recommender systems: An
+  empirical evaluation.
+\newblock {\em Recsys posters}, 1441, 2015.
+
+\bibitem{nielsen2011new}
+Finn~{\AA}rup Nielsen.
+\newblock A new anew: Evaluation of a word list for sentiment analysis in
+  microblogs.
+\newblock {\em arXiv preprint arXiv:1103.2903}, 2011.
+
+\bibitem{o2005trust}
+John O'Donovan and Barry Smyth.
+\newblock Trust in recommender systems.
+\newblock In {\em Proceedings of the 10th international conference on
+  Intelligent user interfaces}, pages 167--174, 2005.
+
+\bibitem{okura2017embedding}
+Shumpei Okura, Yukihiro Tagami, Shingo Ono, and Akira Tajima.
+\newblock Embedding-based news recommendation for millions of users.
+\newblock In {\em Proceedings of the 23rd ACM SIGKDD international conference
+  on knowledge discovery and data mining}, pages 1933--1942, 2017.
+
+\bibitem{ozsoy2016word}
+Makbule~Gulcin Ozsoy.
+\newblock From word embeddings to item recommendation.
+\newblock {\em arXiv preprint arXiv:1601.01356}, 2016.
+
+\bibitem{paradarami2017hybrid}
+Tulasi~K Paradarami, Nathaniel~D Bastian, and Jennifer~L Wightman.
+\newblock A hybrid recommender system using artificial neural networks.
+\newblock {\em Expert Systems with Applications}, 83:300--313, 2017.
+
+\bibitem{pasricha2018translation}
+Rajiv Pasricha and Julian McAuley.
+\newblock Translation-based factorization machines for sequential
+  recommendation.
+\newblock In {\em Proceedings of the 12th ACM Conference on Recommender
+  Systems}, pages 63--71, 2018.
+
+\bibitem{paterek2007improving}
+Arkadiusz Paterek.
+\newblock Improving regularized singular value decomposition for collaborative
+  filtering.
+\newblock In {\em Proceedings of KDD cup and workshop}, volume 2007, pages
+  5--8, 2007.
+
+\bibitem{pazzani1999framework}
+Michael~J Pazzani.
+\newblock A framework for collaborative, content-based and demographic
+  filtering.
+\newblock {\em Artificial intelligence review}, 13:393--408, 1999.
+
+\bibitem{pennington2014glove}
+Jeffrey Pennington, Richard Socher, and Christopher~D Manning.
+\newblock Glove: Global vectors for word representation.
+\newblock In {\em Proceedings of the 2014 conference on empirical methods in
+  natural language processing (EMNLP)}, pages 1532--1543, 2014.
+
+\bibitem{pennock2013collaborative}
+David~M Pennock, Eric~J Horvitz, Steve Lawrence, and C~Lee Giles.
+\newblock Collaborative filtering by personality diagnosis: A hybrid memory-and
+  model-based approach.
+\newblock {\em arXiv preprint arXiv:1301.3885}, 2013.
+
+\bibitem{perez2013collective}
+Yuliana P{\'e}rez-Gallardo, Giner Alor-Hern{\'a}ndez, Guillermo Cortes-Robles,
+  and Alejandro Rodr{\'\i}guez-Gonz{\'a}lez.
+\newblock Collective intelligence as mechanism of medical diagnosis: The ipixel
+  approach.
+\newblock {\em Expert systems with applications}, 40(7):2726--2737, 2013.
+
+\bibitem{peska2017using}
+Ladislav Peska and Peter Vojtas.
+\newblock Using implicit preference relations to improve recommender systems.
+\newblock {\em Journal on Data Semantics}, 6:15--30, 2017.
+
+\bibitem{rashid2002getting}
+Al~Mamunur Rashid, Istvan Albert, Dan Cosley, Shyong~K Lam, Sean~M McNee,
+  Joseph~A Konstan, and John Riedl.
+\newblock Getting to know you: learning new user preferences in recommender
+  systems.
+\newblock In {\em Proceedings of the 7th international conference on
+  Intelligent user interfaces}, pages 127--134, 2002.
+
+\bibitem{rendle2010factorization}
+Steffen Rendle.
+\newblock Factorization machines.
+\newblock In {\em 2010 IEEE International conference on data mining}, pages
+  995--1000. IEEE, 2010.
+
+\bibitem{rendle2020neural}
+Steffen Rendle, Walid Krichene, Li~Zhang, and John Anderson.
+\newblock Neural collaborative filtering vs. matrix factorization revisited.
+\newblock In {\em Proceedings of the 14th ACM Conference on Recommender
+  Systems}, pages 240--248, 2020.
+
+\bibitem{resnick1994grouplens}
+Paul Resnick, Neophytos Iacovou, Mitesh Suchak, Peter Bergstrom, and John
+  Riedl.
+\newblock Grouplens: An open architecture for collaborative filtering of
+  netnews.
+\newblock In {\em Proceedings of the 1994 ACM conference on Computer supported
+  cooperative work}, pages 175--186, 1994.
+
+\bibitem{rezaei2021amazon}
+Mohammad~R Rezaei.
+\newblock Amazon product recommender system.
+\newblock {\em arXiv preprint arXiv:2102.04238}, 2021.
+
+\bibitem{roy2022systematic}
+Deepjyoti Roy and Mala Dutta.
+\newblock A systematic review and research perspective on recommender systems.
+\newblock {\em Journal of Big Data}, 9(1):59, 2022.
+
+\bibitem{saravanan2003summarization}
+M~Saravanan, PC~Reghu Raj, and S~Raman.
+\newblock Summarization and categorization of text data in high-level data
+  cleaning for information retrieval.
+\newblock {\em Applied Artificial Intelligence}, 17(5-6):461--474, 2003.
+
+\bibitem{sarwar2000analysis}
+Badrul Sarwar, George Karypis, Joseph Konstan, and John Riedl.
+\newblock Analysis of recommendation algorithms for e-commerce.
+\newblock In {\em Proceedings of the 2nd ACM Conference on Electronic
+  Commerce}, pages 158--167, 2000.
+
+\bibitem{sarwar2001item}
+Badrul Sarwar, George Karypis, Joseph Konstan, and John Riedl.
+\newblock Item-based collaborative filtering recommendation algorithms.
+\newblock In {\em Proceedings of the 10th international conference on World
+  Wide Web}, pages 285--295, 2001.
+
+\bibitem{sarwar2002incremental}
+Badrul Sarwar, George Karypis, Joseph Konstan, and John Riedl.
+\newblock Incremental singular value decomposition algorithms for highly
+  scalable recommender systems.
+\newblock In {\em Fifth international conference on computer and information
+  science}, volume~1, pages 27--8. Citeseer, 2002.
+
+\bibitem{sarwar2000application}
+Badrul Sarwar, George Karypis, Joseph Konstan, and John~T Riedl.
+\newblock Application of dimensionality reduction in recommender system-a case
+  study.
+\newblock 2000.
+
+\bibitem{schafer1999recommender}
+J~Ben Schafer, Joseph Konstan, and John Riedl.
+\newblock Recommender systems in e-commerce.
+\newblock In {\em Proceedings of the 1st ACM conference on Electronic
+  commerce}, pages 158--166, 1999.
+
+\bibitem{schafer2001commerce}
+J~Ben Schafer, Joseph~A Konstan, and John Riedl.
+\newblock E-commerce recommendation applications.
+\newblock {\em Data mining and knowledge discovery}, 5:115--153, 2001.
+
+\bibitem{seth2022comparative}
+Rakhi Seth and Aakanksha Sharaff.
+\newblock A comparative overview of hybrid recommender systems: Review,
+  challenges, and prospects.
+\newblock {\em Data Mining and Machine Learning Applications}, pages 57--98,
+  2022.
+
+\bibitem{shapira2022recommender}
+Bracha Shapira, Lior Rokach, and Francessco Ricci.
+\newblock Recommender systems handbook.
+\newblock 2022.
+
+\bibitem{shardanand1995social}
+Upendra Shardanand and Pattie Maes.
+\newblock Social information filtering: Algorithms for automating “word of
+  mouth”.
+\newblock In {\em Proceedings of the SIGCHI conference on Human factors in
+  computing systems}, pages 210--217, 1995.
+
+\bibitem{sharma2015estimating}
+Amit Sharma, Jake~M Hofman, and Duncan~J Watts.
+\newblock Estimating the causal impact of recommendation systems from
+  observational data.
+\newblock In {\em Proceedings of the Sixteenth ACM Conference on Economics and
+  Computation}, pages 453--470, 2015.
+
+\bibitem{shen2019sentiment}
+Rong-Ping Shen, Heng-Ru Zhang, Hong Yu, and Fan Min.
+\newblock Sentiment based matrix factorization with reliability for
+  recommendation.
+\newblock {\em Expert Systems with Applications}, 135:249--258, 2019.
+
+\bibitem{shoja2019customer}
+Babak~Maleki Shoja and Nasseh Tabrizi.
+\newblock Customer reviews analysis with deep neural networks for e-commerce
+  recommender systems.
+\newblock {\em IEEE access}, 7:119121--119130, 2019.
+
+\bibitem{singh2020scalability}
+Monika Singh.
+\newblock Scalability and sparsity issues in recommender datasets: a survey.
+\newblock {\em Knowledge and Information Systems}, 62(1):1--43, 2020.
+
+\bibitem{singh2020sentiment}
+Nikhil~Kumar Singh, Deepak~Singh Tomar, and Arun~Kumar Sangaiah.
+\newblock Sentiment analysis: a review and comparative analysis over social
+  media.
+\newblock {\em Journal of Ambient Intelligence and Humanized Computing},
+  11(1):97--117, 2020.
+
+\bibitem{sintef2013bigdata}
+SINTEF.
+\newblock Big data, for better or worse: 90% of world's data generated over
+  last two years.
+\newblock {\em ScienceDaily}, 2013.
+
+\bibitem{skalicky2015statistical}
+Stephen Skalicky and Scott Crossley.
+\newblock A statistical analysis of satirical amazon. com product reviews.
+\newblock {\em The European Journal of Humour Research}, 2(3):66--85, 2015.
+
+\bibitem{smith2017two}
+Brent Smith and Greg Linden.
+\newblock Two decades of recommender systems at amazon. com.
+\newblock {\em Ieee internet computing}, 21(3):12--18, 2017.
+
+\bibitem{smyth2001similarity}
+Barry Smyth and Paul McClave.
+\newblock Similarity vs. diversity.
+\newblock In {\em International conference on case-based reasoning}, pages
+  347--361. Springer, 2001.
+
+\bibitem{srifi2020recommender}
+Mehdi Srifi, Ahmed Oussous, Ayoub Ait~Lahcen, and Salma Mouline.
+\newblock Recommender systems based on collaborative filtering using review
+  texts—a survey.
+\newblock {\em Information}, 11(6):317, 2020.
+
+\bibitem{srivastava2014dropout}
+Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan
+  Salakhutdinov.
+\newblock Dropout: a simple way to prevent neural networks from overfitting.
+\newblock {\em The journal of machine learning research}, 15(1):1929--1958,
+  2014.
+
+\bibitem{steck2013evaluation}
+Harald Steck.
+\newblock Evaluation of recommendations: rating-prediction and ranking.
+\newblock In {\em Proceedings of the 7th ACM conference on Recommender
+  systems}, pages 213--220, 2013.
+
+\bibitem{steck2021deep}
+Harald Steck, Linas Baltrunas, Ehtsham Elahi, Dawen Liang, Yves Raimond, and
+  Justin Basilico.
+\newblock Deep learning for recommender systems: A netflix case study.
+\newblock {\em AI Magazine}, 42(3):7--18, 2021.
+
+\bibitem{symeonidis2008collaborative}
+Panagiotis Symeonidis, Alexandros Nanopoulos, Apostolos~N Papadopoulos, and
+  Yannis Manolopoulos.
+\newblock Collaborative recommender systems: Combining effectiveness and
+  efficiency.
+\newblock {\em Expert Systems with Applications}, 34(4):2995--3013, 2008.
+
+\bibitem{taboada2011lexicon}
+Maite Taboada, Julian Brooke, Milan Tofiloski, Kimberly Voll, and Manfred
+  Stede.
+\newblock Lexicon-based methods for sentiment analysis.
+\newblock {\em Computational linguistics}, 37(2):267--307, 2011.
+
+\bibitem{takacs2007major}
+G{\'a}bor Tak{\'a}cs, Istv{\'a}n Pil{\'a}szy, Botty{\'a}n N{\'e}meth, and
+  Domonkos Tikk.
+\newblock Major components of the gravity recommendation system.
+\newblock {\em Acm Sigkdd Explorations Newsletter}, 9(2):80--83, 2007.
+
+\bibitem{thorat2015survey}
+Poonam~B Thorat, Rajeshwari~M Goudar, and Sunita Barve.
+\newblock Survey on collaborative filtering, content-based filtering and hybrid
+  recommendation system.
+\newblock {\em International Journal of Computer Applications}, 110(4):31--36,
+  2015.
+
+\bibitem{truong2021multi}
+Quoc-Tuan Truong, Aghiles Salah, and Hady Lauw.
+\newblock Multi-modal recommender systems: Hands-on exploration.
+\newblock In {\em Proceedings of the 15th ACM Conference on Recommender
+  Systems}, pages 834--837, 2021.
+
+\bibitem{tuinhof2019image}
+Hessel Tuinhof, Clemens Pirker, and Markus Haltmeier.
+\newblock Image-based fashion product recommendation with deep learning.
+\newblock In {\em Machine Learning, Optimization, and Data Science: 4th
+  International Conference, LOD 2018, Volterra, Italy, September 13-16, 2018,
+  Revised Selected Papers 4}, pages 472--481. Springer, 2019.
+
+\bibitem{vassiliou2006hybrid}
+Charalampos Vassiliou, Dimitris Stamoulis, and Drakoulis Martakos.
+\newblock A hybrid content-based clustering architecture: minimising
+  uncertainty in personalised multimedia content.
+\newblock {\em International Journal of Intelligent Systems Technologies and
+  Applications}, 1(3-4):319--345, 2006.
+
+\bibitem{wang2015collaborative}
+Hao Wang, Naiyan Wang, and Dit-Yan Yeung.
+\newblock Collaborative deep learning for recommender systems.
+\newblock In {\em Proceedings of the 21th ACM SIGKDD international conference
+  on knowledge discovery and data mining}, pages 1235--1244, 2015.
+
+\bibitem{weihong2006commerce}
+He~Weihong and Cao Yi.
+\newblock An e-commerce recommender system based on content-based filtering.
+\newblock {\em Wuhan University Journal of Natural Sciences}, 11:1091--1096,
+  2006.
+
+\bibitem{witten2005practical}
+Ian~H Witten, Eibe Frank, Mark~A Hall, Christopher~J Pal, and Mining Data.
+\newblock Practical machine learning tools and techniques.
+\newblock In {\em Data mining}, volume~2, pages 403--413. Elsevier Amsterdam,
+  The Netherlands, 2005.
+
+\bibitem{yang2013itravel}
+Wan-Shiou Yang and San-Yih Hwang.
+\newblock itravel: A recommender system in mobile peer-to-peer environment.
+\newblock {\em Journal of Systems and Software}, 86(1):12--20, 2013.
+
+\bibitem{zangerle2022evaluating}
+Eva Zangerle and Christine Bauer.
+\newblock Evaluating recommender systems: survey and framework.
+\newblock {\em ACM computing surveys}, 55(8):1--38, 2022.
+
+\bibitem{zhang2006learning}
+Sheng Zhang, Weihong Wang, James Ford, and Fillia Makedon.
+\newblock Learning from incomplete ratings using non-negative matrix
+  factorization.
+\newblock In {\em Proceedings of the 2006 SIAM international conference on data
+  mining}, pages 549--553. SIAM, 2006.
+
+\bibitem{zhang2019deep}
+Shuai Zhang, Lina Yao, Aixin Sun, and Yi~Tay.
+\newblock Deep learning based recommender system: A survey and new
+  perspectives.
+\newblock {\em ACM computing surveys (CSUR)}, 52(1):1--38, 2019.
+
+\bibitem{zhang2014urcf}
+Zhenxue Zhang, Dongsong Zhang, and Jianwei Lai.
+\newblock urcf: user review enhanced collaborative filtering.
+\newblock 2014.
+
+\bibitem{zhang2018improved}
+Zijun Zhang.
+\newblock Improved adam optimizer for deep neural networks.
+\newblock In {\em 2018 IEEE/ACM 26th international symposium on quality of
+  service (IWQoS)}, pages 1--2. Ieee, 2018.
+
+\bibitem{zheng2010collaborative}
+Vincent~W Zheng, Yu~Zheng, Xing Xie, and Qiang Yang.
+\newblock Collaborative location and activity recommendations with gps history
+  data.
+\newblock In {\em Proceedings of the 19th international conference on World
+  wide web}, pages 1029--1038, 2010.
+
+\bibitem{zhou2003learning}
+Dengyong Zhou, Olivier Bousquet, Thomas Lal, Jason Weston, and Bernhard
+  Sch{\"o}lkopf.
+\newblock Learning with local and global consistency.
+\newblock {\em Advances in neural information processing systems}, 16, 2003.
+
+\bibitem{zhou2010solving}
+Tao Zhou, Zolt{\'a}n Kuscsik, Jian-Guo Liu, Mat{\'u}{\v{s}} Medo,
+  Joseph~Rushton Wakeling, and Yi-Cheng Zhang.
+\newblock Solving the apparent diversity-accuracy dilemma of recommender
+  systems.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  107(10):4511--4515, 2010.
+
+\bibitem{ziegler2005improving}
+Cai-Nicolas Ziegler, Sean~M McNee, Joseph~A Konstan, and Georg Lausen.
+\newblock Improving recommendation lists through topic diversification.
+\newblock In {\em Proceedings of the 14th international conference on World
+  Wide Web}, pages 22--32, 2005.
+
+\end{thebibliography}

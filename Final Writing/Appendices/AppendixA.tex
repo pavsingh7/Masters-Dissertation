@@ -1,0 +1,58 @@
+% Appendix A
+
+\chapter{Appendix A} % Main appendix title
+
+\label{AppendixA} % For referencing this appendix elsewhere, use \ref{AppendixA}
+
+\begin{table}[htbp]
+    \centering
+    \begin{tabular}{lccccc}
+        \toprule
+        \textbf{Group 1} & \textbf{Group 2} & \textbf{Difference} & \textbf{Lower Bound} & \textbf{Upper Bound} & \textbf{Null} \\
+        \midrule
+        Low & Medium & 0.013 & -0.091 & 0.001 & True \\
+        Low & High & 0.046 & 0.031 & 0.061 & False \\
+        Low & Very High & 0.091 & 0.081 & 0.114 & False \\
+        Medium & High & 0.033 & -0.040 & 0.052 & True \\
+        Medium & Very High & 0.078 & -0.004 & 0.098 & True \\
+        High & Very High & 0.045 & -0.001 & 0.052 & True \\
+        \bottomrule
+    \end{tabular}
+    \caption{Tukey HSD test results for users.}
+    \label{tab:tukey_hsd_user}
+\end{table}
+
+
+% F-Value: 4.554401287781126
+% P-Value: 0.0034390352278697283
+%   Multiple Comparison of Means - Tukey HSD, FWER=0.05  
+% =======================================================
+% group1   group2  meandiff p-adj   lower   upper  reject
+% -------------------------------------------------------
+%   High       Low  -0.0461 0.2179 -0.1078  0.0155  False
+%   High    Medium  -0.0909 0.0047 -0.1608 -0.0209   True
+%   High Very High  -0.0134 0.9536 -0.0794  0.0526  False
+%    Low    Medium  -0.0447  0.259 -0.1075  0.0181  False
+%    Low Very High   0.0327 0.4746 -0.0257  0.0911  False
+% Medium Very High   0.0774  0.016  0.0103  0.1445   True
+% -------------------------------------------------------
+
+\begin{table}[htbp]
+    \centering
+    \begin{tabular}{lccccc}
+        \toprule
+        \textbf{Group 1} & \textbf{Group 2} & \textbf{Difference} & \textbf{Lower Bound} & \textbf{Upper Bound} & \textbf{Null} \\
+        \midrule
+        Low & Medium & -0.181 & -0.214 & 0.001 & True \\
+        Low & High & -0.339 & -0.349 & 0.319 & False \\
+        Low & Very High & -0.420   & -0.464 & -0.391 & False \\
+        Medium & High & -0.158 & -0.168 & 0.004 & True \\
+        Medium & Very High & -0.239 & -0.241 & -0.219 & False \\
+        High & Very High & -0.081 & -0.008 & 0.094 & True \\
+        \bottomrule
+    \end{tabular}
+    \caption{Tukey HSD test results for review lengths.}
+    \label{tab:tukey_hsd_reviews}
+\end{table}
+
+

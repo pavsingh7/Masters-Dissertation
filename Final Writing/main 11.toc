@@ -1,0 +1,79 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{Acknowledgements}{iii}{section*.1}%
+\contentsline {chapter}{Declaration of Authorship}{v}{section*.2}%
+\contentsline {chapter}{Abstract}{vii}{section*.3}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.7}%
+\contentsline {section}{\numberline {1.1}Recommender Systems: definition and types}{1}{section.8}%
+\contentsline {section}{\numberline {1.2}Research Problem and Objectives}{3}{section.11}%
+\contentsline {section}{\numberline {1.3}Research Questions and Significance}{4}{section.12}%
+\contentsline {section}{\numberline {1.4}Dissertation Outline}{5}{section.17}%
+\contentsline {chapter}{\numberline {2}Literature Review and Related Work}{7}{chapter.18}%
+\contentsline {section}{\numberline {2.1}Recommender Systems: history and applications}{7}{section.19}%
+\contentsline {subsection}{\numberline {2.1.1}History and Applications}{7}{subsection.20}%
+\contentsline {subsection}{\numberline {2.1.2}Recommenders in E-commerce: Amazon case study}{8}{subsection.23}%
+\contentsline {section}{\numberline {2.2}Collaborative Filtering}{10}{section.24}%
+\contentsline {subsection}{\numberline {2.2.1}Memory-Based Algorithms}{10}{subsection.26}%
+\contentsline {subsection}{\numberline {2.2.2}Model-Based Algorithms}{12}{subsection.30}%
+\contentsline {section}{\numberline {2.3}Deep Learning in Recommender Systems}{12}{section.33}%
+\contentsline {section}{\numberline {2.4}Text Analysis in Recommender Systems}{14}{section.38}%
+\contentsline {section}{\numberline {2.5}Other Recommenders: a brief overview and history}{15}{section.42}%
+\contentsline {subsection}{\numberline {2.5.1}Content-Based Filtering}{15}{subsection.43}%
+\contentsline {subsection}{\numberline {2.5.2}Hybrid Models}{16}{subsection.46}%
+\contentsline {section}{\numberline {2.6}Evaluation Methods}{17}{section.47}%
+\contentsline {section}{\numberline {2.7}Limitations and Challenges}{18}{section.49}%
+\contentsline {subsection}{\numberline {2.7.1}Sparsity}{18}{subsection.50}%
+\contentsline {subsection}{\numberline {2.7.2}Cold Start Problem}{19}{subsection.51}%
+\contentsline {subsection}{\numberline {2.7.3}Scalability}{19}{subsection.53}%
+\contentsline {subsection}{\numberline {2.7.4}Domain and Data Challenges}{20}{subsection.54}%
+\contentsline {section}{\numberline {2.8}Conclusion}{21}{section.59}%
+\contentsline {chapter}{\numberline {3}Data Exploration and Analysis}{23}{chapter.60}%
+\contentsline {section}{\numberline {3.1}Amazon Review Dataset}{23}{section.61}%
+\contentsline {subsection}{\numberline {3.1.1}Feedback and Data Types}{24}{subsection.62}%
+\contentsline {section}{\numberline {3.2}Variable Description}{25}{section.64}%
+\contentsline {section}{\numberline {3.3}Data Collection and Preprocessing}{25}{section.66}%
+\contentsline {subsection}{\numberline {3.3.1}Data Preprocessing}{26}{subsection.68}%
+\contentsline {subsection}{\numberline {3.3.2}Text Analysis and Cleaning}{27}{subsection.70}%
+\contentsline {subsection}{\numberline {3.3.3}Sentiment Analysis}{28}{subsection.74}%
+\contentsline {section}{\numberline {3.4}Data Summary}{29}{section.79}%
+\contentsline {section}{\numberline {3.5}Trends and Patterns}{30}{section.81}%
+\contentsline {subsection}{\numberline {3.5.1}User Engagement}{30}{subsection.82}%
+\contentsline {subsection}{\numberline {3.5.2}Products}{31}{subsection.85}%
+\contentsline {subsection}{\numberline {3.5.3}Ratings}{32}{subsection.87}%
+\contentsline {subsection}{\numberline {3.5.4}Review Text and Sentiments}{33}{subsection.90}%
+\contentsline {section}{\numberline {3.6}Data Partitioning}{37}{section.98}%
+\contentsline {section}{\numberline {3.7}Conclusion}{39}{section.102}%
+\contentsline {chapter}{\numberline {4}Methodology}{41}{chapter.103}%
+\contentsline {section}{\numberline {4.1}Modelling Approach}{41}{section.104}%
+\contentsline {subsection}{\numberline {4.1.1}Formulating the Problem}{41}{subsection.105}%
+\contentsline {subsection}{\numberline {4.1.2}Implementation and Approach}{42}{subsection.107}%
+\contentsline {section}{\numberline {4.2}Neural Networks}{43}{section.114}%
+\contentsline {section}{\numberline {4.3}Neural Collaborative Filtering}{45}{section.117}%
+\contentsline {subsection}{\numberline {4.3.1}Background}{46}{subsection.118}%
+\contentsline {subsection}{\numberline {4.3.2}Algorithm Formulation}{46}{subsection.119}%
+\contentsline {subsection}{\numberline {4.3.3}Algorithm Summary}{48}{subsection.129}%
+\contentsline {subsection}{\numberline {4.3.4}Incorporating Text and Sentiments}{48}{subsection.139}%
+\contentsline {subsection}{\numberline {4.3.5}Model Training}{50}{subsection.142}%
+\contentsline {subsection}{\numberline {4.3.6}Hyperparameter Tuning}{51}{subsection.148}%
+\contentsline {subsection}{\numberline {4.3.7}Training Results}{53}{subsection.151}%
+\contentsline {subsection}{\numberline {4.3.8}Final Model Specifications}{55}{subsection.154}%
+\contentsline {subsection}{\numberline {4.3.9}Summary}{56}{subsection.156}%
+\contentsline {section}{\numberline {4.4}Benchmark Models}{56}{section.157}%
+\contentsline {subsection}{\numberline {4.4.1}Non-Negative Matrix Factorisation}{56}{subsection.158}%
+\contentsline {subsubsection}{\numberline {4.4.1.1}Algorithm Formulation}{56}{subsubsection.159}%
+\contentsline {subsubsection}{\numberline {4.4.1.2}Adjusting for Sparsity and Regularisation}{56}{subsubsection.160}%
+\contentsline {subsubsection}{\numberline {4.4.1.3}Algorithm Summary}{56}{subsubsection.161}%
+\contentsline {subsubsection}{\numberline {4.4.1.4}Adjusting for Bias}{56}{subsubsection.162}%
+\contentsline {subsection}{\numberline {4.4.2}Item-Based Collaborative Filtering}{56}{subsection.163}%
+\contentsline {subsubsection}{\numberline {4.4.2.1}Algorithm Formulation}{56}{subsubsection.164}%
+\contentsline {subsubsection}{\numberline {4.4.2.2}Algorithm Summary}{56}{subsubsection.165}%
+\contentsline {subsection}{\numberline {4.4.3}User-Based Collaborative Filtering}{56}{subsection.166}%
+\contentsline {subsubsection}{\numberline {4.4.3.1}Algorithm Formulation}{56}{subsubsection.167}%
+\contentsline {subsubsection}{\numberline {4.4.3.2}Algorithm Summary}{56}{subsubsection.168}%
+\contentsline {section}{\numberline {4.5}Evaluation}{56}{section.169}%
+\contentsline {subsection}{\numberline {4.5.1}Evaluation Approach}{56}{subsection.170}%
+\contentsline {subsubsection}{\numberline {4.5.1.1}Predictive Accuracy}{56}{subsubsection.171}%
+\contentsline {subsubsection}{\numberline {4.5.1.2}Top-N Evaluation}{56}{subsubsection.172}%
+\contentsline {subsection}{\numberline {4.5.2}Evaluation Metrics}{56}{subsection.173}%
+\contentsline {subsubsection}{\numberline {4.5.2.1}MSE, RMSE and MAE}{56}{subsubsection.174}%
+\contentsline {subsubsection}{\numberline {4.5.2.2}HR and NDCG}{56}{subsubsection.175}%
+\contentsline {section}{\numberline {4.6}Conclusion}{56}{section.176}%
