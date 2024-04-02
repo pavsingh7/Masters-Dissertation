@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.25)  1 APR 2024 23:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.25)  2 APR 2024 09:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1022,55 +1022,55 @@ Package pdftex.def Info: Figures/statslogo.png  used on input line 166.
  Acknowledgements
 --------------------
 1: section
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 197.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 206.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 197.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 206.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 197.
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 206.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 197.
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 206.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 197.
+LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 206.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+yhex on input line 197.
+LaTeX Font Info:    Trying to load font information for OMX+yhex on input line 206.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/yhmath/OMXyhex.fd
 File: OMXyhex.fd 
 File: OMXyhex.fd 2013/07/03 v1.1 YH's humble contribution to TeX maths (NP)
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 197.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 206.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 197.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 206.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 197.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 206.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 197.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 206.
  [2
 
 ]
 --------------------
  Declaration of Authorship
 --------------------
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 204.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 213.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 <Figures/sig.png, id=410, 1397.22pt x 526.96875pt>
 File: Figures/sig.png Graphic file (type png)
 <use Figures/sig.png>
-Package pdftex.def Info: Figures/sig.png  used on input line 212.
+Package pdftex.def Info: Figures/sig.png  used on input line 221.
 (pdftex.def)             Requested size: 318.15587pt x 120.0pt.
 
 1: section
@@ -1136,7 +1136,7 @@ Package cleveref Info: loaded `english' language definitions on input line 77.
  [4]
 Package cleveref Info: loaded `english' language definitions on input line 97.
  [5])
-Package cleveref Info: loaded `english' language definitions on input line 277.
+Package cleveref Info: loaded `english' language definitions on input line 286.
  [6]
 \openout2 = `Chapters/Chapter2.aux'.
 
@@ -1185,7 +1185,7 @@ Package cleveref Info: loaded `english' language definitions on input line 218.
  [20]
 Package cleveref Info: loaded `english' language definitions on input line 234.
  [21])
-Package cleveref Info: loaded `english' language definitions on input line 278.
+Package cleveref Info: loaded `english' language definitions on input line 287.
  [22]
 \openout2 = `Chapters/Chapter3.aux'.
 
@@ -1387,15 +1387,14 @@ Package pdftex.def Info: Figures/correlation_between_ratings_sentiment_scores_re
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package cleveref Info: loaded `english' language definitions on input line 429.
+Package cleveref Info: loaded `english' language definitions on input line 427.
 [37]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-Package cleveref Info: loaded `english' language definitions on input line 453.
-[38 <./Figures/correlation_between_ratings_sentiment_scores_review_length.pdf>])
-Package cleveref Info: loaded `english' language definitions on input line 279.
+Package cleveref Info: loaded `english' language definitions on input line 433.
+ [38 <./Figures/correlation_between_ratings_sentiment_scores_review_length.pdf>])
+Package cleveref Info: loaded `english' language definitions on input line 288.
  [39]
+Package cleveref Info: loaded `english' language definitions on input line 288.
+ [40]
 \openout2 = `Chapters/Chapter4.aux'.
 
  (./Chapters/Chapter4.tex
@@ -1404,7 +1403,7 @@ Chapter 4.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 1: section
-[40
+[41
 
 
 
@@ -1415,13 +1414,13 @@ LaTeX Font Info:    Trying to load font information for U+fplmbb on input line 4
 File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
 )
 Package cleveref Info: loaded `english' language definitions on input line 55.
- [41]
-<Figures/flowchart of model process-4.pdf, id=1959, 598.15468pt x 301.125pt>
+ [42]
+<Figures/flowchart of model process-4.pdf, id=1963, 598.15468pt x 301.125pt>
 File: Figures/flowchart of model process-4.pdf Graphic file (type pdf)
 <use Figures/flowchart of model process-4.pdf>
 Package pdftex.def Info: Figures/flowchart of model process-4.pdf  used on input line 62.
 (pdftex.def)             Requested size: 448.12788pt x 225.60425pt.
-<Figures/flowchart of model process-Neural Nets-2.pdf, id=1964, 633.32607pt x 515.04419pt>
+<Figures/flowchart of model process-Neural Nets-2.pdf, id=1968, 633.32607pt x 515.04419pt>
 File: Figures/flowchart of model process-Neural Nets-2.pdf Graphic file (type pdf)
 <use Figures/flowchart of model process-Neural Nets-2.pdf>
 Package pdftex.def Info: Figures/flowchart of model process-Neural Nets-2.pdf  used on input line 75.
@@ -1431,33 +1430,33 @@ Package pdftex.def Info: Figures/flowchart of model process-Neural Nets-2.pdf  u
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package cleveref Info: loaded `english' language definitions on input line 81.
-[42 <./Figures/flowchart of model process-4.pdf>]
+[43 <./Figures/flowchart of model process-4.pdf>]
 Package cleveref Info: loaded `english' language definitions on input line 85.
- [43 <./Figures/flowchart of model process-Neural Nets-2.pdf>]
+ [44 <./Figures/flowchart of model process-Neural Nets-2.pdf>]
 Package cleveref Info: loaded `english' language definitions on input line 120.
- [44]
+ [45]
 Overfull \hbox (3.87483pt too wide) in paragraph at lines 121--122
 \T1/ptm/m/n/12 item re-la-tion-ships [[]]. Deep learn-ing has the abil-ity to model in-tri-cate re-la-tion-ships in high-dimensional
  []
 
-<Figures/flowchart of model process-NCF-6.pdf, id=2052, 1564.88632pt x 647.5392pt>
+<Figures/flowchart of model process-NCF-6.pdf, id=2057, 1564.88632pt x 647.5392pt>
 File: Figures/flowchart of model process-NCF-6.pdf Graphic file (type pdf)
 <use Figures/flowchart of model process-NCF-6.pdf>
 Package pdftex.def Info: Figures/flowchart of model process-NCF-6.pdf  used on input line 130.
 (pdftex.def)             Requested size: 497.87007pt x 206.01134pt.
 Package cleveref Info: loaded `english' language definitions on input line 137.
-[45 <./Figures/flowchart of model process-NCF-6.pdf>]
+[46 <./Figures/flowchart of model process-NCF-6.pdf>]
 Package cleveref Info: loaded `english' language definitions on input line 172.
- [46]
+ [47]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 184.
 Package cleveref Info: loaded `english' language definitions on input line 222.
- [47]
-Package cleveref Info: loaded `english' language definitions on input line 226.
  [48]
-Package cleveref Info: loaded `english' language definitions on input line 237.
+Package cleveref Info: loaded `english' language definitions on input line 226.
  [49]
-Package cleveref Info: loaded `english' language definitions on input line 256.
+Package cleveref Info: loaded `english' language definitions on input line 237.
  [50]
+Package cleveref Info: loaded `english' language definitions on input line 256.
+ [51]
 Underfull \hbox (badness 1960) in paragraph at lines 272--272
 []|\T1/ptm/m/n/12 Specifies the ar-chi-tec-ture of the
  []
@@ -1471,20 +1470,20 @@ Underfull \hbox (badness 1960) in paragraph at lines 273--273
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package cleveref Info: loaded `english' language definitions on input line 286.
-[51]
+[52]
 Package cleveref Info: loaded `english' language definitions on input line 292.
- [52]
-<Figures/ncf_training_1_sample.pdf, id=2260, 1084.05pt x 578.16pt>
+ [53]
+<Figures/ncf_training_1_sample.pdf, id=2264, 1084.05pt x 578.16pt>
 File: Figures/ncf_training_1_sample.pdf Graphic file (type pdf)
 <use Figures/ncf_training_1_sample.pdf>
 Package pdftex.def Info: Figures/ncf_training_1_sample.pdf  used on input line 298.
 (pdftex.def)             Requested size: 243.98512pt x 130.1245pt.
-<Figures/ncf_training_2_sample.pdf, id=2261, 1084.05pt x 578.16pt>
+<Figures/ncf_training_2_sample.pdf, id=2265, 1084.05pt x 578.16pt>
 File: Figures/ncf_training_2_sample.pdf Graphic file (type pdf)
 <use Figures/ncf_training_2_sample.pdf>
 Package pdftex.def Info: Figures/ncf_training_2_sample.pdf  used on input line 305.
 (pdftex.def)             Requested size: 243.98512pt x 130.1245pt.
-<Figures/ncf_training_3_sample.pdf, id=2262, 1084.05pt x 578.16pt>
+<Figures/ncf_training_3_sample.pdf, id=2266, 1084.05pt x 578.16pt>
 File: Figures/ncf_training_3_sample.pdf Graphic file (type pdf)
 <use Figures/ncf_training_3_sample.pdf>
 Package pdftex.def Info: Figures/ncf_training_3_sample.pdf  used on input line 312.
@@ -1493,17 +1492,17 @@ Package pdftex.def Info: Figures/ncf_training_3_sample.pdf  used on input line 3
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/ncf_training_1.pdf, id=2269, 1084.05pt x 578.16pt>
+<Figures/ncf_training_1.pdf, id=2273, 1084.05pt x 578.16pt>
 File: Figures/ncf_training_1.pdf Graphic file (type pdf)
 <use Figures/ncf_training_1.pdf>
 Package pdftex.def Info: Figures/ncf_training_1.pdf  used on input line 389.
 (pdftex.def)             Requested size: 243.98512pt x 130.1245pt.
-<Figures/ncf_training_2.pdf, id=2270, 1084.05pt x 578.16pt>
+<Figures/ncf_training_2.pdf, id=2274, 1084.05pt x 578.16pt>
 File: Figures/ncf_training_2.pdf Graphic file (type pdf)
 <use Figures/ncf_training_2.pdf>
 Package pdftex.def Info: Figures/ncf_training_2.pdf  used on input line 396.
 (pdftex.def)             Requested size: 243.98512pt x 130.1245pt.
-<Figures/ncf_training_3.pdf, id=2271, 1084.05pt x 578.16pt>
+<Figures/ncf_training_3.pdf, id=2275, 1084.05pt x 578.16pt>
 File: Figures/ncf_training_3.pdf Graphic file (type pdf)
 <use Figures/ncf_training_3.pdf>
 Package pdftex.def Info: Figures/ncf_training_3.pdf  used on input line 403.
@@ -1512,9 +1511,9 @@ Package pdftex.def Info: Figures/ncf_training_3.pdf  used on input line 403.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package cleveref Info: loaded `english' language definitions on input line 413.
-[53 <./Figures/ncf_training_1_sample.pdf> <./Figures/ncf_training_2_sample.pdf> <./Figures/ncf_training_3_sample.pdf>]
+[54 <./Figures/ncf_training_1_sample.pdf> <./Figures/ncf_training_2_sample.pdf> <./Figures/ncf_training_3_sample.pdf>]
 Package cleveref Info: loaded `english' language definitions on input line 419.
- [54]
+ [55]
 Underfull \hbox (badness 10000) in paragraph at lines 420--424
 
  []
@@ -1530,29 +1529,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 430--434
  []
 
 Package cleveref Info: loaded `english' language definitions on input line 434.
-[55 <./Figures/ncf_training_1.pdf> <./Figures/ncf_training_2.pdf> <./Figures/ncf_training_3.pdf>]
+[56 <./Figures/ncf_training_1.pdf> <./Figures/ncf_training_2.pdf> <./Figures/ncf_training_3.pdf>]
 Package cleveref Info: loaded `english' language definitions on input line 456.
- [56]
-Package cleveref Info: loaded `english' language definitions on input line 475.
  [57]
-Package cleveref Info: loaded `english' language definitions on input line 514.
+Package cleveref Info: loaded `english' language definitions on input line 475.
  [58]
+Package cleveref Info: loaded `english' language definitions on input line 514.
+ [59]
 Underfull \hbox (badness 1275) in paragraph at lines 525--525
 []|\T1/ptm/m/n/12 Regularisation term added to the loss
  []
 
 Package cleveref Info: loaded `english' language definitions on input line 558.
-[59]
+[60]
 Package cleveref Info: loaded `english' language definitions on input line 580.
- [60]
-Package cleveref Info: loaded `english' language definitions on input line 618.
  [61]
-Package cleveref Info: loaded `english' language definitions on input line 674.
+Package cleveref Info: loaded `english' language definitions on input line 618.
  [62]
-Package cleveref Info: loaded `english' language definitions on input line 682.
+Package cleveref Info: loaded `english' language definitions on input line 674.
  [63]
-Package cleveref Info: loaded `english' language definitions on input line 702.
+Package cleveref Info: loaded `english' language definitions on input line 682.
  [64]
+Package cleveref Info: loaded `english' language definitions on input line 702.
+ [65]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 716.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
@@ -1569,41 +1568,41 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 716.
 
 Package cleveref Info: loaded `english' language definitions on input line 733.
-[65]
+[66]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 748.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 Package cleveref Info: loaded `english' language definitions on input line 756.
- [66])
-Package cleveref Info: loaded `english' language definitions on input line 280.
- [67]
+ [67])
+Package cleveref Info: loaded `english' language definitions on input line 289.
+ [68]
 \openout2 = `Chapters/Chapter5.aux'.
 
  (./Chapters/Chapter5.tex
 Chapter 5.
 1: section
-[68
+[69
 
 
 
 
 ]
-<Figures/ncf_user_ratings_metrics.pdf, id=2709, 1084.05pt x 650.43pt>
+<Figures/ncf_user_ratings_metrics.pdf, id=2714, 1084.05pt x 650.43pt>
 File: Figures/ncf_user_ratings_metrics.pdf Graphic file (type pdf)
 <use Figures/ncf_user_ratings_metrics.pdf>
 Package pdftex.def Info: Figures/ncf_user_ratings_metrics.pdf  used on input line 51.
 (pdftex.def)             Requested size: 243.98512pt x 146.39005pt.
-<Figures/ncf_item_ratings_metrics.pdf, id=2710, 1084.05pt x 650.43pt>
+<Figures/ncf_item_ratings_metrics.pdf, id=2715, 1084.05pt x 650.43pt>
 File: Figures/ncf_item_ratings_metrics.pdf Graphic file (type pdf)
 <use Figures/ncf_item_ratings_metrics.pdf>
 Package pdftex.def Info: Figures/ncf_item_ratings_metrics.pdf  used on input line 58.
 (pdftex.def)             Requested size: 243.98512pt x 146.39005pt.
 Package cleveref Info: loaded `english' language definitions on input line 68.
- [69]
+ [70]
 Package cleveref Info: loaded `english' language definitions on input line 114.
- [70 <./Figures/ncf_user_ratings_metrics.pdf> <./Figures/ncf_item_ratings_metrics.pdf>]
-<Figures/ncf_length_ratings_metrics.pdf, id=2813, 1084.05pt x 433.62pt>
+ [71 <./Figures/ncf_user_ratings_metrics.pdf> <./Figures/ncf_item_ratings_metrics.pdf>]
+<Figures/ncf_length_ratings_metrics.pdf, id=2817, 1084.05pt x 433.62pt>
 File: Figures/ncf_length_ratings_metrics.pdf Graphic file (type pdf)
 <use Figures/ncf_length_ratings_metrics.pdf>
 Package pdftex.def Info: Figures/ncf_length_ratings_metrics.pdf  used on input line 117.
@@ -1618,7 +1617,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 143.
 
 Package cleveref Info: loaded `english' language definitions on input line 147.
-[71]
+[72]
 Underfull \hbox (badness 10000) in paragraph at lines 154--154
 []|\T1/ptm/m/n/12 Ratings
  []
@@ -1659,47 +1658,47 @@ Overfull \hbox (20.53905pt too wide) in paragraph at lines 150--162
  []
 
 Package cleveref Info: loaded `english' language definitions on input line 167.
-[72 <./Figures/ncf_length_ratings_metrics.pdf>]
+[73 <./Figures/ncf_length_ratings_metrics.pdf>]
 Package cleveref Info: loaded `english' language definitions on input line 180.
- [73]
-Package cleveref Info: loaded `english' language definitions on input line 201.
  [74]
+Package cleveref Info: loaded `english' language definitions on input line 201.
+ [75]
 Package cleveref Info: loaded `english' language definitions on input line 219.
- [75])
-Package cleveref Info: loaded `english' language definitions on input line 281.
- [76]
+ [76])
+Package cleveref Info: loaded `english' language definitions on input line 290.
+ [77]
 \openout2 = `Chapters/Chapter6.aux'.
 
  (./Chapters/Chapter6.tex
 Chapter 6.
 1: section
-[77
+[78
 
 
 
 
 ]
 Package cleveref Info: loaded `english' language definitions on input line 58.
- [78]
-Package cleveref Info: loaded `english' language definitions on input line 74.
  [79]
+Package cleveref Info: loaded `english' language definitions on input line 74.
+ [80]
 Overfull \hbox (0.35506pt too wide) in paragraph at lines 81--81
 []\T1/ptm/b/n/14.4 Exploring Ad-vanced Word Em-bed-ding and Sen-ti-ment Anal-y-sis Tech-niques 
  []
 
 Package cleveref Info: loaded `english' language definitions on input line 93.
-[80]
+[81]
 Package cleveref Info: loaded `english' language definitions on input line 109.
- [81])
-Package cleveref Info: loaded `english' language definitions on input line 282.
- [82]
+ [82])
+Package cleveref Info: loaded `english' language definitions on input line 291.
+ [83]
 \openout2 = `Appendices/AppendixA.aux'.
 
  (./Appendices/AppendixA.tex
 Appendix A.
 )
 1: section
-[83
+[84
 
 
 
@@ -1716,32 +1715,32 @@ Overfull \hbox (35.53586pt too wide) in paragraph at lines 7--8
 
 )
 1: section
-[84
+[85
 
 
 
 
 ] (./main.bbl
 1: section
-[85
+[86
 
 
 
 ]
 Package cleveref Info: loaded `english' language definitions on input line 248.
- [86]
-Package cleveref Info: loaded `english' language definitions on input line 374.
  [87]
-Package cleveref Info: loaded `english' language definitions on input line 498.
+Package cleveref Info: loaded `english' language definitions on input line 374.
  [88]
-Package cleveref Info: loaded `english' language definitions on input line 623.
+Package cleveref Info: loaded `english' language definitions on input line 498.
  [89]
-Package cleveref Info: loaded `english' language definitions on input line 754.
+Package cleveref Info: loaded `english' language definitions on input line 623.
  [90]
+Package cleveref Info: loaded `english' language definitions on input line 754.
+ [91]
 Package cleveref Info: loaded `english' language definitions on input line 889.
- [91])
-Package cleveref Info: loaded `english' language definitions on input line 304.
- [92] (./main.aux
+ [92])
+Package cleveref Info: loaded `english' language definitions on input line 313.
+ [93] (./main.aux
 Package cleveref Info: loaded `english' language definitions on input line 21.
  (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux) (./Chapters/Chapter5.aux) (./Chapters/Chapter6.aux) (./Appendices/AppendixA.aux) (./Appendices/AppendixB.aux))
 
@@ -1751,18 +1750,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 9FDCADFE821A3D1B0FEC2BD08EC7117C;15351.
  ) 
 Here is how much of TeX's memory you used:
- 40335 strings out of 478268
- 895446 string characters out of 5846347
+ 40336 strings out of 478268
+ 895454 string characters out of 5846347
  1192645 words of memory out of 5000000
  57281 multiletter control sequences out of 15000+600000
  593907 words of font info for 222 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 96i,21n,93p,3862b,1534s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 96i,21n,93p,3862b,1538s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mathpazo/fplmb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/yhmath/yhcmex.pfb>
-Output written on main.pdf (102 pages, 1353135 bytes).
+Output written on main.pdf (103 pages, 1354617 bytes).
 PDF statistics:
- 3214 PDF objects out of 3580 (max. 8388607)
- 2328 compressed objects within 24 object streams
- 504 named destinations out of 1000 (max. 500000)
+ 3221 PDF objects out of 3580 (max. 8388607)
+ 2334 compressed objects within 24 object streams
+ 505 named destinations out of 1000 (max. 500000)
  978 words of extra memory for PDF output out of 10000 (max. 10000000)
 
